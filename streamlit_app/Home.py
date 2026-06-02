@@ -1,39 +1,47 @@
 import sys
 from pathlib import Path
-sys.path.append(str(Path(__file__).resolve().parents[1] / 'src'))
-
 import pandas as pd
-import plotly.express as px
 import streamlit as st
-from utils import PROCESSED
 
-st.set_page_config(page_title='Technology EOL Dashboard', layout='wide')
-st.title('Technology EOL Lifecycle Dashboard')
-st.caption('Synthetic banking dataset for Senior Analyst Technology EOL portfolio project')
+ROOT = Path(__file__).resolve().parents[1]
+for p in [ROOT, ROOT / "streamlit_app"]:
+    if str(p) not in sys.path: sys.path.insert(0, str(p))
+from streamlit_app.doc_loader import load_doc, rq_content
+from streamlit_app.ui_components import inject_css, exec_banner
 
-@st.cache_data
-def load_assets():
-    return pd.read_csv(PROCESSED / 'asset_risk_model.csv', low_memory=False)
+st.set_page_config(page_title="Technology EOL Executive Dashboard", page_icon="🏦", layout="wide")
+inject_css()
 
-assets = load_assets()
+REPORTS = ROOT / "outputs" / "reports"
+summary = pd.read_csv(REPORTS / "executive_lifecycle_summary.csv")
+assets = int(summary["assets"].sum())
+past = int(summary.loc[summary["Lifecycle_Status"].eq("Past EOL"), "assets"].sum())
+critical = int(summary["critical_vulns"].sum())
+downtime = float(summary["downtime_hours"].sum())
+replacement = float(summary["replacement_cost"].sum())
 
-c1, c2, c3, c4 = st.columns(4)
-c1.metric('Total assets', f'{len(assets):,}')
-c2.metric('Past EOL assets', f"{(assets['Lifecycle_Status']=='Past EOL').sum():,}")
-c3.metric('Critical risk assets', f"{(assets['Risk_Band']=='Critical').sum():,}")
-c4.metric('Replacement cost', f"${assets['Replacement_Cost_CAD'].sum()/1_000_000:.1f}M")
+st.title("🏦 Technology End-of-Life Lifecycle Management")
+st.caption("Synthetic banking portfolio project | Executive-ready Streamlit dashboard | Documentation-driven RQ pages")
+exec_banner(load_doc("executive_summary.md").split("## Management Message")[-1].strip())
 
-left, right = st.columns(2)
-with left:
-    eol = assets.groupby('Lifecycle_Status', as_index=False)['Asset_ID'].count().rename(columns={'Asset_ID':'Asset Count'})
-    st.plotly_chart(px.bar(eol, x='Lifecycle_Status', y='Asset Count', title='Assets by lifecycle status'), use_container_width=True)
-with right:
-    risk = assets.groupby('Risk_Band', as_index=False)['Asset_ID'].count().rename(columns={'Asset_ID':'Asset Count'})
-    st.plotly_chart(px.pie(risk, names='Risk_Band', values='Asset Count', title='Risk band distribution'), use_container_width=True)
+c1,c2,c3,c4,c5 = st.columns(5)
+c1.metric("Total Assets", f"{assets:,}", help="All hardware and infrastructure assets in the analytical model.")
+c2.metric("Past EOL Assets", f"{past:,}", help="Assets already past expected vendor support or internal lifecycle date.")
+c3.metric("Critical Vulnerabilities", f"{critical:,}", help="Total critical vulnerabilities linked to assets in the model.")
+c4.metric("Downtime Hours", f"{downtime:,.0f}", help="Total incident downtime linked to assets.")
+c5.metric("Replacement Exposure", f"${replacement/1_000_000:,.1f}M", help="Estimated replacement cost across lifecycle groups.")
 
-st.subheader('Highest risk assets')
-st.dataframe(
-    assets.sort_values('Risk_Score', ascending=False)[['Asset_ID','Asset_Name','Asset_Type','Manufacturer','Model','Region','Criticality','Lifecycle_Status','Risk_Score','Replacement_Cost_CAD']].head(50),
-    use_container_width=True,
-    hide_index=True
-)
+st.divider()
+st.subheader("Primary Research Questions")
+for i in range(1,7):
+    rq = rq_content(i)
+    with st.expander(f"RQ{i}: {rq['question']}", expanded=i==1):
+        st.markdown(rq['executive_summary'])
+        st.markdown("**Hypothesis framing**")
+        st.markdown(rq['hypotheses'])
+        st.markdown("**Recommended action**")
+        st.markdown(rq['recommendations'])
+
+st.divider()
+st.subheader("Documentation Library")
+st.markdown(load_doc("analytics.md"))
