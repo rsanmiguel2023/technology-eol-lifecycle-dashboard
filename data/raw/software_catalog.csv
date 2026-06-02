@@ -1,0 +1,94 @@
+Software_ID,Software_Name,Version,Vendor,Category,GA_Date,Support_End_Date,EOL_Date,Lifecycle_Status,Annual_License_Cost_CAD,Inherent_Risk
+SW-0001,Windows 10 Enterprise 22H2,22H2,Microsoft,Operating System,2022-10-18,2025-10-14,2025-10-14,Past EOL,0,High
+SW-0002,Windows 11 Enterprise 23H2,23H2,Microsoft,Operating System,2023-10-31,2026-11-10,2026-11-10,EOL within 12 months,0,High
+SW-0003,Windows 11 Enterprise 24H2,24H2,Microsoft,Operating System,2024-10-01,2027-10-12,2027-10-12,EOL within 24 months,0,Medium
+SW-0004,Windows Server 2016,2016,Microsoft,Server OS,2016-10-01,2027-01-12,2027-01-12,EOL within 12 months,0,High
+SW-0005,Windows Server 2019,2019,Microsoft,Server OS,2019-10-01,2029-01-09,2029-01-09,Supported,0,Medium
+SW-0006,Windows Server 2022,2022,Microsoft,Server OS,2022-10-01,2031-10-14,2031-10-14,Supported,0,Medium
+SW-0007,Red Hat Enterprise Linux 8,8,Red Hat,Server OS,2020-01-01,2029-05-31,2029-05-31,Supported,0,Medium
+SW-0008,Red Hat Enterprise Linux 9,9,Red Hat,Server OS,2020-01-01,2032-05-31,2032-05-31,Supported,0,Medium
+SW-0009,Ubuntu Server 20.04 LTS,20.04 LTS,Canonical,Server OS,2020-01-01,2030-04-30,2030-04-30,Supported,0,Medium
+SW-0010,Ubuntu Server 22.04 LTS,22.04 LTS,Canonical,Server OS,2020-01-01,2032-04-30,2032-04-30,Supported,0,Medium
+SW-0011,macOS Ventura 13,13,Apple,Operating System,2020-01-01,2025-09-30,2025-09-30,Past EOL,0,Medium
+SW-0012,macOS Sonoma 14,14,Apple,Operating System,2020-01-01,2026-09-30,2026-09-30,EOL within 12 months,0,Medium
+SW-0013,macOS Sequoia 15,15,Apple,Operating System,2020-01-01,2027-09-30,2027-09-30,EOL within 24 months,0,Medium
+SW-0014,Microsoft 365 Apps for Enterprise,Current Channel,Microsoft,Productivity,2020-01-01,2030-01-01,2030-01-01,Supported,7,Medium
+SW-0015,Microsoft Teams,Classic/2.x,Microsoft,Collaboration,2020-01-01,2026-07-01,2026-07-01,EOL within 12 months,528,High
+SW-0016,Microsoft OneDrive,24.x,Microsoft,Collaboration,2020-01-01,2030-01-01,2030-01-01,Supported,189,Medium
+SW-0017,Microsoft Edge,Current,Microsoft,Browser,2020-01-01,2030-01-01,2030-01-01,Supported,570,Medium
+SW-0018,Google Chrome,Current,Google,Browser,2020-01-01,2030-01-01,2030-01-01,Supported,400,Medium
+SW-0019,Mozilla Firefox ESR,115 ESR,Mozilla,Browser,2020-01-01,2024-10-01,2024-10-01,Past EOL,481,High
+SW-0020,Adobe Acrobat Pro,2020,Adobe,Productivity,2020-01-01,2025-06-01,2025-06-01,Past EOL,478,High
+SW-0021,Adobe Acrobat Pro,Continuous,Adobe,Productivity,2020-01-01,2030-01-01,2030-01-01,Supported,136,Medium
+SW-0022,Microsoft Defender for Endpoint,Plan 2,Microsoft,Security,2019-01-01,2030-01-01,2030-01-01,Supported,78,Medium
+SW-0023,CrowdStrike Falcon,Current,CrowdStrike,Security,2019-01-01,2030-01-01,2030-01-01,Supported,240,Medium
+SW-0024,CyberArk Privileged Access Manager,14.x,CyberArk,Security,2019-01-01,2028-12-31,2028-12-31,Supported,98,Medium
+SW-0025,Splunk Enterprise Security,7.x,Splunk,Security,2019-01-01,2028-12-31,2028-12-31,Supported,96,Medium
+SW-0026,Tenable Nessus,10.x,Tenable,Security,2019-01-01,2028-12-31,2028-12-31,Supported,247,Medium
+SW-0027,Qualys VMDR,Cloud,Qualys,Security,2019-01-01,2030-01-01,2030-01-01,Supported,160,Medium
+SW-0028,Zscaler Internet Access,Cloud,Zscaler,Security,2019-01-01,2030-01-01,2030-01-01,Supported,101,Medium
+SW-0029,Okta Workforce Identity,Cloud,Okta,Identity,2019-01-01,2030-01-01,2030-01-01,Supported,298,Medium
+SW-0030,Microsoft SQL Server 2016,2016,Microsoft,Database,2016-01-01,2026-07-14,2026-07-14,EOL within 12 months,3535,High
+SW-0031,Microsoft SQL Server 2019,2019,Microsoft,Database,2016-01-01,2030-01-08,2030-01-08,Supported,4295,Medium
+SW-0032,Microsoft SQL Server 2022,2022,Microsoft,Database,2016-01-01,2033-01-11,2033-01-11,Supported,1427,Medium
+SW-0033,Oracle Database 19c,19c,Oracle,Database,2016-01-01,2027-04-30,2027-04-30,EOL within 12 months,2022,High
+SW-0034,Oracle Database 21c,21c,Oracle,Database,2016-01-01,2025-04-30,2025-04-30,Past EOL,1302,High
+SW-0035,PostgreSQL 14,14,PostgreSQL,Database,2016-01-01,2026-11-12,2026-11-12,EOL within 12 months,888,High
+SW-0036,PostgreSQL 15,15,PostgreSQL,Database,2016-01-01,2027-11-11,2027-11-11,EOL within 24 months,4965,Medium
+SW-0037,MySQL Community Server 8.0,8.0,MySQL,Database,2016-01-01,2026-04-30,2026-04-30,Past EOL,957,High
+SW-0038,MongoDB Enterprise Advanced 6.0,6.0,MongoDB,Database,2016-01-01,2026-07-31,2026-07-31,EOL within 12 months,2281,High
+SW-0039,Visual Studio 2019 16.x,16.x,Microsoft,IDE,2018-01-01,2029-04-10,2029-04-10,Supported,1490,Medium
+SW-0040,Visual Studio 2022 17.x,17.x,Microsoft,IDE,2018-01-01,2032-01-13,2032-01-13,Supported,599,Medium
+SW-0041,Visual Studio Code,Current,Microsoft,IDE,2018-01-01,2030-01-01,2030-01-01,Supported,1914,Medium
+SW-0042,IntelliJ IDEA 2024.x,2024.x,JetBrains,IDE,2018-01-01,2027-12-31,2027-12-31,EOL within 24 months,345,Medium
+SW-0043,PyCharm Professional 2024.x,2024.x,JetBrains,IDE,2018-01-01,2027-12-31,2027-12-31,EOL within 24 months,861,Medium
+SW-0044,DataGrip 2024.x,2024.x,JetBrains,IDE,2018-01-01,2027-12-31,2027-12-31,EOL within 24 months,1532,Medium
+SW-0045,SQL Server Management Studio 20.x,20.x,Microsoft,Database Tool,2018-01-01,2030-01-01,2030-01-01,Supported,76,Medium
+SW-0046,DBeaver 24.x,24.x,DBeaver Corp,Database Tool,2018-01-01,2030-01-01,2030-01-01,Supported,1912,Medium
+SW-0047,Git 2.x,2.x,Software Freedom Conservancy,Version Control,2018-01-01,2030-01-01,2030-01-01,Supported,1249,Medium
+SW-0048,GitHub Enterprise Server 3.12,3.12,GitHub,Source Control,2018-01-01,2025-12-31,2025-12-31,Past EOL,57,High
+SW-0049,Bitbucket Data Center 8.x,8.x,Atlassian,Source Control,2018-01-01,2028-02-15,2028-02-15,EOL within 24 months,149,Medium
+SW-0050,GitLab Enterprise Edition 16.x,16.x,GitLab,Source Control,2018-01-01,2026-05-01,2026-05-01,Past EOL,353,High
+SW-0051,Jenkins 2.401 LTS,2.401 LTS,Jenkins,CI/CD,2018-01-01,2024-09-01,2024-09-01,Past EOL,2945,High
+SW-0052,Azure DevOps Server 2022,2022,Microsoft,CI/CD,2018-01-01,2032-01-11,2032-01-11,Supported,2677,Medium
+SW-0053,Python 3.8,3.8,Python Software Foundation,Runtime,2018-01-01,2024-10-07,2024-10-07,Past EOL,509,High
+SW-0054,Python 3.9,3.9,Python Software Foundation,Runtime,2018-01-01,2025-10-31,2025-10-31,Past EOL,498,High
+SW-0055,Python 3.10,3.10,Python Software Foundation,Runtime,2018-01-01,2026-10-31,2026-10-31,EOL within 12 months,1300,High
+SW-0056,Python 3.11,3.11,Python Software Foundation,Runtime,2018-01-01,2027-10-31,2027-10-31,EOL within 24 months,2640,Medium
+SW-0057,Java SE 8,8,Oracle,Runtime,2018-01-01,2030-12-31,2030-12-31,Supported,1794,Medium
+SW-0058,Java SE 11,11,Oracle,Runtime,2018-01-01,2026-09-30,2026-09-30,EOL within 12 months,1853,High
+SW-0059,Java SE 17,17,Oracle,Runtime,2018-01-01,2029-09-30,2029-09-30,Supported,1706,Medium
+SW-0060,Java SE 21,21,Oracle,Runtime,2018-01-01,2031-09-30,2031-09-30,Supported,1481,Medium
+SW-0061,Node.js 16,16,OpenJS Foundation,Runtime,2018-01-01,2023-09-11,2023-09-11,Past EOL,1511,High
+SW-0062,Node.js 18,18,OpenJS Foundation,Runtime,2018-01-01,2025-04-30,2025-04-30,Past EOL,1040,High
+SW-0063,Node.js 20,20,OpenJS Foundation,Runtime,2018-01-01,2026-04-30,2026-04-30,Past EOL,2264,High
+SW-0064,.NET 6,6,Microsoft,Runtime,2018-01-01,2024-11-12,2024-11-12,Past EOL,1419,High
+SW-0065,.NET 8,8,Microsoft,Runtime,2018-01-01,2026-11-10,2026-11-10,EOL within 12 months,1119,High
+SW-0066,.NET Framework 4.8,4.8,Microsoft,Runtime,2018-01-01,2029-01-09,2029-01-09,Supported,740,Medium
+SW-0067,PowerShell 7.4 LTS,7.4 LTS,Microsoft,Runtime,2018-01-01,2026-11-10,2026-11-10,EOL within 12 months,1866,High
+SW-0068,Docker Desktop 4.x,4.x,Docker,Container,2018-01-01,2028-12-31,2028-12-31,Supported,2350,Medium
+SW-0069,Red Hat OpenShift 4.14,4.14,Red Hat,Container,2018-01-01,2026-10-31,2026-10-31,EOL within 12 months,2355,High
+SW-0070,Kubernetes 1.28,1.28,Cloud Native Computing Foundation,Container,2018-01-01,2024-10-28,2024-10-28,Past EOL,2876,High
+SW-0071,Apache Airflow 2.7,2.7,Apache Software Foundation,Data Engineering,2018-01-01,2025-08-31,2025-08-31,Past EOL,426,High
+SW-0072,Databricks Runtime 13.3 LTS,13.3 LTS,Databricks,Data Engineering,2018-01-01,2026-09-30,2026-09-30,EOL within 12 months,2928,High
+SW-0073,Azure Data Factory,Cloud,Microsoft,Data Engineering,2018-01-01,2030-01-01,2030-01-01,Supported,1729,Medium
+SW-0074,Informatica PowerCenter 10.5,10.5,Informatica,Data Engineering,2018-01-01,2027-12-31,2027-12-31,EOL within 24 months,2620,Medium
+SW-0075,Apache Kafka 3.5,3.5,Apache Software Foundation,Data Engineering,2018-01-01,2026-06-30,2026-06-30,EOL within 12 months,1965,High
+SW-0076,Anaconda Distribution 2023.x,2023.x,Anaconda,Data Science,2018-01-01,2026-12-31,2026-12-31,EOL within 12 months,25,High
+SW-0077,JupyterLab 4.x,4.x,Project Jupyter,Data Science,2018-01-01,2028-12-31,2028-12-31,Supported,2600,Medium
+SW-0078,Power BI Desktop,Current,Microsoft,Analytics,2018-01-01,2030-01-01,2030-01-01,Supported,1884,Medium
+SW-0079,Tableau Desktop 2024.x,2024.x,Salesforce,Analytics,2018-01-01,2027-12-31,2027-12-31,EOL within 24 months,337,Medium
+SW-0080,SAS Viya 4,4,SAS,Analytics,2018-01-01,2028-12-31,2028-12-31,Supported,47,Medium
+SW-0081,IBM SPSS Statistics 29,29,IBM,Analytics,2018-01-01,2028-09-30,2028-09-30,Supported,1529,Medium
+SW-0082,SAP S/4HANA,2022,SAP,Business Application,2018-01-01,2027-12-31,2027-12-31,EOL within 24 months,3405,Medium
+SW-0083,ServiceNow IT Service Management,Utah,ServiceNow,ITSM,2018-01-01,2025-11-30,2025-11-30,Past EOL,1307,Medium
+SW-0084,Salesforce Financial Services Cloud,Cloud,Salesforce,CRM,2018-01-01,2030-01-01,2030-01-01,Supported,2756,Medium
+SW-0085,Workday Human Capital Management,Cloud,Workday,HRIS,2018-01-01,2030-01-01,2030-01-01,Supported,3916,Medium
+SW-0086,MuleSoft Anypoint Platform,Cloud,Salesforce,Integration,2018-01-01,2030-01-01,2030-01-01,Supported,2082,Medium
+SW-0087,IBM MQ,9.3,IBM,Middleware,2018-01-01,2028-12-31,2028-12-31,Supported,1693,Medium
+SW-0088,Apache Tomcat,9.0,Apache Software Foundation,Middleware,2018-01-01,2027-03-31,2027-03-31,EOL within 12 months,1325,Medium
+SW-0089,Apache Tomcat,10.1,Apache Software Foundation,Middleware,2018-01-01,2028-12-31,2028-12-31,Supported,1981,Medium
+SW-0090,IBM WebSphere Application Server,9.0.5,IBM,Middleware,2018-01-01,2030-12-31,2030-12-31,Supported,1289,Medium
+SW-0091,Oracle WebLogic Server,12c,Oracle,Middleware,2018-01-01,2027-12-31,2027-12-31,EOL within 24 months,1205,Medium
+SW-0092,NGINX,1.24,F5,Web Server,2018-01-01,2027-12-31,2027-12-31,EOL within 24 months,3662,Medium
+SW-0093,Apache HTTP Server,2.4,Apache Software Foundation,Web Server,2018-01-01,2028-12-31,2028-12-31,Supported,2973,Medium
