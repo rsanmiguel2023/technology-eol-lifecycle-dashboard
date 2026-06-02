@@ -4,6 +4,16 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 
+PAGE_DOCS = {
+    "technology_estate": "technology_estate.md",
+    "lifecycle_exposure": "lifecycle_exposure.md",
+    "cybersecurity_risk": "cybersecurity_risk.md",
+    "compliance_risk": "compliance_risk.md",
+    "refresh_planning": "refresh_planning.md",
+    "operational_impact": "operational_impact.md",
+    "recommendations": "recommendations.md",
+}
+
 def load_doc(filename: str) -> str:
     path = DOCS / filename
     if not path.exists():
@@ -16,16 +26,17 @@ def section(filename: str, heading: str) -> str:
     match = re.search(pattern, text, flags=re.S)
     return match.group(1).strip() if match else ""
 
-def rq_content(n: int) -> dict:
-    fname = f"rq{n}_technical_documentation.md"
+def page_content(page_key: str) -> dict:
+    fname = PAGE_DOCS[page_key]
+    first_line = load_doc(fname).splitlines()[0].replace("#", "").strip()
     return {
         "file": fname,
-        "title": load_doc(fname).splitlines()[0].replace("#", "").strip(),
-        "question": section(fname, "Research Question"),
-        "hypotheses": section(fname, "Hypotheses"),
+        "title": first_line,
+        "management_question": section(fname, "Management Question"),
         "executive_summary": section(fname, "Executive Summary"),
+        "business_interpretation": section(fname, "Business Interpretation"),
         "methodology": section(fname, "Methodology"),
-        "interpretation": section(fname, "Interpretation Guide"),
-        "recommendations": section(fname, "Recommended Actions"),
+        "recommended_actions": section(fname, "Recommended Actions"),
         "tooltip": section(fname, "Tooltip Definition"),
+        "dashboard_notes": section(fname, "Dashboard Notes"),
     }

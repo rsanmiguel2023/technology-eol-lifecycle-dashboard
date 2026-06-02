@@ -1,0 +1,6 @@
+priority,action,rationale,owner,timeframe,expected_outcome
+1,Replace or isolate past-EOL assets with critical vulnerabilities,"3,661 unsupported assets have critical vulnerabilities.","Infrastructure, Cybersecurity",0-90 days,Immediate reduction in audit and cyber exposure
+2,Approve phased refresh funding for assets due within 24 months,Refresh need is CAD $56.8M across the near-term lifecycle window.,"Technology Finance, CIO Office",Current fiscal planning cycle,Funded roadmap instead of emergency replacement
+3,Create targeted remediation plan for Retail Banking,"This unit has the highest combined lifecycle, vulnerability, and downtime risk.",Business Technology Services,30-60 days,Prioritized remediation by business impact
+4,Retire non-compliant software versions and unsupported runtimes,"104,497 software installations are non-compliant or past EOL.","Application Owners, Platform Engineering",Quarterly release cycles,Lower compliance risk and fewer unsupported dependencies
+5,Add lifecycle status into incident and change governance,"Past-EOL status should trigger additional approval, remediation, or exception tracking.","Technology Risk, ServiceNow Governance",Next governance sprint,Repeatable controls for lifecycle risk

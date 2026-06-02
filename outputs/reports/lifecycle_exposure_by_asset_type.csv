@@ -1,0 +1,50 @@
+Asset_Type,Lifecycle_Status,assets,replacement_cost,critical_vulns,downtime_hours
+Access Switch,0-6 Months,137,760400,421.0,1663.88
+Access Switch,12-24 Months,227,1249400,721.0,2427.92
+Access Switch,6-12 Months,145,817000,429.0,1449.42
+Access Switch,Past EOL,185,1023000,485.0,3266.5
+Access Switch,Supported >24 Months,206,1166200,630.0,2161.81
+Core Switch,0-6 Months,12,264000,30.0,99.57000000000001
+Core Switch,12-24 Months,38,836000,107.0,420.64
+Core Switch,6-12 Months,11,242000,34.0,93.96
+Core Switch,Supported >24 Months,19,418000,70.0,144.59
+Desktop,0-6 Months,739,749000,1108.0,8641.99
+Desktop,12-24 Months,1268,1285450,1891.0,14635.27
+Desktop,6-12 Months,736,745350,1151.0,8207.4
+Desktop,Past EOL,695,703700,935.0,11728.16
+Desktop,Supported >24 Months,1062,1074650,1660.0,12387.82
+Distribution Switch,0-6 Months,21,178500,57.0,279.25
+Distribution Switch,12-24 Months,61,518500,182.0,636.96
+Distribution Switch,6-12 Months,32,272000,115.0,381.64
+Distribution Switch,Past EOL,139,1181500,371.0,2285.0
+Distribution Switch,Supported >24 Months,47,399500,137.0,526.82
+Firewall,Past EOL,150,3562000,477.0,2465.09
+Laptop,0-6 Months,2147,3727700,3271.0,24051.54
+Laptop,12-24 Months,4035,7014000,6169.0,46138.74
+Laptop,6-12 Months,2378,4120500,3641.0,26936.78
+Laptop,Past EOL,2085,3657050,2834.0,35364.32
+Laptop,Supported >24 Months,3355,5803450,5215.0,38064.56
+Router,0-6 Months,11,103000,42.0,109.83
+Router,12-24 Months,24,205500,65.0,326.33
+Router,6-12 Months,7,71100,29.0,65.22
+Router,Past EOL,185,1690400,452.0,3069.86
+Router,Supported >24 Months,23,208100,82.0,251.07
+Server,0-6 Months,104,1270500,472.0,1140.0
+Server,12-24 Months,199,2447500,893.0,2388.52
+Server,6-12 Months,112,1371500,528.0,1254.2
+Server,Past EOL,927,11333000,3331.0,16576.14
+Server,Supported >24 Months,158,1909500,765.0,1849.2
+Storage,Past EOL,40,3640000,68.0,614.04
+VDI Endpoint,0-6 Months,270,267400,386.0,3258.19
+VDI Endpoint,12-24 Months,532,533200,858.0,6184.32
+VDI Endpoint,6-12 Months,303,301900,465.0,3689.66
+VDI Endpoint,Supported >24 Months,395,392900,589.0,4540.69
+Wireless Access Point,0-6 Months,79,82250,244.0,796.43
+Wireless Access Point,12-24 Months,158,157150,449.0,1722.57
+Wireless Access Point,6-12 Months,102,102600,306.0,1148.3700000000001
+Wireless Access Point,Past EOL,228,229050,459.0,3758.62
+Wireless Access Point,Supported >24 Months,133,130550,421.0,1448.3
+Wireless Controller,0-6 Months,1,10500,3.0,10.17
+Wireless Controller,12-24 Months,4,42000,9.0,66.69
+Wireless Controller,6-12 Months,7,73500,18.0,94.96
+Wireless Controller,Supported >24 Months,8,84000,34.0,87.64

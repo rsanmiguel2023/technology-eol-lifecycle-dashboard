@@ -1,0 +1,383 @@
+Business_Unit,Asset_Type,Criticality,assets,critical_vulns,high_vulns,avg_cvss,max_cvss,replacement_cost
+Retail Banking,Server,Medium,58,249.0,93.0,9.522011417701073,10.0,697500
+Technology,Server,Medium,48,223.0,70.0,9.625654831279832,10.0,595000
+Retail Banking,Laptop,Medium,121,215.0,52.0,9.650757575757577,10.0,208900
+Technology,Laptop,Medium,107,182.0,58.0,9.61252336448598,10.0,191450
+Retail Banking,Server,Low,35,178.0,62.0,9.639473922902495,10.0,421500
+Retail Banking,Laptop,High,94,168.0,48.0,9.5555547112462,10.0,163500
+Retail Banking,Server,High,35,159.0,50.0,9.602687074829932,10.0,425500
+Technology,Laptop,High,93,155.0,46.0,9.617670250896058,10.0,162900
+Commercial Banking,Server,High,30,151.0,45.0,9.616506253006254,10.0,371500
+Commercial Banking,Laptop,Medium,76,130.0,44.0,9.58141290726817,10.0,131100
+Retail Banking,Server,Critical,26,124.0,42.0,9.627239982239983,10.0,313000
+Technology,Server,High,28,121.0,35.0,9.588721655328799,10.0,339500
+Commercial Banking,Server,Medium,24,115.0,35.0,9.549049723424725,10.0,299500
+Wealth Management,Server,High,22,110.0,35.0,9.535595238095238,10.0,271500
+Wealth Management,Server,Medium,22,108.0,30.0,9.573008330053785,10.0,259000
+Commercial Banking,Laptop,High,59,102.0,24.0,9.632655367231639,10.0,102200
+Technology,Server,Critical,22,102.0,34.0,9.664813065722157,10.0,273500
+Retail Banking,Laptop,Critical,52,97.0,31.0,9.616428571428573,10.0,96500
+Capital Markets,Laptop,Medium,50,97.0,34.0,9.655666666666667,10.0,90900
+Data & Analytics,Server,Medium,18,94.0,33.0,9.567890812890814,10.0,217500
+Technology,Laptop,Critical,50,93.0,18.0,9.6516,10.0,85950
+Retail Banking,Laptop,Low,56,92.0,35.0,9.602857142857143,10.0,96600
+Commercial Banking,Server,Low,19,91.0,31.0,9.60325396825397,10.0,238500
+Technology,Server,Low,24,90.0,44.0,9.602446488696488,10.0,301500
+Wealth Management,Laptop,Medium,50,85.0,27.0,9.596400000000001,10.0,84100
+Technology,Laptop,Low,53,83.0,23.0,9.597861635220125,10.0,95200
+Finance,Server,Medium,19,81.0,32.0,9.513947368421052,10.0,229000
+Risk,Server,High,13,73.0,18.0,9.633058608058608,10.0,152000
+Capital Markets,Server,High,16,72.0,22.0,9.606833062770564,10.0,201500
+Wealth Management,Laptop,High,42,70.0,28.0,9.567857142857143,10.0,71900
+Technology,Desktop,Medium,43,67.0,23.0,9.55968992248062,10.0,43800
+Wealth Management,Server,Low,14,66.0,21.0,9.61201814058957,10.0,164500
+Retail Banking,Desktop,Medium,37,64.0,12.0,9.625585585585586,10.0,37350
+Capital Markets,Laptop,Low,29,63.0,10.0,9.625402298850574,10.0,53900
+Data & Analytics,Laptop,Medium,32,61.0,16.0,9.64,10.0,55850
+Capital Markets,Server,Medium,15,60.0,19.0,9.693904761904763,10.0,190000
+Commercial Banking,Laptop,Low,37,59.0,19.0,9.579459459459459,10.0,60250
+Retail Banking,Desktop,High,31,58.0,17.0,9.617956989247313,10.0,31250
+Capital Markets,Laptop,High,35,57.0,14.0,9.698571428571428,10.0,60950
+Technology,Firewall,High,15,55.0,15.0,9.592714285714287,10.0,295000
+Operations,Server,High,13,55.0,20.0,9.59923076923077,10.0,159000
+Operations,Server,Medium,13,55.0,16.0,9.620164835164836,10.0,165000
+Operations,Laptop,High,26,54.0,10.0,9.586794871794872,10.0,45700
+Data & Analytics,Server,High,13,53.0,27.0,9.562367632367632,10.0,162000
+Risk,Laptop,Medium,32,52.0,16.0,9.757395833333334,10.0,58050
+Retail Banking,Access Switch,Medium,12,51.0,12.0,9.681547619047619,10.0,71400
+Human Resources,Server,Medium,11,51.0,15.0,9.673766233766234,10.0,135500
+Finance,Laptop,Medium,29,50.0,14.0,9.601724137931035,10.0,50450
+Risk,Server,Low,10,50.0,14.0,9.54238888888889,10.0,123000
+Operations,Laptop,Medium,35,49.0,26.0,9.510285714285715,10.0,62350
+Wealth Management,Laptop,Low,32,49.0,16.0,9.628125,10.0,57300
+Commercial Banking,Server,Critical,13,49.0,13.0,9.727564102564104,10.0,166000
+Wealth Management,Server,Critical,12,48.0,20.0,9.679166666666667,10.0,149500
+Operations,Server,Critical,9,47.0,8.0,9.593756613756614,10.0,109000
+Cybersecurity,Laptop,Medium,24,45.0,11.0,9.579305555555555,10.0,44900
+Technology,Access Switch,Medium,13,45.0,10.0,9.627344322344323,10.0,67600
+Technology,Firewall,Low,12,45.0,16.0,9.674920634920635,10.0,308000
+Operations,Laptop,Low,22,44.0,12.0,9.657272727272728,10.0,39250
+Cybersecurity,Server,High,11,44.0,14.0,9.647077922077923,10.0,135000
+Data & Analytics,Server,Low,9,44.0,18.0,9.472822671156004,10.0,107500
+Technology,Desktop,High,28,43.0,8.0,9.636309523809524,10.0,28000
+Commercial Banking,Laptop,Critical,27,43.0,17.0,9.52716049382716,10.0,48750
+Retail Banking,Firewall,High,11,43.0,7.0,9.696818181818182,10.0,231000
+Capital Markets,Server,Low,10,43.0,16.0,9.667857142857143,10.0,122000
+Legal & Compliance,Laptop,High,22,41.0,8.0,9.666666666666668,10.0,38400
+Risk,Laptop,Low,24,40.0,10.0,9.519722222222223,10.0,43850
+Retail Banking,Desktop,Critical,23,40.0,16.0,9.589492753623189,10.0,23350
+Technology,Desktop,Low,19,40.0,10.0,9.528370927318297,10.0,19500
+Risk,Server,Medium,11,40.0,16.0,9.61909090909091,10.0,136500
+Capital Markets,Server,Critical,9,40.0,9.0,9.67626102292769,10.0,106000
+Cybersecurity,Laptop,High,24,39.0,10.0,9.65986111111111,10.0,46300
+Risk,Laptop,High,23,38.0,5.0,9.618985507246377,10.0,41000
+Wealth Management,Desktop,Medium,20,37.0,13.0,9.647499999999999,10.0,20050
+Human Resources,Laptop,High,19,37.0,7.0,9.621052631578948,10.0,33300
+Treasury,Server,Critical,7,37.0,10.0,9.71609977324263,10.0,76500
+Finance,Server,High,9,36.0,17.0,9.604691358024692,10.0,107000
+Finance,Laptop,High,23,35.0,14.0,9.491304347826087,10.0,41500
+Cybersecurity,Server,Critical,8,35.0,9.0,9.440416666666666,10.0,95500
+Retail Banking,Wireless Access Point,Medium,12,34.0,14.0,9.628928571428572,10.0,11250
+Retail Banking,Wireless Access Point,High,8,34.0,10.0,9.592291666666666,10.0,8500
+Commercial Banking,Desktop,High,21,33.0,14.0,9.617777777777778,10.0,21100
+Retail Banking,Access Switch,High,13,33.0,9.0,9.59897435897436,10.0,72600
+Retail Banking,Firewall,Medium,11,33.0,7.0,9.718658008658009,10.0,259000
+Treasury,Server,High,5,33.0,4.0,9.67990909090909,10.0,61000
+Legal & Compliance,Server,Critical,8,32.0,14.0,9.49625,10.0,101500
+Wealth Management,Laptop,Critical,20,31.0,9.0,9.6225,10.0,33300
+Data & Analytics,Laptop,Critical,19,31.0,12.0,9.426666666666668,10.0,31950
+Legal & Compliance,Laptop,Low,17,31.0,6.0,9.65,10.0,29500
+Commercial Banking,Access Switch,High,8,31.0,5.0,9.695416666666667,10.0,42600
+Cybersecurity,Server,Medium,7,31.0,10.0,9.558163265306122,10.0,85000
+Capital Markets,Router,High,6,31.0,8.0,9.613278388278388,10.0,50200
+Retail Banking,Desktop,Low,18,30.0,11.0,9.567037037037037,10.0,18500
+Cybersecurity,Laptop,Low,14,30.0,6.0,9.599285714285715,10.0,22100
+Operations,Desktop,Medium,14,30.0,11.0,9.437755102040816,10.0,14350
+Technology,Access Switch,High,10,29.0,6.0,9.725,10.0,53000
+Technology,Router,High,9,29.0,8.0,9.650687830687831,10.0,75300
+Technology,Wireless Access Point,High,8,29.0,8.0,9.588541666666668,10.0,7600
+Data & Analytics,Server,Critical,7,29.0,10.0,9.545504019789734,10.0,89500
+Human Resources,Server,High,7,29.0,7.0,9.556666666666668,10.0,85500
+Data & Analytics,Laptop,Low,16,28.0,15.0,9.418125,10.0,26750
+Cybersecurity,Laptop,Critical,14,28.0,6.0,9.842857142857143,10.0,23150
+Risk,Desktop,Medium,14,27.0,8.0,9.525476190476192,10.0,14350
+Wealth Management,Firewall,Medium,8,27.0,9.0,9.503333333333334,10.0,260000
+Retail Banking,Router,Low,5,27.0,7.0,9.615253968253969,10.0,48100
+Risk,Server,Critical,5,27.0,2.0,9.572857142857142,10.0,61000
+Cybersecurity,Access Switch,High,6,26.0,7.0,9.744444444444445,10.0,30200
+Retail Banking,Distribution Switch,Low,6,26.0,9.0,9.610000000000001,10.0,51000
+Finance,Laptop,Critical,17,25.0,9.0,9.597058823529412,10.0,30850
+Treasury,Laptop,Medium,15,25.0,6.0,9.57777777777778,10.0,26550
+Commercial Banking,Wireless Access Point,High,8,25.0,5.0,9.487202380952382,10.0,7450
+Technology,Firewall,Medium,7,25.0,5.0,9.553333333333333,10.0,231000
+Risk,Wireless Access Point,Medium,6,25.0,10.0,9.655396825396826,10.0,6300
+Data & Analytics,Laptop,High,16,24.0,10.0,9.714583333333334,10.0,28050
+Finance,Laptop,Low,14,24.0,4.0,9.738095238095239,10.0,25750
+Operations,Desktop,High,12,24.0,7.0,9.46111111111111,10.0,12150
+Technology,Router,Medium,8,24.0,6.0,9.55375,10.0,68500
+Commercial Banking,Router,Medium,6,24.0,3.0,9.668888888888889,10.0,59600
+Operations,Server,Low,6,24.0,12.0,9.716388888888888,10.0,71500
+Retail Banking,Router,Medium,11,23.0,11.0,9.624848484848485,10.0,98300
+Retail Banking,Distribution Switch,Medium,9,23.0,16.0,9.590388007054674,10.0,76500
+Retail Banking,Firewall,Low,8,23.0,8.0,9.734166666666667,10.0,232000
+Technology,Wireless Access Point,Medium,7,23.0,6.0,9.498730158730158,10.0,7100
+Commercial Banking,Firewall,High,6,23.0,10.0,9.439391534391534,10.0,154000
+Capital Markets,Desktop,High,14,22.0,3.0,9.76547619047619,10.0,14400
+Wealth Management,Desktop,High,13,22.0,6.0,9.535897435897436,10.0,13050
+Legal & Compliance,Laptop,Medium,13,21.0,4.0,9.533333333333333,10.0,26800
+Operations,Desktop,Low,11,21.0,8.0,9.596060606060606,10.0,10900
+Technology,Distribution Switch,High,7,21.0,10.0,9.26904761904762,10.0,59500
+Wealth Management,Router,High,7,21.0,4.0,9.778095238095238,10.0,71100
+Data & Analytics,Router,Medium,6,21.0,6.0,9.431111111111111,10.0,54900
+Human Resources,Firewall,Medium,4,21.0,4.0,9.750178571428572,10.0,68000
+Legal & Compliance,Server,Medium,4,21.0,5.0,9.758035714285715,10.0,50500
+Legal & Compliance,Desktop,Medium,10,20.0,6.0,9.498333333333335,10.0,9800
+Retail Banking,Router,High,7,20.0,12.0,9.647142857142857,10.0,61700
+Capital Markets,Firewall,High,5,20.0,2.0,9.79657142857143,10.0,101000
+Commercial Banking,Wireless Access Point,Critical,5,20.0,4.0,9.577142857142857,10.0,5050
+Technology,Distribution Switch,Medium,5,20.0,5.0,9.792571428571428,10.0,42500
+Technology,Router,Critical,7,19.0,4.0,9.469047619047618,10.0,66400
+Capital Markets,Router,Low,5,19.0,10.0,9.416,10.0,43400
+Data & Analytics,Desktop,Medium,13,18.0,3.0,9.65128205128205,10.0,13150
+Capital Markets,Desktop,Medium,12,18.0,3.0,9.629166666666666,10.0,12400
+Wealth Management,Desktop,Critical,9,18.0,6.0,9.688703703703704,10.0,8950
+Wealth Management,Distribution Switch,Medium,4,18.0,7.0,9.553571428571429,10.0,34000
+Treasury,Server,Low,3,18.0,5.0,9.671428571428573,10.0,36500
+Cybersecurity,Desktop,High,12,17.0,2.0,9.697222222222223,10.0,12100
+Cybersecurity,Desktop,Medium,12,17.0,5.0,9.554166666666667,10.0,12200
+Capital Markets,Desktop,Low,9,17.0,4.0,9.625925925925927,10.0,9200
+Capital Markets,Access Switch,High,5,17.0,9.0,9.49,10.0,29000
+Commercial Banking,Router,High,5,17.0,6.0,9.528333333333332,10.0,52800
+Commercial Banking,Router,Low,5,17.0,6.0,9.618,10.0,43400
+Finance,Server,Low,5,17.0,10.0,9.634285714285715,10.0,63000
+Data & Analytics,Wireless Access Point,Low,4,17.0,5.0,9.785555555555556,10.0,3500
+Legal & Compliance,Server,High,3,17.0,4.0,9.504285714285714,10.0,37500
+Risk,Laptop,Critical,10,16.0,10.0,9.609,10.0,15900
+Capital Markets,Distribution Switch,High,5,16.0,5.0,9.483333333333334,10.0,42500
+Commercial Banking,Access Switch,Medium,5,16.0,5.0,9.52,10.0,27000
+Cybersecurity,Server,Low,4,16.0,5.0,9.56,10.0,47000
+Technology,Distribution Switch,Critical,4,16.0,2.0,9.788095238095238,10.0,34000
+Technology,Desktop,Critical,10,15.0,4.0,9.719,10.0,9950
+Wealth Management,Router,Medium,6,15.0,4.0,9.683333333333335,10.0,45500
+Commercial Banking,Firewall,Medium,5,15.0,6.0,9.866666666666667,10.0,69000
+Legal & Compliance,Server,Low,4,15.0,10.0,9.3625,10.0,44500
+Technology,Access Switch,Critical,4,15.0,8.0,9.772222222222222,10.0,23800
+Commercial Banking,Desktop,Medium,12,14.0,6.0,9.552777777777779,10.0,12050
+Capital Markets,Laptop,Critical,10,14.0,7.0,9.47,10.0,18500
+Operations,Laptop,Critical,10,14.0,3.0,9.725,10.0,16450
+Commercial Banking,Desktop,Low,8,14.0,4.0,9.570833333333333,10.0,8050
+Human Resources,Laptop,Medium,7,14.0,4.0,9.52,10.0,11350
+Capital Markets,Firewall,Medium,6,14.0,4.0,9.65,10.0,138000
+Commercial Banking,Distribution Switch,Low,5,14.0,4.0,9.303333333333333,10.0,42500
+Human Resources,Desktop,Medium,5,14.0,5.0,9.497142857142858,10.0,4950
+Retail Banking,Access Switch,Low,5,14.0,6.0,9.608,10.0,27000
+Technology,Router,Low,4,14.0,2.0,9.641666666666666,10.0,31900
+Wealth Management,Distribution Switch,High,3,14.0,4.0,9.583703703703705,10.0,25500
+Data & Analytics,Desktop,High,9,13.0,10.0,9.598148148148148,10.0,9200
+Legal & Compliance,Laptop,Critical,9,13.0,3.0,9.522222222222222,10.0,18250
+Finance,Desktop,Critical,5,13.0,0.0,9.678,10.0,5150
+Wealth Management,Wireless Access Point,High,5,13.0,7.0,9.466666666666667,10.0,5050
+Capital Markets,Router,Medium,4,13.0,2.0,9.66,10.0,41300
+Commercial Banking,Firewall,Low,4,13.0,1.0,9.82,10.0,88000
+Legal & Compliance,Access Switch,Low,4,13.0,6.0,9.469999999999999,10.0,23800
+Retail Banking,Distribution Switch,High,4,13.0,2.0,9.645833333333334,10.0,34000
+Technology,Wireless Access Point,Critical,4,13.0,4.0,9.86,10.0,4250
+Wealth Management,Access Switch,High,2,13.0,3.0,9.588888888888892,10.0,11400
+Treasury,Laptop,High,10,12.0,5.0,9.64,10.0,19650
+Finance,Desktop,Medium,7,12.0,5.0,9.414285714285715,9.8,7100
+Human Resources,Desktop,Critical,4,12.0,0.0,9.595833333333333,10.0,3950
+Wealth Management,Wireless Access Point,Medium,4,12.0,8.0,9.64375,10.0,4700
+Capital Markets,Distribution Switch,Critical,3,12.0,2.0,9.66,10.0,25500
+Capital Markets,Distribution Switch,Low,3,12.0,3.0,9.768888888888888,10.0,25500
+Operations,Distribution Switch,High,3,12.0,1.0,9.668888888888889,10.0,25500
+Commercial Banking,Desktop,Critical,8,11.0,5.0,9.722916666666666,10.0,7900
+Risk,Desktop,Low,5,11.0,4.0,9.642857142857142,10.0,5050
+Capital Markets,Distribution Switch,Medium,4,11.0,4.0,9.676666666666668,10.0,34000
+Data & Analytics,Desktop,Critical,3,11.0,0.0,9.906666666666666,10.0,3000
+Human Resources,Server,Critical,3,11.0,4.0,9.761111111111111,10.0,38500
+Human Resources,Server,Low,3,11.0,2.0,9.693333333333333,10.0,35000
+Legal & Compliance,Access Switch,Medium,3,11.0,1.0,9.807142857142857,10.0,13600
+Cybersecurity,Wireless Access Point,Low,2,11.0,6.0,9.520833333333334,10.0,2500
+Human Resources,Router,Critical,2,11.0,2.0,9.682500000000001,10.0,13600
+Risk,Wireless Access Point,Low,2,11.0,2.0,9.695238095238095,10.0,1900
+Treasury,Distribution Switch,High,2,11.0,1.0,9.399999999999999,10.0,17000
+Treasury,Laptop,Low,6,10.0,6.0,9.452777777777778,10.0,9300
+Commercial Banking,Wireless Access Point,Medium,5,10.0,5.0,9.594666666666667,10.0,4900
+Retail Banking,Wireless Access Point,Low,5,10.0,4.0,9.576,10.0,5050
+Technology,Access Switch,Low,5,10.0,4.0,9.643333333333334,10.0,29000
+Capital Markets,Wireless Access Point,Critical,4,10.0,5.0,9.31,10.0,4100
+Finance,Wireless Access Point,Critical,4,10.0,6.0,9.254166666666666,10.0,4700
+Operations,Router,Critical,4,10.0,2.0,9.825000000000001,10.0,41300
+Technology,Firewall,Critical,4,10.0,2.0,9.679166666666667,10.0,80000
+Data & Analytics,Wireless Access Point,Critical,3,10.0,3.0,9.41777777777778,10.0,2850
+Human Resources,Distribution Switch,Medium,3,10.0,5.0,9.373333333333333,10.0,25500
+Human Resources,Firewall,High,3,10.0,2.0,9.433333333333334,10.0,55000
+Legal & Compliance,Wireless Access Point,Medium,3,10.0,5.0,9.743333333333334,10.0,2700
+Operations,Router,Medium,3,10.0,8.0,9.430952380952382,10.0,34500
+Risk,Access Switch,High,3,10.0,4.0,9.646666666666667,10.0,15600
+Risk,Distribution Switch,Low,3,10.0,0.0,9.633333333333335,9.8,25500
+Treasury,Wireless Access Point,High,3,10.0,3.0,9.493333333333334,10.0,3750
+Wealth Management,Distribution Switch,Critical,3,10.0,2.0,9.772222222222222,10.0,25500
+Human Resources,Access Switch,Medium,2,10.0,5.0,9.748214285714287,10.0,12400
+Treasury,Desktop,Medium,8,9.0,7.0,9.635416666666668,10.0,8300
+Data & Analytics,Desktop,Low,6,9.0,4.0,9.450000000000001,10.0,6100
+Risk,Desktop,Critical,6,9.0,2.0,9.802777777777779,10.0,6050
+Human Resources,Desktop,Low,5,9.0,3.0,9.726,10.0,5000
+Data & Analytics,Router,Critical,4,9.0,5.0,9.725000000000001,10.0,27200
+Retail Banking,Wireless Access Point,Critical,4,9.0,4.0,9.625,10.0,4100
+Capital Markets,Access Switch,Low,3,9.0,4.0,9.28888888888889,10.0,16600
+Data & Analytics,Router,High,3,9.0,6.0,9.737142857142857,10.0,25100
+Data & Analytics,Wireless Access Point,Medium,3,9.0,2.0,9.488888888888889,10.0,3150
+Risk,Distribution Switch,High,3,9.0,2.0,9.515555555555556,10.0,25500
+Technology,Wireless Access Point,Low,3,9.0,3.0,9.294444444444444,10.0,2700
+Finance,Access Switch,Low,2,9.0,0.0,9.785,10.0,12400
+Retail Banking,Access Switch,Critical,2,9.0,2.0,9.75,10.0,12400
+Treasury,Distribution Switch,Critical,1,9.0,1.0,9.64,10.0,8500
+Capital Markets,Desktop,Critical,7,8.0,7.0,9.338095238095239,10.0,7000
+Treasury,Desktop,High,5,8.0,1.0,9.563333333333333,10.0,5000
+Wealth Management,Desktop,Low,4,8.0,3.0,9.42,10.0,4100
+Commercial Banking,Access Switch,Low,3,8.0,5.0,9.416666666666666,10.0,15600
+Cybersecurity,Router,Medium,3,8.0,1.0,9.43888888888889,10.0,34500
+Risk,Access Switch,Low,3,8.0,3.0,9.146666666666667,10.0,16600
+Wealth Management,Router,Critical,3,8.0,3.0,9.741666666666667,10.0,25100
+Capital Markets,Wireless Access Point,Medium,2,8.0,2.0,9.791666666666668,10.0,1750
+Commercial Banking,Wireless Access Point,Low,2,8.0,3.0,9.533333333333333,10.0,2500
+Finance,Access Switch,Medium,2,8.0,1.0,9.865,10.0,9400
+Human Resources,Wireless Access Point,Low,2,8.0,1.0,9.583333333333334,10.0,1900
+Legal & Compliance,Access Switch,Critical,2,8.0,4.0,9.516666666666666,10.0,9400
+Wealth Management,Firewall,Low,2,8.0,3.0,9.67,10.0,54000
+Human Resources,Firewall,Critical,1,8.0,2.0,9.52,10.0,25000
+Technology,Distribution Switch,Low,1,8.0,2.0,9.78,10.0,8500
+Human Resources,Laptop,Low,6,7.0,1.0,9.65,10.0,11950
+Risk,Desktop,High,5,7.0,3.0,9.4,10.0,5050
+Retail Banking,Storage,Low,4,7.0,0.0,9.933333333333334,10.0,370000
+Commercial Banking,Storage,Low,3,7.0,2.0,9.546666666666667,10.0,275000
+Cybersecurity,Firewall,High,3,7.0,6.0,9.413333333333334,10.0,71000
+Operations,Access Switch,High,3,7.0,2.0,9.461111111111112,10.0,16600
+Capital Markets,Access Switch,Medium,2,7.0,2.0,9.719999999999999,10.0,8400
+Cybersecurity,Access Switch,Medium,2,7.0,2.0,9.594999999999999,10.0,9400
+Cybersecurity,Wireless Access Point,High,2,7.0,1.0,9.766666666666666,10.0,1900
+Human Resources,Distribution Switch,Critical,2,7.0,2.0,9.745000000000001,10.0,17000
+Legal & Compliance,Router,High,2,7.0,0.0,9.741666666666665,10.0,23000
+Operations,Wireless Access Point,Medium,2,7.0,2.0,9.47,10.0,1900
+Treasury,Distribution Switch,Medium,2,7.0,2.0,9.916666666666668,10.0,17000
+Wealth Management,Access Switch,Critical,1,7.0,1.0,9.775,10.0,7200
+Legal & Compliance,Desktop,Low,4,6.0,0.0,9.766666666666667,10.0,3900
+Commercial Banking,Distribution Switch,Medium,3,6.0,2.0,9.683333333333334,9.9,25500
+Legal & Compliance,Desktop,High,3,6.0,4.0,9.122222222222222,10.0,3000
+Risk,Access Switch,Critical,3,6.0,1.0,9.844444444444445,10.0,19600
+Treasury,Laptop,Critical,3,6.0,1.0,9.833333333333334,10.0,4550
+Capital Markets,Wireless Access Point,High,2,6.0,3.0,9.615,10.0,2200
+Cybersecurity,Wireless Access Point,Medium,2,6.0,3.0,9.660714285714285,10.0,2050
+Finance,Server,Critical,2,6.0,4.0,9.566666666666666,10.0,23500
+Human Resources,Distribution Switch,High,2,6.0,2.0,9.600000000000001,10.0,17000
+Legal & Compliance,Firewall,High,2,6.0,4.0,9.6375,10.0,30000
+Operations,Distribution Switch,Medium,2,6.0,3.0,9.594999999999999,10.0,17000
+Operations,Router,High,2,6.0,1.0,9.524999999999999,10.0,13600
+Operations,Wireless Access Point,High,2,6.0,3.0,9.433333333333334,10.0,1900
+Risk,Wireless Access Point,High,2,6.0,4.0,9.525,9.8,2200
+Technology,Storage,Medium,2,6.0,2.0,9.675,9.8,185000
+Treasury,Access Switch,High,2,6.0,1.0,9.5,10.0,14400
+Treasury,Router,Medium,2,6.0,1.0,9.42,10.0,18300
+Wealth Management,Access Switch,Low,2,6.0,3.0,9.8,9.8,14400
+Wealth Management,Wireless Access Point,Low,2,6.0,3.0,9.416666666666668,10.0,1750
+Capital Markets,Wireless Access Point,Low,1,6.0,1.0,9.542857142857144,10.0,950
+Cybersecurity,Access Switch,Critical,1,6.0,0.0,9.733333333333334,10.0,5200
+Risk,Distribution Switch,Medium,1,6.0,0.0,9.8,9.8,8500
+Capital Markets,Storage,Critical,4,5.0,3.0,9.783333333333333,10.0,350000
+Human Resources,Desktop,High,4,5.0,1.0,9.387500000000001,9.8,3900
+Human Resources,Laptop,Critical,4,5.0,0.0,9.9,10.0,6400
+Finance,Firewall,High,3,5.0,1.0,9.383333333333335,9.8,71000
+Operations,Desktop,Critical,3,5.0,2.0,9.450000000000001,10.0,3100
+Retail Banking,Firewall,Critical,3,5.0,2.0,9.5,10.0,39000
+Capital Markets,Firewall,Low,2,5.0,1.0,9.9,10.0,30000
+Commercial Banking,Access Switch,Critical,2,5.0,2.0,9.658333333333335,10.0,12400
+Commercial Banking,Firewall,Critical,2,5.0,6.0,9.564285714285717,10.0,46000
+Commercial Banking,Router,Critical,2,5.0,2.0,9.733333333333334,10.0,23000
+Commercial Banking,Storage,Critical,2,5.0,1.0,9.55,10.0,175000
+Data & Analytics,Distribution Switch,Low,2,5.0,2.0,9.466666666666665,10.0,17000
+Data & Analytics,Firewall,High,2,5.0,5.0,9.45,10.0,54000
+Data & Analytics,Firewall,Low,2,5.0,4.0,9.545,10.0,50000
+Legal & Compliance,Distribution Switch,Low,2,5.0,1.0,9.866666666666667,10.0,17000
+Risk,Firewall,High,2,5.0,2.0,9.85,10.0,46000
+Risk,Firewall,Medium,2,5.0,1.0,9.86,10.0,70000
+Wealth Management,Router,Low,2,5.0,2.0,9.49,10.0,18300
+Operations,Firewall,High,1,5.0,0.0,9.68,10.0,25000
+Retail Banking,Distribution Switch,Critical,1,5.0,3.0,9.6,10.0,8500
+Treasury,Wireless Access Point,Critical,1,5.0,1.0,9.8,9.8,800
+Cybersecurity,Desktop,Critical,4,4.0,2.0,9.525,10.0,4050
+Treasury,Desktop,Low,3,4.0,1.0,9.5,9.8,3100
+Cybersecurity,Access Switch,Low,2,4.0,3.0,9.533333333333333,10.0,10400
+Finance,Desktop,High,2,4.0,1.0,9.6,10.0,1900
+Human Resources,Router,Medium,2,4.0,2.0,9.825,10.0,23000
+Technology,Storage,Low,2,4.0,0.0,9.350000000000001,10.0,190000
+Cybersecurity,Router,Low,1,4.0,0.0,9.85,10.0,11500
+Legal & Compliance,Firewall,Low,1,4.0,1.0,9.48,10.0,45000
+Legal & Compliance,Wireless Access Point,Low,1,4.0,0.0,9.6,10.0,950
+Operations,Access Switch,Low,1,4.0,0.0,9.6,10.0,7200
+Operations,Access Switch,Medium,1,4.0,2.0,9.5,10.0,5200
+Operations,Distribution Switch,Critical,1,4.0,0.0,9.6,10.0,8500
+Finance,Desktop,Low,3,3.0,0.0,9.766666666666666,10.0,3000
+Commercial Banking,Storage,Medium,2,3.0,0.0,9.850000000000001,10.0,185000
+Legal & Compliance,Desktop,Critical,2,3.0,1.0,9.766666666666666,10.0,2050
+Retail Banking,Storage,Medium,2,3.0,1.0,9.850000000000001,10.0,185000
+Risk,Firewall,Low,2,3.0,1.0,9.875,10.0,66000
+Technology,Storage,High,2,3.0,1.0,9.350000000000001,10.0,190000
+Treasury,Desktop,Critical,2,3.0,0.0,9.850000000000001,10.0,2050
+Wealth Management,Storage,Critical,2,3.0,3.0,9.575,10.0,185000
+Commercial Banking,Distribution Switch,High,1,3.0,1.0,9.45,10.0,8500
+Cybersecurity,Distribution Switch,Critical,1,3.0,1.0,9.8,9.8,8500
+Data & Analytics,Firewall,Medium,1,3.0,2.0,9.4,9.8,21000
+Data & Analytics,Storage,Medium,1,3.0,0.0,9.533333333333331,10.0,90000
+Finance,Access Switch,High,1,3.0,1.0,9.35,10.0,5200
+Finance,Router,Critical,1,3.0,2.0,9.88,10.0,11500
+Finance,Wireless Access Point,Medium,1,3.0,3.0,9.466666666666669,9.8,1250
+Operations,Wireless Access Point,Critical,1,3.0,1.0,9.9,10.0,1250
+Risk,Storage,High,1,3.0,2.0,9.24,10.0,95000
+Treasury,Access Switch,Low,1,3.0,1.0,9.85,10.0,4200
+Treasury,Firewall,Critical,1,3.0,0.0,9.866666666666667,10.0,21000
+Wealth Management,Distribution Switch,Low,1,3.0,2.0,9.48,10.0,8500
+Wealth Management,Wireless Access Point,Critical,1,3.0,0.0,9.6,10.0,950
+Cybersecurity,Desktop,Low,2,2.0,0.0,9.65,9.8,2100
+Data & Analytics,Storage,Low,2,2.0,0.0,9.3,9.8,180000
+Operations,Storage,High,2,2.0,1.0,9.125,9.8,180000
+Treasury,Firewall,Medium,2,2.0,0.0,9.8,9.8,42000
+Wealth Management,Firewall,High,2,2.0,1.0,9.55,9.8,66000
+Capital Markets,Router,Critical,1,2.0,2.0,9.8,9.8,11500
+Commercial Banking,Distribution Switch,Critical,1,2.0,1.0,9.133333333333336,9.8,8500
+Commercial Banking,Storage,High,1,2.0,1.0,9.8,9.8,90000
+Cybersecurity,Router,Critical,1,2.0,2.0,9.85,10.0,6800
+Data & Analytics,Router,Low,1,2.0,1.0,9.266666666666667,10.0,6800
+Finance,Wireless Access Point,Low,1,2.0,0.0,9.3,9.8,950
+Human Resources,Access Switch,Low,1,2.0,0.0,9.9,10.0,4200
+Human Resources,Firewall,Low,1,2.0,1.0,9.466666666666669,9.8,45000
+Legal & Compliance,Firewall,Critical,1,2.0,0.0,9.9,10.0,25000
+Operations,Access Switch,Critical,1,2.0,1.0,9.2,10.0,5200
+Operations,Firewall,Low,1,2.0,1.0,8.866666666666667,10.0,21000
+Retail Banking,Storage,Critical,1,2.0,0.0,9.9,10.0,90000
+Risk,Router,Low,1,2.0,1.0,9.533333333333331,10.0,11500
+Risk,Storage,Low,1,2.0,0.0,9.9,10.0,90000
+Treasury,Distribution Switch,Low,1,2.0,4.0,9.833333333333334,10.0,8500
+Wealth Management,Firewall,Critical,1,2.0,1.0,8.8,9.8,9000
+Capital Markets,Storage,High,1,1.0,0.0,9.8,9.8,95000
+Cybersecurity,Distribution Switch,Low,1,1.0,2.0,9.2,10.0,8500
+Data & Analytics,Access Switch,Low,1,1.0,2.0,8.133333333333333,8.8,4200
+Data & Analytics,Distribution Switch,High,1,1.0,3.0,8.8,9.8,8500
+Data & Analytics,Distribution Switch,Medium,1,1.0,1.0,9.8,9.8,8500
+Finance,Distribution Switch,High,1,1.0,2.0,9.733333333333334,9.8,8500
+Finance,Distribution Switch,Medium,1,1.0,0.0,10.0,10.0,8500
+Human Resources,Router,High,1,1.0,0.0,9.8,9.8,6800
+Human Resources,Router,Low,1,1.0,1.0,8.8,9.8,6800
+Human Resources,Storage,Critical,1,1.0,2.0,9.8,9.8,90000
+Legal & Compliance,Distribution Switch,Medium,1,1.0,0.0,10.0,10.0,8500
+Operations,Firewall,Medium,1,1.0,1.0,8.8,9.8,21000
+Risk,Access Switch,Medium,1,1.0,1.0,9.8,9.8,7200
+Risk,Router,Critical,1,1.0,1.0,9.9,10.0,11500
+Risk,Router,High,1,1.0,1.0,9.8,9.8,6800
+Risk,Wireless Access Point,Critical,1,1.0,2.0,9.8,9.8,1250
+Treasury,Router,Low,1,1.0,1.0,9.3,9.8,11500
+Treasury,Storage,High,1,1.0,1.0,9.8,9.8,85000
+Treasury,Storage,Medium,1,1.0,0.0,9.7,9.7,85000
+Wealth Management,Access Switch,Medium,1,1.0,0.0,9.5,9.5,7200
+Wealth Management,Storage,High,1,1.0,0.0,10.0,10.0,90000
+Wealth Management,Storage,Medium,1,1.0,0.0,9.7,9.7,90000

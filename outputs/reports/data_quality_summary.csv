@@ -1,7 +1,7 @@
 table,rows,columns,duplicate_rows,missing_cells,missing_pct
 software_installations.csv,201515,10,0,0,0.0
-incidents.csv,100000,8,0,0,0.0
-vulnerabilities.csv,60000,11,0,0,0.0
+incidents.csv,104634,11,0,304634,26.47
+vulnerabilities.csv,60522,11,0,0,0.0
 hardware_assets.csv,23940,17,0,0,0.0
 refresh_projects.csv,8000,10,0,7928,9.91
 application_portfolio.csv,1500,12,0,0,0.0
