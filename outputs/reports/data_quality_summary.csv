@@ -1,0 +1,12 @@
+table,rows,columns,duplicate_rows,missing_cells,missing_pct
+software_installations.csv,201515,10,0,0,0.0
+incidents.csv,100000,8,0,0,0.0
+vulnerabilities.csv,60000,11,0,0,0.0
+hardware_assets.csv,23940,17,0,0,0.0
+refresh_projects.csv,8000,10,0,7928,9.91
+application_portfolio.csv,1500,12,0,0,0.0
+cloud_resources.csv,1200,11,0,0,0.0
+budget_costs.csv,384,7,0,0,0.0
+locations.csv,159,6,0,0,0.0
+technology_lifecycle_catalog.csv,142,11,0,49,3.14
+software_catalog.csv,93,11,0,0,0.0
