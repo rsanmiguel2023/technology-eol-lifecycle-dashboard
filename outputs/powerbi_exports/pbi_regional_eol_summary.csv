@@ -1,0 +1,41 @@
+Region,Lifecycle_Status,Asset_Count,Critical_Assets,Replacement_Cost
+Atlantic Canada,0-6 Months,107,18,277150
+Atlantic Canada,12-24 Months,595,92,1887750
+Atlantic Canada,6-12 Months,436,58,711600
+Atlantic Canada,Past EOL,303,45,449500
+Atlantic Canada,Supported >24 Months,116,14,1081200
+DR Site,0-6 Months,15,1,46150
+DR Site,12-24 Months,138,22,392950
+DR Site,6-12 Months,95,10,133800
+DR Site,Past EOL,57,8,84550
+DR Site,Supported >24 Months,25,2,260150
+Data Centre,0-6 Months,45,6,120500
+Data Centre,12-24 Months,229,34,740600
+Data Centre,6-12 Months,165,30,237750
+Data Centre,Past EOL,110,10,163000
+Data Centre,Supported >24 Months,37,6,380350
+GTA Branches,0-6 Months,708,98,2141200
+GTA Branches,12-24 Months,4802,733,14380550
+GTA Branches,6-12 Months,3315,481,5245150
+GTA Branches,Past EOL,2347,360,3481550
+GTA Branches,Supported >24 Months,893,140,9369600
+Ontario Regional,0-6 Months,140,18,298750
+Ontario Regional,12-24 Months,871,127,2709650
+Ontario Regional,6-12 Months,600,88,893800
+Ontario Regional,Past EOL,433,68,642550
+Ontario Regional,Supported >24 Months,154,22,1512300
+Quebec,0-6 Months,175,28,501750
+Quebec,12-24 Months,1150,181,3295600
+Quebec,6-12 Months,840,139,1332950
+Quebec,Past EOL,610,89,904950
+Quebec,Supported >24 Months,224,32,2248700
+Toronto HQ,0-6 Months,25,2,63350
+Toronto HQ,12-24 Months,183,18,550100
+Toronto HQ,6-12 Months,124,20,181800
+Toronto HQ,Past EOL,76,13,113150
+Toronto HQ,Supported >24 Months,33,5,289150
+Western Canada,0-6 Months,211,26,762300
+Western Canada,12-24 Months,1512,230,4469750
+Western Canada,6-12 Months,1066,166,2010300
+Western Canada,Past EOL,698,103,1035100
+Western Canada,Supported >24 Months,277,44,3024900

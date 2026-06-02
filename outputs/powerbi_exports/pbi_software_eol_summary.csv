@@ -1,0 +1,88 @@
+Software_Name,Version,Software_Lifecycle_Status,Installation_Count,Distinct_Assets
+Microsoft 365 Apps for Enterprise,Current Channel,Supported >24 Months,11348,11348
+Microsoft Edge,Current,Supported >24 Months,11297,11297
+Microsoft Teams,Classic/2.x,0-6 Months,11265,11265
+Mozilla Firefox ESR,115 ESR,Past EOL,11213,11213
+Adobe Acrobat Pro,2020,Past EOL,11213,11213
+Adobe Acrobat Pro,Continuous,Supported >24 Months,11164,11164
+Microsoft OneDrive,24.x,Supported >24 Months,11150,11150
+Google Chrome,Current,Supported >24 Months,11145,11145
+Windows 11 Enterprise 23H2,23H2,0-6 Months,7521,7521
+Microsoft Defender for Endpoint,Plan 2,Supported >24 Months,5938,5938
+Splunk Enterprise Security,7.x,Supported >24 Months,5924,5924
+Qualys VMDR,Cloud,Supported >24 Months,5920,5920
+CyberArk Privileged Access Manager,14.x,Supported >24 Months,5890,5890
+Tenable Nessus,10.x,Supported >24 Months,5877,5877
+Zscaler Internet Access,Cloud,Supported >24 Months,5848,5848
+CrowdStrike Falcon,Current,Supported >24 Months,5785,5785
+Windows 11 Enterprise 24H2,24H2,12-24 Months,5164,5164
+Windows 10 Enterprise 22H2,22H2,Past EOL,4210,4210
+Red Hat OpenShift 4.14,4.14,0-6 Months,1265,1265
+Apache Kafka 3.5,3.5,0-6 Months,1247,1247
+Informatica PowerCenter 10.5,10.5,12-24 Months,1237,1237
+Azure Data Factory,Cloud,Supported >24 Months,1233,1233
+Databricks Runtime 13.3 LTS,13.3 LTS,0-6 Months,1198,1198
+Kubernetes 1.28,1.28,Past EOL,1195,1195
+Apache Airflow 2.7,2.7,Past EOL,1188,1188
+Docker Desktop 4.x,4.x,Supported >24 Months,1152,1152
+PyCharm Professional 2024.x,2024.x,12-24 Months,1130,1130
+IBM SPSS Statistics 29,29,Supported >24 Months,1093,1093
+GitHub Enterprise Server 3.12,3.12,Past EOL,1076,1076
+Git 2.x,2.x,Supported >24 Months,1075,1075
+macOS Sonoma 14,14,0-6 Months,1073,1073
+Java SE 21,21,Supported >24 Months,1071,1071
+IntelliJ IDEA 2024.x,2024.x,12-24 Months,1067,1067
+.NET 8,8,0-6 Months,1064,1064
+DataGrip 2024.x,2024.x,12-24 Months,1064,1064
+Java SE 11,11,0-6 Months,1064,1064
+Azure DevOps Server 2022,2022,Supported >24 Months,1062,1062
+Java SE 17,17,Supported >24 Months,1062,1062
+Visual Studio 2022 17.x,17.x,Supported >24 Months,1060,1060
+Visual Studio Code,Current,Supported >24 Months,1057,1057
+Power BI Desktop,Current,Supported >24 Months,1055,1055
+Anaconda Distribution 2023.x,2023.x,6-12 Months,1054,1054
+SAS Viya 4,4,Supported >24 Months,1054,1054
+GitLab Enterprise Edition 16.x,16.x,Past EOL,1052,1052
+.NET 6,6,Past EOL,1049,1049
+Node.js 16,16,Past EOL,1043,1043
+Python 3.10,3.10,0-6 Months,1043,1043
+JupyterLab 4.x,4.x,Supported >24 Months,1042,1042
+PowerShell 7.4 LTS,7.4 LTS,0-6 Months,1040,1040
+Tableau Desktop 2024.x,2024.x,12-24 Months,1038,1038
+macOS Sequoia 15,15,12-24 Months,1036,1036
+SQL Server Management Studio 20.x,20.x,Supported >24 Months,1036,1036
+Python 3.8,3.8,Past EOL,1033,1033
+Node.js 18,18,Past EOL,1030,1030
+Python 3.9,3.9,Past EOL,1024,1024
+Bitbucket Data Center 8.x,8.x,12-24 Months,1022,1022
+Java SE 8,8,Supported >24 Months,1015,1015
+DBeaver 24.x,24.x,Supported >24 Months,1013,1013
+Jenkins 2.401 LTS,2.401 LTS,Past EOL,1012,1012
+Visual Studio 2019 16.x,16.x,Supported >24 Months,1007,1007
+Node.js 20,20,Past EOL,996,996
+macOS Ventura 13,13,Past EOL,996,996
+Python 3.11,3.11,12-24 Months,996,996
+.NET Framework 4.8,4.8,Supported >24 Months,995,995
+Windows Server 2016,2016,6-12 Months,236,236
+Windows Server 2022,2022,Supported >24 Months,227,227
+Red Hat Enterprise Linux 9,9,Supported >24 Months,226,226
+Ubuntu Server 22.04 LTS,22.04 LTS,Supported >24 Months,221,221
+Windows Server 2019,2019,Supported >24 Months,206,206
+Ubuntu Server 20.04 LTS,20.04 LTS,Supported >24 Months,203,203
+Oracle Database 21c,21c,Past EOL,192,192
+IBM MQ,9.3,Supported >24 Months,190,190
+Apache HTTP Server,2.4,Supported >24 Months,184,184
+MySQL Community Server 8.0,8.0,Past EOL,182,182
+Red Hat Enterprise Linux 8,8,Supported >24 Months,181,181
+PostgreSQL 15,15,12-24 Months,181,181
+Microsoft SQL Server 2019,2019,Supported >24 Months,178,178
+Oracle WebLogic Server,12c,12-24 Months,176,176
+MongoDB Enterprise Advanced 6.0,6.0,0-6 Months,172,172
+Oracle Database 19c,19c,6-12 Months,167,167
+PostgreSQL 14,14,0-6 Months,167,167
+IBM WebSphere Application Server,9.0.5,Supported >24 Months,166,166
+Microsoft SQL Server 2016,2016,0-6 Months,161,161
+Microsoft SQL Server 2022,2022,Supported >24 Months,156,156
+NGINX,1.24,12-24 Months,155,155
+Apache Tomcat,10.1,Supported >24 Months,153,153
+Apache Tomcat,9.0,6-12 Months,149,149

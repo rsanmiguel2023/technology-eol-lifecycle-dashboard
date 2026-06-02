@@ -1,0 +1,35 @@
+Cloud_Provider,Service_Name,Cloud_Lifecycle_Status,Resource_Count,Monthly_Cost
+AWS,AWS Lambda,Supported >24 Months,122,939797
+AWS,Amazon EC2,0-6 Months,8,42346
+AWS,Amazon EC2,12-24 Months,13,76742
+AWS,Amazon EC2,6-12 Months,4,39560
+AWS,Amazon EC2,Past EOL,49,366625
+AWS,Amazon EC2,Supported >24 Months,42,306479
+AWS,Amazon EKS,0-6 Months,8,36383
+AWS,Amazon EKS,12-24 Months,21,153799
+AWS,Amazon EKS,6-12 Months,11,73150
+AWS,Amazon EKS,Past EOL,44,324645
+AWS,Amazon EKS,Supported >24 Months,33,260844
+AWS,Amazon RDS,0-6 Months,11,78498
+AWS,Amazon RDS,12-24 Months,16,118647
+AWS,Amazon RDS,6-12 Months,6,41343
+AWS,Amazon RDS,Past EOL,46,306618
+AWS,Amazon RDS,Supported >24 Months,48,374432
+AWS,Amazon S3,Supported >24 Months,121,911775
+Azure,Azure App Service,Supported >24 Months,135,1024940
+Azure,Azure Data Factory,Supported >24 Months,111,909928
+Azure,Azure Kubernetes Service,0-6 Months,8,58912
+Azure,Azure Kubernetes Service,12-24 Months,19,140307
+Azure,Azure Kubernetes Service,6-12 Months,9,96779
+Azure,Azure Kubernetes Service,Past EOL,46,307533
+Azure,Azure Kubernetes Service,Supported >24 Months,33,224746
+Azure,Azure SQL Database,0-6 Months,6,51541
+Azure,Azure SQL Database,12-24 Months,21,139100
+Azure,Azure SQL Database,6-12 Months,3,37361
+Azure,Azure SQL Database,Past EOL,41,291682
+Azure,Azure SQL Database,Supported >24 Months,48,370168
+Azure,Azure Virtual Machines,0-6 Months,6,32664
+Azure,Azure Virtual Machines,12-24 Months,25,192583
+Azure,Azure Virtual Machines,6-12 Months,8,46551
+Azure,Azure Virtual Machines,Past EOL,44,374405
+Azure,Azure Virtual Machines,Supported >24 Months,34,264202
