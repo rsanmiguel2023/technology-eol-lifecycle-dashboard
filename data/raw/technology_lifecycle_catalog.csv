@@ -1,0 +1,143 @@
+Technology_ID,Technology_Type,Vendor,Technology_Name,Category,GA_Date,Support_End_Date,EOL_Date,Internal_Refresh_By,Lifecycle_Status,Source_Type
+TECH-00001,Hardware,Lenovo,ThinkPad T14 Gen 2,Laptop,2024-03-04,,2026-02-28,2026-02-28,Past EOL,Vendor lifecycle and internal refresh policy
+TECH-00002,Hardware,Apple,MacBook Pro 14-inch M2 Pro,Laptop,2024-04-08,,2028-01-31,2028-01-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00003,Hardware,Apple,MacBook Air M2,Laptop,2022-11-23,,2027-07-31,2027-07-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00004,Hardware,Dell,Latitude 5420,Laptop,2024-08-26,,2026-03-31,2026-03-31,Past EOL,Vendor lifecycle and internal refresh policy
+TECH-00005,Hardware,Dell,Latitude 5430,Laptop,2022-10-03,,2027-04-30,2027-04-30,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00006,Hardware,HP,EliteBook 840 G8,Laptop,2021-04-15,,2026-01-31,2026-01-31,Past EOL,Vendor lifecycle and internal refresh policy
+TECH-00007,Hardware,Lenovo,ThinkPad T14 Gen 3,Laptop,2023-08-17,,2027-05-31,2027-05-31,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00008,Hardware,HP,EliteBook 850 G9,Laptop,2023-07-05,,2027-04-30,2027-04-30,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00009,Hardware,Dell,Latitude 7440,Laptop,2023-10-21,,2028-04-30,2028-04-30,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00010,Hardware,HP,EliteDesk 800 G9,Desktop,2025-10-25,,2027-05-31,2027-05-31,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00011,Hardware,Lenovo,ThinkCentre M90q Gen 3,Desktop,2025-09-21,,2027-06-30,2027-06-30,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00012,Hardware,Dell,OptiPlex 7010,Desktop,2023-05-01,,2027-08-31,2027-08-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00013,Hardware,Dell,OptiPlex 7090,Desktop,2022-05-04,,2026-06-30,2026-06-30,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00014,Hardware,Microsoft,Azure Virtual Desktop Session Host,VDI Endpoint,2026-02-14,,2028-01-31,2028-01-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00015,Hardware,Citrix,Citrix Virtual Apps and Desktops,VDI Endpoint,2024-11-14,,2027-01-31,2027-01-31,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00016,Hardware,Dell,PowerEdge R650,Server,2022-06-18,,2028-06-30,2028-06-30,Supported,Vendor lifecycle and internal refresh policy
+TECH-00017,Hardware,Lenovo,ThinkSystem SR650 V2,Server,2023-04-30,,2028-04-30,2028-04-30,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00018,Hardware,HPE,ProLiant DL380 Gen11,Server,2023-06-28,,2029-11-30,2029-11-30,Supported,Vendor lifecycle and internal refresh policy
+TECH-00019,Hardware,HPE,ProLiant DL380 Gen10,Server,2023-11-06,,2027-07-31,2027-07-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00020,Hardware,Dell,PowerEdge R750,Server,2022-10-24,,2028-06-30,2028-06-30,Supported,Vendor lifecycle and internal refresh policy
+TECH-00021,Hardware,Aruba,CX 6200F,Access Switch,2020-11-28,,2028-06-30,2028-06-30,Supported,Vendor lifecycle and internal refresh policy
+TECH-00022,Hardware,Cisco,Catalyst 9200,Access Switch,2024-07-22,,2027-10-31,2027-10-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00023,Hardware,Cisco,Catalyst 9300,Access Switch,2023-02-14,,2027-10-31,2027-10-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00024,Hardware,Aruba,CX 6300M,Distribution Switch,2023-11-04,,2028-06-30,2028-06-30,Supported,Vendor lifecycle and internal refresh policy
+TECH-00025,Hardware,Cisco,Catalyst 9500,Core Switch,2025-04-29,,2027-10-31,2027-10-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00026,Hardware,Cisco,ISR 4331,Router,2021-01-17,,2026-10-31,2026-10-31,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00027,Hardware,Cisco,ISR 4451-X,Router,2025-02-14,,2026-10-31,2026-10-31,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00028,Hardware,Fortinet,FortiGate 200F,Firewall,2020-10-22,,2028-01-31,2028-01-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00029,Hardware,Fortinet,FortiGate 600F,Firewall,2023-08-10,,2028-07-31,2028-07-31,Supported,Vendor lifecycle and internal refresh policy
+TECH-00030,Hardware,Palo Alto Networks,PA-5220,Firewall,2022-08-05,,2027-05-31,2027-05-31,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00031,Hardware,Palo Alto Networks,PA-3220,Firewall,2023-12-09,,2026-08-31,2026-08-31,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00032,Hardware,Aruba,AP-635,Wireless Access Point,2024-07-10,,2030-03-31,2030-03-31,Supported,Vendor lifecycle and internal refresh policy
+TECH-00033,Hardware,Cisco,Catalyst 9130AX,Wireless Access Point,2020-04-26,,2027-07-31,2027-07-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00034,Hardware,Aruba,AP-515,Wireless Access Point,2023-02-10,,2027-03-31,2027-03-31,EOL within 12 months,Vendor lifecycle and internal refresh policy
+TECH-00035,Hardware,Cisco,Catalyst 9120AX,Wireless Access Point,2024-01-11,,2027-07-31,2027-07-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00036,Hardware,Cisco,Catalyst 9800-L,Wireless Controller,2020-03-04,,2027-06-30,2027-06-30,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00037,Hardware,NetApp,AFF A400,Storage,2023-06-25,,2028-06-30,2028-06-30,Supported,Vendor lifecycle and internal refresh policy
+TECH-00038,Hardware,Pure Storage,FlashArray X50,Storage,2023-11-12,,2027-09-30,2027-09-30,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00039,Hardware,Dell EMC,PowerStore 500T,Storage,2022-10-09,,2028-05-31,2028-05-31,EOL within 24 months,Vendor lifecycle and internal refresh policy
+TECH-00040,Software,Microsoft,Windows 10 Enterprise 22H2,Operating System,2022-10-18,2025-10-14,2025-10-14,2025-10-14,Past EOL,Vendor support policy / product lifecycle
+TECH-00041,Software,Microsoft,Windows 11 Enterprise 23H2,Operating System,2023-10-31,2026-11-10,2026-11-10,2026-11-10,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00042,Software,Microsoft,Windows 11 Enterprise 24H2,Operating System,2024-10-01,2027-10-12,2027-10-12,2027-10-12,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00043,Software,Microsoft,Windows Server 2016,Server OS,2016-10-01,2027-01-12,2027-01-12,2027-01-12,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00044,Software,Microsoft,Windows Server 2019,Server OS,2019-10-01,2029-01-09,2029-01-09,2029-01-09,Supported,Vendor support policy / product lifecycle
+TECH-00045,Software,Microsoft,Windows Server 2022,Server OS,2022-10-01,2031-10-14,2031-10-14,2031-10-14,Supported,Vendor support policy / product lifecycle
+TECH-00046,Software,Red Hat,Red Hat Enterprise Linux 8,Server OS,2020-01-01,2029-05-31,2029-05-31,2029-05-31,Supported,Vendor support policy / product lifecycle
+TECH-00047,Software,Red Hat,Red Hat Enterprise Linux 9,Server OS,2020-01-01,2032-05-31,2032-05-31,2032-05-31,Supported,Vendor support policy / product lifecycle
+TECH-00048,Software,Canonical,Ubuntu Server 20.04 LTS,Server OS,2020-01-01,2030-04-30,2030-04-30,2030-04-30,Supported,Vendor support policy / product lifecycle
+TECH-00049,Software,Canonical,Ubuntu Server 22.04 LTS,Server OS,2020-01-01,2032-04-30,2032-04-30,2032-04-30,Supported,Vendor support policy / product lifecycle
+TECH-00050,Software,Apple,macOS Ventura 13,Operating System,2020-01-01,2025-09-30,2025-09-30,2025-09-30,Past EOL,Vendor support policy / product lifecycle
+TECH-00051,Software,Apple,macOS Sonoma 14,Operating System,2020-01-01,2026-09-30,2026-09-30,2026-09-30,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00052,Software,Apple,macOS Sequoia 15,Operating System,2020-01-01,2027-09-30,2027-09-30,2027-09-30,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00053,Software,Microsoft,Microsoft 365 Apps for Enterprise,Productivity,2020-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00054,Software,Microsoft,Microsoft Teams,Collaboration,2020-01-01,2026-07-01,2026-07-01,2026-07-01,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00055,Software,Microsoft,Microsoft OneDrive,Collaboration,2020-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00056,Software,Microsoft,Microsoft Edge,Browser,2020-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00057,Software,Google,Google Chrome,Browser,2020-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00058,Software,Mozilla,Mozilla Firefox ESR,Browser,2020-01-01,2024-10-01,2024-10-01,2024-10-01,Past EOL,Vendor support policy / product lifecycle
+TECH-00059,Software,Adobe,Adobe Acrobat Pro,Productivity,2020-01-01,2025-06-01,2025-06-01,2025-06-01,Past EOL,Vendor support policy / product lifecycle
+TECH-00060,Software,Adobe,Adobe Acrobat Pro,Productivity,2020-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00061,Software,Microsoft,Microsoft Defender for Endpoint,Security,2019-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00062,Software,CrowdStrike,CrowdStrike Falcon,Security,2019-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00063,Software,CyberArk,CyberArk Privileged Access Manager,Security,2019-01-01,2028-12-31,2028-12-31,2028-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00064,Software,Splunk,Splunk Enterprise Security,Security,2019-01-01,2028-12-31,2028-12-31,2028-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00065,Software,Tenable,Tenable Nessus,Security,2019-01-01,2028-12-31,2028-12-31,2028-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00066,Software,Qualys,Qualys VMDR,Security,2019-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00067,Software,Zscaler,Zscaler Internet Access,Security,2019-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00068,Software,Okta,Okta Workforce Identity,Identity,2019-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00069,Software,Microsoft,Microsoft SQL Server 2016,Database,2016-01-01,2026-07-14,2026-07-14,2026-07-14,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00070,Software,Microsoft,Microsoft SQL Server 2019,Database,2016-01-01,2030-01-08,2030-01-08,2030-01-08,Supported,Vendor support policy / product lifecycle
+TECH-00071,Software,Microsoft,Microsoft SQL Server 2022,Database,2016-01-01,2033-01-11,2033-01-11,2033-01-11,Supported,Vendor support policy / product lifecycle
+TECH-00072,Software,Oracle,Oracle Database 19c,Database,2016-01-01,2027-04-30,2027-04-30,2027-04-30,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00073,Software,Oracle,Oracle Database 21c,Database,2016-01-01,2025-04-30,2025-04-30,2025-04-30,Past EOL,Vendor support policy / product lifecycle
+TECH-00074,Software,PostgreSQL,PostgreSQL 14,Database,2016-01-01,2026-11-12,2026-11-12,2026-11-12,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00075,Software,PostgreSQL,PostgreSQL 15,Database,2016-01-01,2027-11-11,2027-11-11,2027-11-11,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00076,Software,MySQL,MySQL Community Server 8.0,Database,2016-01-01,2026-04-30,2026-04-30,2026-04-30,Past EOL,Vendor support policy / product lifecycle
+TECH-00077,Software,MongoDB,MongoDB Enterprise Advanced 6.0,Database,2016-01-01,2026-07-31,2026-07-31,2026-07-31,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00078,Software,Microsoft,Visual Studio 2019 16.x,IDE,2018-01-01,2029-04-10,2029-04-10,2029-04-10,Supported,Vendor support policy / product lifecycle
+TECH-00079,Software,Microsoft,Visual Studio 2022 17.x,IDE,2018-01-01,2032-01-13,2032-01-13,2032-01-13,Supported,Vendor support policy / product lifecycle
+TECH-00080,Software,Microsoft,Visual Studio Code,IDE,2018-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00081,Software,JetBrains,IntelliJ IDEA 2024.x,IDE,2018-01-01,2027-12-31,2027-12-31,2027-12-31,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00082,Software,JetBrains,PyCharm Professional 2024.x,IDE,2018-01-01,2027-12-31,2027-12-31,2027-12-31,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00083,Software,JetBrains,DataGrip 2024.x,IDE,2018-01-01,2027-12-31,2027-12-31,2027-12-31,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00084,Software,Microsoft,SQL Server Management Studio 20.x,Database Tool,2018-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00085,Software,DBeaver Corp,DBeaver 24.x,Database Tool,2018-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00086,Software,Software Freedom Conservancy,Git 2.x,Version Control,2018-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00087,Software,GitHub,GitHub Enterprise Server 3.12,Source Control,2018-01-01,2025-12-31,2025-12-31,2025-12-31,Past EOL,Vendor support policy / product lifecycle
+TECH-00088,Software,Atlassian,Bitbucket Data Center 8.x,Source Control,2018-01-01,2028-02-15,2028-02-15,2028-02-15,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00089,Software,GitLab,GitLab Enterprise Edition 16.x,Source Control,2018-01-01,2026-05-01,2026-05-01,2026-05-01,Past EOL,Vendor support policy / product lifecycle
+TECH-00090,Software,Jenkins,Jenkins 2.401 LTS,CI/CD,2018-01-01,2024-09-01,2024-09-01,2024-09-01,Past EOL,Vendor support policy / product lifecycle
+TECH-00091,Software,Microsoft,Azure DevOps Server 2022,CI/CD,2018-01-01,2032-01-11,2032-01-11,2032-01-11,Supported,Vendor support policy / product lifecycle
+TECH-00092,Software,Python Software Foundation,Python 3.8,Runtime,2018-01-01,2024-10-07,2024-10-07,2024-10-07,Past EOL,Vendor support policy / product lifecycle
+TECH-00093,Software,Python Software Foundation,Python 3.9,Runtime,2018-01-01,2025-10-31,2025-10-31,2025-10-31,Past EOL,Vendor support policy / product lifecycle
+TECH-00094,Software,Python Software Foundation,Python 3.10,Runtime,2018-01-01,2026-10-31,2026-10-31,2026-10-31,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00095,Software,Python Software Foundation,Python 3.11,Runtime,2018-01-01,2027-10-31,2027-10-31,2027-10-31,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00096,Software,Oracle,Java SE 8,Runtime,2018-01-01,2030-12-31,2030-12-31,2030-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00097,Software,Oracle,Java SE 11,Runtime,2018-01-01,2026-09-30,2026-09-30,2026-09-30,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00098,Software,Oracle,Java SE 17,Runtime,2018-01-01,2029-09-30,2029-09-30,2029-09-30,Supported,Vendor support policy / product lifecycle
+TECH-00099,Software,Oracle,Java SE 21,Runtime,2018-01-01,2031-09-30,2031-09-30,2031-09-30,Supported,Vendor support policy / product lifecycle
+TECH-00100,Software,OpenJS Foundation,Node.js 16,Runtime,2018-01-01,2023-09-11,2023-09-11,2023-09-11,Past EOL,Vendor support policy / product lifecycle
+TECH-00101,Software,OpenJS Foundation,Node.js 18,Runtime,2018-01-01,2025-04-30,2025-04-30,2025-04-30,Past EOL,Vendor support policy / product lifecycle
+TECH-00102,Software,OpenJS Foundation,Node.js 20,Runtime,2018-01-01,2026-04-30,2026-04-30,2026-04-30,Past EOL,Vendor support policy / product lifecycle
+TECH-00103,Software,Microsoft,.NET 6,Runtime,2018-01-01,2024-11-12,2024-11-12,2024-11-12,Past EOL,Vendor support policy / product lifecycle
+TECH-00104,Software,Microsoft,.NET 8,Runtime,2018-01-01,2026-11-10,2026-11-10,2026-11-10,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00105,Software,Microsoft,.NET Framework 4.8,Runtime,2018-01-01,2029-01-09,2029-01-09,2029-01-09,Supported,Vendor support policy / product lifecycle
+TECH-00106,Software,Microsoft,PowerShell 7.4 LTS,Runtime,2018-01-01,2026-11-10,2026-11-10,2026-11-10,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00107,Software,Docker,Docker Desktop 4.x,Container,2018-01-01,2028-12-31,2028-12-31,2028-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00108,Software,Red Hat,Red Hat OpenShift 4.14,Container,2018-01-01,2026-10-31,2026-10-31,2026-10-31,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00109,Software,Cloud Native Computing Foundation,Kubernetes 1.28,Container,2018-01-01,2024-10-28,2024-10-28,2024-10-28,Past EOL,Vendor support policy / product lifecycle
+TECH-00110,Software,Apache Software Foundation,Apache Airflow 2.7,Data Engineering,2018-01-01,2025-08-31,2025-08-31,2025-08-31,Past EOL,Vendor support policy / product lifecycle
+TECH-00111,Software,Databricks,Databricks Runtime 13.3 LTS,Data Engineering,2018-01-01,2026-09-30,2026-09-30,2026-09-30,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00112,Software,Microsoft,Azure Data Factory,Data Engineering,2018-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00113,Software,Informatica,Informatica PowerCenter 10.5,Data Engineering,2018-01-01,2027-12-31,2027-12-31,2027-12-31,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00114,Software,Apache Software Foundation,Apache Kafka 3.5,Data Engineering,2018-01-01,2026-06-30,2026-06-30,2026-06-30,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00115,Software,Anaconda,Anaconda Distribution 2023.x,Data Science,2018-01-01,2026-12-31,2026-12-31,2026-12-31,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00116,Software,Project Jupyter,JupyterLab 4.x,Data Science,2018-01-01,2028-12-31,2028-12-31,2028-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00117,Software,Microsoft,Power BI Desktop,Analytics,2018-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00118,Software,Salesforce,Tableau Desktop 2024.x,Analytics,2018-01-01,2027-12-31,2027-12-31,2027-12-31,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00119,Software,SAS,SAS Viya 4,Analytics,2018-01-01,2028-12-31,2028-12-31,2028-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00120,Software,IBM,IBM SPSS Statistics 29,Analytics,2018-01-01,2028-09-30,2028-09-30,2028-09-30,Supported,Vendor support policy / product lifecycle
+TECH-00121,Software,SAP,SAP S/4HANA,Business Application,2018-01-01,2027-12-31,2027-12-31,2027-12-31,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00122,Software,ServiceNow,ServiceNow IT Service Management,ITSM,2018-01-01,2025-11-30,2025-11-30,2025-11-30,Past EOL,Vendor support policy / product lifecycle
+TECH-00123,Software,Salesforce,Salesforce Financial Services Cloud,CRM,2018-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00124,Software,Workday,Workday Human Capital Management,HRIS,2018-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00125,Software,Salesforce,MuleSoft Anypoint Platform,Integration,2018-01-01,2030-01-01,2030-01-01,2030-01-01,Supported,Vendor support policy / product lifecycle
+TECH-00126,Software,IBM,IBM MQ,Middleware,2018-01-01,2028-12-31,2028-12-31,2028-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00127,Software,Apache Software Foundation,Apache Tomcat,Middleware,2018-01-01,2027-03-31,2027-03-31,2027-03-31,EOL within 12 months,Vendor support policy / product lifecycle
+TECH-00128,Software,Apache Software Foundation,Apache Tomcat,Middleware,2018-01-01,2028-12-31,2028-12-31,2028-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00129,Software,IBM,IBM WebSphere Application Server,Middleware,2018-01-01,2030-12-31,2030-12-31,2030-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00130,Software,Oracle,Oracle WebLogic Server,Middleware,2018-01-01,2027-12-31,2027-12-31,2027-12-31,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00131,Software,F5,NGINX,Web Server,2018-01-01,2027-12-31,2027-12-31,2027-12-31,EOL within 24 months,Vendor support policy / product lifecycle
+TECH-00132,Software,Apache Software Foundation,Apache HTTP Server,Web Server,2018-01-01,2028-12-31,2028-12-31,2028-12-31,Supported,Vendor support policy / product lifecycle
+TECH-00133,Cloud Service,Azure,Azure Virtual Machines,Compute,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
+TECH-00134,Cloud Service,Azure,Azure SQL Database,Database,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
+TECH-00135,Cloud Service,Azure,Azure Kubernetes Service,Container,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
+TECH-00136,Cloud Service,Azure,Azure Data Factory,Data Integration,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
+TECH-00137,Cloud Service,Azure,Azure App Service,Platform Service,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
+TECH-00138,Cloud Service,AWS,Amazon EC2,Compute,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
+TECH-00139,Cloud Service,AWS,Amazon RDS,Database,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
+TECH-00140,Cloud Service,AWS,Amazon EKS,Container,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
+TECH-00141,Cloud Service,AWS,Amazon S3,Storage,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
+TECH-00142,Cloud Service,AWS,AWS Lambda,Serverless,2018-01-01,,2030-01-01,2030-01-01,Supported,Cloud service version governance
