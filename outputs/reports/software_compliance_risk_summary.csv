@@ -1,0 +1,88 @@
+Software_Name,Version,Category,Software_Lifecycle_Status,non_compliant_installs
+Mozilla Firefox ESR,115 ESR,Browser,Past EOL,4572
+Microsoft Teams,Classic/2.x,Collaboration,0-6 Months,4544
+Microsoft OneDrive,24.x,Collaboration,Supported >24 Months,4526
+Google Chrome,Current,Browser,Supported >24 Months,4510
+Adobe Acrobat Pro,Continuous,Productivity,Supported >24 Months,4506
+Adobe Acrobat Pro,2020,Productivity,Past EOL,4497
+Microsoft 365 Apps for Enterprise,Current Channel,Productivity,Supported >24 Months,4468
+Microsoft Edge,Current,Browser,Supported >24 Months,4447
+Windows 11 Enterprise 23H2,23H2,Operating System,0-6 Months,2975
+Splunk Enterprise Security,7.x,Security,Supported >24 Months,2452
+CyberArk Privileged Access Manager,14.x,Security,Supported >24 Months,2397
+Qualys VMDR,Cloud,Security,Supported >24 Months,2395
+Zscaler Internet Access,Cloud,Security,Supported >24 Months,2354
+Microsoft Defender for Endpoint,Plan 2,Security,Supported >24 Months,2346
+Tenable Nessus,10.x,Security,Supported >24 Months,2341
+CrowdStrike Falcon,Current,Security,Supported >24 Months,2299
+Windows 11 Enterprise 24H2,24H2,Operating System,12-24 Months,2103
+Windows 10 Enterprise 22H2,22H2,Operating System,Past EOL,1691
+Red Hat OpenShift 4.14,4.14,Container,0-6 Months,530
+Kubernetes 1.28,1.28,Container,Past EOL,502
+Apache Kafka 3.5,3.5,Data Engineering,0-6 Months,499
+Apache Airflow 2.7,2.7,Data Engineering,Past EOL,489
+Informatica PowerCenter 10.5,10.5,Data Engineering,12-24 Months,474
+Azure Data Factory,Cloud,Data Engineering,Supported >24 Months,468
+Docker Desktop 4.x,4.x,Container,Supported >24 Months,461
+Git 2.x,2.x,Version Control,Supported >24 Months,460
+Databricks Runtime 13.3 LTS,13.3 LTS,Data Engineering,0-6 Months,458
+IBM SPSS Statistics 29,29,Analytics,Supported >24 Months,449
+GitHub Enterprise Server 3.12,3.12,Source Control,Past EOL,446
+SQL Server Management Studio 20.x,20.x,Database Tool,Supported >24 Months,442
+Visual Studio 2022 17.x,17.x,IDE,Supported >24 Months,441
+DBeaver 24.x,24.x,Database Tool,Supported >24 Months,441
+PyCharm Professional 2024.x,2024.x,IDE,12-24 Months,439
+Python 3.8,3.8,Runtime,Past EOL,438
+DataGrip 2024.x,2024.x,IDE,12-24 Months,436
+Visual Studio 2019 16.x,16.x,IDE,Supported >24 Months,436
+Anaconda Distribution 2023.x,2023.x,Data Science,6-12 Months,432
+Java SE 21,21,Runtime,Supported >24 Months,429
+GitLab Enterprise Edition 16.x,16.x,Source Control,Past EOL,426
+Tableau Desktop 2024.x,2024.x,Analytics,12-24 Months,426
+SAS Viya 4,4,Analytics,Supported >24 Months,425
+Node.js 16,16,Runtime,Past EOL,423
+Java SE 17,17,Runtime,Supported >24 Months,423
+Power BI Desktop,Current,Analytics,Supported >24 Months,422
+macOS Sonoma 14,14,Operating System,0-6 Months,419
+.NET 6,6,Runtime,Past EOL,418
+Azure DevOps Server 2022,2022,CI/CD,Supported >24 Months,416
+PowerShell 7.4 LTS,7.4 LTS,Runtime,0-6 Months,415
+IntelliJ IDEA 2024.x,2024.x,IDE,12-24 Months,415
+Java SE 11,11,Runtime,0-6 Months,412
+.NET 8,8,Runtime,0-6 Months,412
+Python 3.10,3.10,Runtime,0-6 Months,411
+Bitbucket Data Center 8.x,8.x,Source Control,12-24 Months,405
+Java SE 8,8,Runtime,Supported >24 Months,404
+JupyterLab 4.x,4.x,Data Science,Supported >24 Months,404
+Jenkins 2.401 LTS,2.401 LTS,CI/CD,Past EOL,398
+Python 3.9,3.9,Runtime,Past EOL,398
+Node.js 18,18,Runtime,Past EOL,396
+Visual Studio Code,Current,IDE,Supported >24 Months,393
+Python 3.11,3.11,Runtime,12-24 Months,389
+macOS Sequoia 15,15,Operating System,12-24 Months,382
+macOS Ventura 13,13,Operating System,Past EOL,381
+Node.js 20,20,Runtime,Past EOL,365
+.NET Framework 4.8,4.8,Runtime,Supported >24 Months,360
+Windows Server 2022,2022,Server OS,Supported >24 Months,100
+Windows Server 2016,2016,Server OS,6-12 Months,93
+Ubuntu Server 22.04 LTS,22.04 LTS,Server OS,Supported >24 Months,92
+Windows Server 2019,2019,Server OS,Supported >24 Months,86
+Red Hat Enterprise Linux 9,9,Server OS,Supported >24 Months,83
+IBM MQ,9.3,Middleware,Supported >24 Months,79
+MySQL Community Server 8.0,8.0,Database,Past EOL,79
+Apache HTTP Server,2.4,Web Server,Supported >24 Months,78
+Oracle Database 21c,21c,Database,Past EOL,77
+Microsoft SQL Server 2019,2019,Database,Supported >24 Months,75
+Ubuntu Server 20.04 LTS,20.04 LTS,Server OS,Supported >24 Months,72
+PostgreSQL 15,15,Database,12-24 Months,71
+Microsoft SQL Server 2022,2022,Database,Supported >24 Months,71
+IBM WebSphere Application Server,9.0.5,Middleware,Supported >24 Months,66
+Oracle Database 19c,19c,Database,6-12 Months,66
+Red Hat Enterprise Linux 8,8,Server OS,Supported >24 Months,66
+PostgreSQL 14,14,Database,0-6 Months,65
+NGINX,1.24,Web Server,12-24 Months,63
+MongoDB Enterprise Advanced 6.0,6.0,Database,0-6 Months,61
+Microsoft SQL Server 2016,2016,Database,0-6 Months,55
+Apache Tomcat,10.1,Middleware,Supported >24 Months,55
+Apache Tomcat,9.0,Middleware,6-12 Months,54
+Oracle WebLogic Server,12c,Middleware,12-24 Months,51
