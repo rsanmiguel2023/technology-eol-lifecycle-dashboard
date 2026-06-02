@@ -1,9 +1,260 @@
-EOL_Year,Asset_Type,Region,assets,estimated_replacement_cost
-2026,Laptop,Atlantic Canada,303,449500
-2026,Laptop,DR Site,57,84550
-2026,Laptop,Data Centre,110,163000
-2026,Laptop,GTA Branches,2347,3481550
-2026,Laptop,Ontario Regional,433,642550
-2026,Laptop,Quebec,610,904950
-2026,Laptop,Toronto HQ,76,113150
-2026,Laptop,Western Canada,698,1035100
+Refresh_Window,Asset_Type,Region,assets,estimated_replacement_cost,avg_risk_score
+0-6 months,Access Switch,Atlantic Canada,11,59200,149.5
+0-6 months,Access Switch,DR Site,3,12600,146.33333333333334
+0-6 months,Access Switch,Data Centre,1,7200,110.5
+0-6 months,Access Switch,GTA Branches,67,379400,139.08955223880596
+0-6 months,Access Switch,Ontario Regional,15,80000,133.0
+0-6 months,Access Switch,Quebec,9,48800,129.61111111111111
+0-6 months,Access Switch,Toronto HQ,5,26000,125.9
+0-6 months,Access Switch,Western Canada,26,147200,134.69230769230768
+0-6 months,Core Switch,Data Centre,1,22000,123.5
+0-6 months,Core Switch,GTA Branches,8,176000,133.375
+0-6 months,Core Switch,Ontario Regional,1,22000,127.0
+0-6 months,Core Switch,Western Canada,2,44000,113.5
+0-6 months,Desktop,Atlantic Canada,64,65050,126.453125
+0-6 months,Desktop,DR Site,10,10150,124.8
+0-6 months,Desktop,Data Centre,16,16300,126.34375
+0-6 months,Desktop,GTA Branches,353,357500,130.07082152974505
+0-6 months,Desktop,Ontario Regional,70,70900,128.75714285714287
+0-6 months,Desktop,Quebec,102,103400,129.88725490196077
+0-6 months,Desktop,Toronto HQ,13,13300,125.1923076923077
+0-6 months,Desktop,Western Canada,111,112400,130.5855855855856
+0-6 months,Distribution Switch,Atlantic Canada,1,8500,129.5
+0-6 months,Distribution Switch,GTA Branches,12,102000,136.66666666666666
+0-6 months,Distribution Switch,Quebec,4,34000,146.25
+0-6 months,Distribution Switch,Western Canada,4,34000,138.875
+0-6 months,Laptop,Atlantic Canada,139,235250,130.54676258992805
+0-6 months,Laptop,DR Site,21,37500,125.0952380952381
+0-6 months,Laptop,Data Centre,61,102650,128.87704918032787
+0-6 months,Laptop,GTA Branches,1103,1914400,130.15276518585677
+0-6 months,Laptop,Ontario Regional,185,328850,129.11891891891892
+0-6 months,Laptop,Quebec,270,469600,130.1888888888889
+0-6 months,Laptop,Toronto HQ,46,81000,126.96739130434783
+0-6 months,Laptop,Western Canada,322,558450,127.1055900621118
+0-6 months,Router,GTA Branches,8,73200,137.0625
+0-6 months,Router,Quebec,1,11500,152.0
+0-6 months,Router,Western Canada,2,18300,154.25
+0-6 months,Server,Atlantic Canada,5,64000,140.4
+0-6 months,Server,DR Site,3,31500,147.66666666666666
+0-6 months,Server,Data Centre,1,11500,117.0
+0-6 months,Server,GTA Branches,57,698500,146.87719298245614
+0-6 months,Server,Ontario Regional,7,86000,139.35714285714286
+0-6 months,Server,Quebec,11,128500,147.5909090909091
+0-6 months,Server,Toronto HQ,2,22500,118.75
+0-6 months,Server,Western Canada,18,228000,140.58333333333334
+0-6 months,VDI Endpoint,Atlantic Canada,14,13600,129.64285714285714
+0-6 months,VDI Endpoint,DR Site,3,2700,134.5
+0-6 months,VDI Endpoint,Data Centre,8,8200,122.125
+0-6 months,VDI Endpoint,GTA Branches,125,121900,129.108
+0-6 months,VDI Endpoint,Ontario Regional,38,38400,134.51315789473685
+0-6 months,VDI Endpoint,Quebec,38,38200,131.25
+0-6 months,VDI Endpoint,Toronto HQ,2,2000,117.0
+0-6 months,VDI Endpoint,Western Canada,42,42400,133.0
+0-6 months,Wireless Access Point,Atlantic Canada,5,4750,122.6
+0-6 months,Wireless Access Point,Data Centre,3,3300,139.0
+0-6 months,Wireless Access Point,GTA Branches,39,40650,132.65384615384616
+0-6 months,Wireless Access Point,Ontario Regional,11,11350,140.22727272727272
+0-6 months,Wireless Access Point,Quebec,8,7600,132.6875
+0-6 months,Wireless Access Point,Toronto HQ,1,1250,132.0
+0-6 months,Wireless Access Point,Western Canada,12,13350,140.08333333333334
+0-6 months,Wireless Controller,GTA Branches,1,10500,128.0
+12-24 months,Access Switch,Atlantic Canada,17,101400,97.61764705882354
+12-24 months,Access Switch,DR Site,3,15600,92.33333333333333
+12-24 months,Access Switch,Data Centre,2,10400,100.5
+12-24 months,Access Switch,GTA Branches,115,626000,97.53478260869565
+12-24 months,Access Switch,Ontario Regional,19,103800,101.21052631578948
+12-24 months,Access Switch,Quebec,29,168800,96.82758620689656
+12-24 months,Access Switch,Toronto HQ,4,19800,85.375
+12-24 months,Access Switch,Western Canada,38,203600,100.02631578947368
+12-24 months,Core Switch,Atlantic Canada,1,22000,76.5
+12-24 months,Core Switch,GTA Branches,21,462000,89.95238095238095
+12-24 months,Core Switch,Ontario Regional,3,66000,120.66666666666667
+12-24 months,Core Switch,Quebec,5,110000,88.5
+12-24 months,Core Switch,Toronto HQ,1,22000,124.0
+12-24 months,Core Switch,Western Canada,7,154000,93.71428571428571
+12-24 months,Desktop,Atlantic Canada,85,86550,90.41764705882353
+12-24 months,Desktop,DR Site,12,12250,86.375
+12-24 months,Desktop,Data Centre,31,31400,90.69354838709677
+12-24 months,Desktop,GTA Branches,657,666000,89.51598173515981
+12-24 months,Desktop,Ontario Regional,117,118350,87.44871794871794
+12-24 months,Desktop,Quebec,154,155750,89.58441558441558
+12-24 months,Desktop,Toronto HQ,29,29100,90.37931034482759
+12-24 months,Desktop,Western Canada,183,186050,89.15573770491804
+12-24 months,Distribution Switch,Atlantic Canada,4,34000,113.25
+12-24 months,Distribution Switch,Data Centre,2,17000,85.25
+12-24 months,Distribution Switch,GTA Branches,28,238000,96.85714285714286
+12-24 months,Distribution Switch,Ontario Regional,3,25500,107.16666666666667
+12-24 months,Distribution Switch,Quebec,11,93500,98.68181818181819
+12-24 months,Distribution Switch,Toronto HQ,3,25500,108.33333333333333
+12-24 months,Distribution Switch,Western Canada,10,85000,91.0
+12-24 months,Laptop,Atlantic Canada,249,430750,89.54417670682732
+12-24 months,Laptop,DR Site,63,108400,85.93650793650794
+12-24 months,Laptop,Data Centre,108,183750,87.625
+12-24 months,Laptop,GTA Branches,2003,3481550,88.92236645032452
+12-24 months,Laptop,Ontario Regional,370,640650,88.44459459459459
+12-24 months,Laptop,Quebec,516,895600,90.30813953488372
+12-24 months,Laptop,Toronto HQ,74,123450,88.9054054054054
+12-24 months,Laptop,Western Canada,652,1149850,89.78911042944786
+12-24 months,Router,Atlantic Canada,1,11500,70.5
+12-24 months,Router,GTA Branches,15,130200,102.53333333333333
+12-24 months,Router,Quebec,2,18300,79.75
+12-24 months,Router,Western Canada,6,45500,94.08333333333333
+12-24 months,Server,Atlantic Canada,18,218000,103.69444444444444
+12-24 months,Server,DR Site,2,24000,91.25
+12-24 months,Server,Data Centre,3,39000,104.5
+12-24 months,Server,GTA Branches,106,1303000,102.69811320754717
+12-24 months,Server,Ontario Regional,18,220500,100.44444444444444
+12-24 months,Server,Quebec,19,238000,98.23684210526316
+12-24 months,Server,Toronto HQ,6,73500,105.25
+12-24 months,Server,Western Canada,27,331500,103.22222222222223
+12-24 months,VDI Endpoint,Atlantic Canada,40,40400,91.35
+12-24 months,VDI Endpoint,DR Site,6,5800,83.83333333333333
+12-24 months,VDI Endpoint,Data Centre,15,14700,87.73333333333333
+12-24 months,VDI Endpoint,GTA Branches,265,266100,90.44905660377358
+12-24 months,VDI Endpoint,Ontario Regional,55,54500,89.41818181818182
+12-24 months,VDI Endpoint,Quebec,64,65000,92.1484375
+12-24 months,VDI Endpoint,Toronto HQ,5,5100,92.2
+12-24 months,VDI Endpoint,Western Canada,82,81600,88.7439024390244
+12-24 months,Wireless Access Point,Atlantic Canada,12,12600,93.33333333333333
+12-24 months,Wireless Access Point,DR Site,4,4400,94.875
+12-24 months,Wireless Access Point,Data Centre,7,7100,107.85714285714286
+12-24 months,Wireless Access Point,GTA Branches,76,75350,96.71710526315789
+12-24 months,Wireless Access Point,Ontario Regional,12,11850,95.16666666666667
+12-24 months,Wireless Access Point,Quebec,24,22800,97.10416666666667
+12-24 months,Wireless Access Point,Western Canada,23,23050,94.34782608695652
+12-24 months,Wireless Controller,GTA Branches,2,21000,89.5
+12-24 months,Wireless Controller,Quebec,1,10500,110.0
+12-24 months,Wireless Controller,Western Canada,1,10500,99.5
+6-12 months,Access Switch,Atlantic Canada,10,61000,114.8
+6-12 months,Access Switch,Data Centre,3,19600,104.0
+6-12 months,Access Switch,GTA Branches,79,440800,117.87974683544304
+6-12 months,Access Switch,Ontario Regional,10,58000,114.75
+6-12 months,Access Switch,Quebec,19,99800,116.42105263157895
+6-12 months,Access Switch,Toronto HQ,5,29000,120.8
+6-12 months,Access Switch,Western Canada,19,108800,116.0
+6-12 months,Core Switch,Data Centre,2,44000,126.25
+6-12 months,Core Switch,GTA Branches,6,132000,104.66666666666667
+6-12 months,Core Switch,Quebec,1,22000,134.0
+6-12 months,Core Switch,Western Canada,2,44000,127.0
+6-12 months,Desktop,Atlantic Canada,51,51800,108.83333333333333
+6-12 months,Desktop,DR Site,12,12250,107.70833333333333
+6-12 months,Desktop,Data Centre,20,20600,109.625
+6-12 months,Desktop,GTA Branches,368,371750,108.86413043478261
+6-12 months,Desktop,Ontario Regional,63,64500,108.77777777777777
+6-12 months,Desktop,Quebec,97,98150,110.39690721649484
+6-12 months,Desktop,Toronto HQ,12,12300,110.75
+6-12 months,Desktop,Western Canada,113,114000,106.95575221238938
+6-12 months,Distribution Switch,Atlantic Canada,3,25500,129.0
+6-12 months,Distribution Switch,Data Centre,2,17000,118.75
+6-12 months,Distribution Switch,GTA Branches,10,85000,108.95
+6-12 months,Distribution Switch,Ontario Regional,5,42500,126.6
+6-12 months,Distribution Switch,Quebec,4,34000,104.5
+6-12 months,Distribution Switch,Western Canada,8,68000,118.75
+6-12 months,Laptop,Atlantic Canada,140,249750,110.43214285714286
+6-12 months,Laptop,DR Site,30,57300,108.86666666666666
+6-12 months,Laptop,Data Centre,54,89700,104.57407407407408
+6-12 months,Laptop,GTA Branches,1200,2083250,110.03375
+6-12 months,Laptop,Ontario Regional,211,356950,110.16350710900474
+6-12 months,Laptop,Quebec,324,555300,109.39814814814815
+6-12 months,Laptop,Toronto HQ,44,78400,111.54545454545455
+6-12 months,Laptop,Western Canada,375,649850,109.61333333333333
+6-12 months,Router,GTA Branches,2,23000,102.25
+6-12 months,Router,Ontario Regional,1,6800,126.0
+6-12 months,Router,Quebec,2,18300,129.5
+6-12 months,Router,Western Canada,2,23000,106.0
+6-12 months,Server,Atlantic Canada,10,121500,124.05
+6-12 months,Server,DR Site,4,46500,122.875
+6-12 months,Server,Data Centre,6,71500,133.41666666666666
+6-12 months,Server,GTA Branches,46,577000,124.20652173913044
+6-12 months,Server,Ontario Regional,14,175500,132.82142857142858
+6-12 months,Server,Quebec,13,150500,126.07692307692308
+6-12 months,Server,Western Canada,19,229000,123.57894736842105
+6-12 months,VDI Endpoint,Atlantic Canada,18,18600,111.69444444444444
+6-12 months,VDI Endpoint,DR Site,2,1800,117.75
+6-12 months,VDI Endpoint,Data Centre,8,8200,103.6875
+6-12 months,VDI Endpoint,GTA Branches,139,137500,110.56834532374101
+6-12 months,VDI Endpoint,Ontario Regional,33,32500,109.93939393939394
+6-12 months,VDI Endpoint,Quebec,44,45000,111.60227272727273
+6-12 months,VDI Endpoint,Toronto HQ,8,7800,103.125
+6-12 months,VDI Endpoint,Western Canada,51,50500,107.53921568627452
+6-12 months,Wireless Access Point,Atlantic Canada,7,7250,115.78571428571429
+6-12 months,Wireless Access Point,DR Site,3,3150,117.66666666666667
+6-12 months,Wireless Access Point,Data Centre,3,2850,123.33333333333333
+6-12 months,Wireless Access Point,GTA Branches,52,51500,119.15384615384616
+6-12 months,Wireless Access Point,Ontario Regional,10,10700,118.6
+6-12 months,Wireless Access Point,Quebec,13,12800,115.53846153846153
+6-12 months,Wireless Access Point,Toronto HQ,1,950,104.5
+6-12 months,Wireless Access Point,Western Canada,13,13400,111.3076923076923
+6-12 months,Wireless Controller,DR Site,2,21000,133.25
+6-12 months,Wireless Controller,GTA Branches,4,42000,126.875
+6-12 months,Wireless Controller,Western Canada,1,10500,112.5
+Immediate,Access Switch,Atlantic Canada,9,54800,152.72222222222223
+Immediate,Access Switch,DR Site,3,18600,166.16666666666666
+Immediate,Access Switch,Data Centre,3,16600,168.16666666666666
+Immediate,Access Switch,GTA Branches,95,516000,159.08947368421053
+Immediate,Access Switch,Ontario Regional,23,129600,159.65217391304347
+Immediate,Access Switch,Quebec,15,84000,153.0
+Immediate,Access Switch,Toronto HQ,1,4200,163.5
+Immediate,Access Switch,Western Canada,36,199200,156.95833333333334
+Immediate,Desktop,Atlantic Canada,48,48600,153.34375
+Immediate,Desktop,DR Site,10,10300,154.45
+Immediate,Desktop,Data Centre,16,16100,153.34375
+Immediate,Desktop,GTA Branches,344,347650,150.6497093023256
+Immediate,Desktop,Ontario Regional,63,63950,152.33333333333334
+Immediate,Desktop,Quebec,83,84100,153.14457831325302
+Immediate,Desktop,Toronto HQ,14,14250,146.67857142857142
+Immediate,Desktop,Western Canada,117,118750,150.24786324786325
+Immediate,Distribution Switch,Atlantic Canada,12,102000,153.29166666666666
+Immediate,Distribution Switch,DR Site,3,25500,154.16666666666666
+Immediate,Distribution Switch,Data Centre,1,8500,160.0
+Immediate,Distribution Switch,GTA Branches,64,544000,158.171875
+Immediate,Distribution Switch,Ontario Regional,18,153000,159.86111111111111
+Immediate,Distribution Switch,Quebec,19,161500,158.81578947368422
+Immediate,Distribution Switch,Toronto HQ,2,17000,163.0
+Immediate,Distribution Switch,Western Canada,20,170000,156.375
+Immediate,Firewall,Atlantic Canada,7,191000,153.92857142857142
+Immediate,Firewall,DR Site,1,21000,169.0
+Immediate,Firewall,Data Centre,3,71000,160.66666666666666
+Immediate,Firewall,GTA Branches,76,1672000,157.5921052631579
+Immediate,Firewall,Ontario Regional,14,282000,161.39285714285714
+Immediate,Firewall,Quebec,13,357000,157.65384615384616
+Immediate,Firewall,Toronto HQ,1,25000,172.5
+Immediate,Firewall,Western Canada,35,943000,152.11428571428573
+Immediate,Laptop,Atlantic Canada,139,240900,150.64028776978418
+Immediate,Laptop,DR Site,32,57950,149.765625
+Immediate,Laptop,Data Centre,45,81700,155.62222222222223
+Immediate,Laptop,GTA Branches,1078,1909750,150.5496289424861
+Immediate,Laptop,Ontario Regional,187,318750,150.89304812834226
+Immediate,Laptop,Quebec,243,420800,150.78189300411523
+Immediate,Laptop,Toronto HQ,39,69150,149.44871794871796
+Immediate,Laptop,Western Canada,322,558050,151.05434782608697
+Immediate,Router,Atlantic Canada,14,123400,155.21428571428572
+Immediate,Router,Data Centre,5,48100,146.1
+Immediate,Router,GTA Branches,95,885700,156.38947368421051
+Immediate,Router,Ontario Regional,16,122900,152.5625
+Immediate,Router,Quebec,24,224300,158.3125
+Immediate,Router,Toronto HQ,4,41300,165.75
+Immediate,Router,Western Canada,27,244700,158.22222222222223
+Immediate,Server,Atlantic Canada,56,694500,160.95535714285714
+Immediate,Server,DR Site,8,98500,162.9375
+Immediate,Server,Data Centre,23,285000,163.1086956521739
+Immediate,Server,GTA Branches,496,6077000,164.97379032258064
+Immediate,Server,Ontario Regional,64,759500,163.296875
+Immediate,Server,Quebec,116,1408500,161.54741379310346
+Immediate,Server,Toronto HQ,18,213500,154.22222222222223
+Immediate,Server,Western Canada,146,1796500,163.67465753424656
+Immediate,Storage,Atlantic Canada,3,265000,165.0
+Immediate,Storage,DR Site,1,95000,141.5
+Immediate,Storage,Data Centre,1,90000,174.5
+Immediate,Storage,GTA Branches,19,1735000,148.23684210526315
+Immediate,Storage,Ontario Regional,5,450000,163.7
+Immediate,Storage,Quebec,4,365000,151.75
+Immediate,Storage,Western Canada,7,640000,144.64285714285714
+Immediate,Wireless Access Point,Atlantic Canada,7,7550,155.07142857142858
+Immediate,Wireless Access Point,DR Site,6,6150,148.08333333333334
+Immediate,Wireless Access Point,Data Centre,4,3800,167.625
+Immediate,Wireless Access Point,GTA Branches,108,108600,157.53240740740742
+Immediate,Wireless Access Point,Ontario Regional,26,24700,159.59615384615384
+Immediate,Wireless Access Point,Quebec,26,25000,159.59615384615384
+Immediate,Wireless Access Point,Toronto HQ,3,3150,153.66666666666666
+Immediate,Wireless Access Point,Western Canada,48,50100,155.79166666666666
