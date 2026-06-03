@@ -1,0 +1,28 @@
+Asset_Type,Lifecycle_Status,Asset_Count,Replacement_Cost
+Access Switch,Expiring in 12 Months,285,1482000
+Access Switch,Past EOL,281,2191800
+Access Switch,Supported,284,1420000
+Core Switch,Expiring in 36 Months,70,4550000
+Desktop,Expiring in 12 Months,1207,1146650
+Desktop,Expiring in 24 Months,1092,1146600
+Desktop,Past EOL,1072,1072000
+Desktop,Supported,1129,1241900
+Distribution Switch,Expiring in 12 Months,125,2625000
+Distribution Switch,Supported,135,1890000
+Firewall,Expiring in 24 Months,25,225000
+Firewall,Expiring in 36 Months,40,880000
+Firewall,Past EOL,75,2560000
+Laptop,Expiring in 12 Months,5305,7423900
+Laptop,Expiring in 24 Months,1715,2229500
+Laptop,Expiring in 36 Months,5292,9332800
+Laptop,Past EOL,1688,2194400
+Router,Past EOL,240,3773000
+Server,Expiring in 12 Months,615,9517500
+Server,Past EOL,594,9225000
+Server,Supported,291,6111000
+Storage,Expiring in 12 Months,32,3040000
+Storage,Expiring in 24 Months,58,5060000
+VDI Endpoint,Expiring in 12 Months,768,384000
+VDI Endpoint,Past EOL,732,329400
+Wireless AP,Expiring in 24 Months,477,427850
+Wireless AP,Supported,143,135850

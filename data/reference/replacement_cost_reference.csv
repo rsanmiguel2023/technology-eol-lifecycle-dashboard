@@ -1,0 +1,40 @@
+Asset_Type,Manufacturer,Model,Standard_Replacement_Cost
+Laptop,Dell,Latitude 5420,1250
+Laptop,Dell,Latitude 5430,1350
+Laptop,Dell,Latitude 7440,1650
+Laptop,Lenovo,ThinkPad T14 Gen 2,1300
+Laptop,Lenovo,ThinkPad T14 Gen 3,1450
+Laptop,HP,EliteBook 840 G8,1300
+Laptop,HP,EliteBook 850 G9,1500
+Laptop,Apple,MacBook Pro M2,2300
+Desktop,Dell,OptiPlex 7090,950
+Desktop,Dell,OptiPlex 7010,1050
+Desktop,HP,EliteDesk 800 G9,1100
+Desktop,Lenovo,ThinkCentre M90q,1000
+Server,Dell,PowerEdge R650,12500
+Server,Dell,PowerEdge R750,18500
+Server,HPE,ProLiant DL380 Gen10,16000
+Server,HPE,ProLiant DL380 Gen11,21000
+Server,Lenovo,ThinkSystem SR650,15000
+Access Switch,Cisco,Catalyst 9200,5200
+Access Switch,Cisco,Catalyst 9300,7800
+Distribution Switch,Cisco,Catalyst 9500,21000
+Core Switch,Cisco,Catalyst 9600,65000
+Access Switch,Aruba,Aruba 6200F,5000
+Distribution Switch,Aruba,Aruba 6300M,14000
+Router,Cisco,ISR 4331,6500
+Router,Cisco,ISR 4451,12500
+Router,Cisco,ASR 1001-X,28000
+Firewall,Palo Alto Networks,PA-3220,22000
+Firewall,Palo Alto Networks,PA-5220,48000
+Firewall,Fortinet,FortiGate 200F,9000
+Firewall,Fortinet,FortiGate 600F,22000
+Wireless AP,Cisco,Catalyst 9120AX,850
+Wireless AP,Cisco,Catalyst 9130AX,1050
+Wireless AP,Aruba,AP-515,800
+Wireless AP,Aruba,AP-635,950
+Storage,Dell EMC,PowerStore 500T,85000
+Storage,NetApp,AFF A400,90000
+Storage,Pure Storage,FlashArray X50,95000
+VDI Endpoint,Dell,Wyse 5070 Thin Client,450
+VDI Endpoint,HP,t640 Thin Client,500

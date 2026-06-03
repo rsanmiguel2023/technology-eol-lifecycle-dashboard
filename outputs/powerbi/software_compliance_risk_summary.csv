@@ -1,0 +1,39 @@
+Software_Name,Software_Version,Publisher,Software_Category,Software_EOL_Status,Software_Compliance_Risk,Installation_Count,Asset_Count
+Adobe Acrobat Pro 2020,20,Adobe,Productivity,Unsupported,High,12670,9860
+Google Chrome,124,Google,Browser,Unsupported,High,12607,9815
+Microsoft Teams Classic,1.6,Microsoft,Collaboration,Unsupported,High,12565,9792
+Windows 10 Enterprise,22H2,Microsoft,Operating System,Unsupported,High,12533,9694
+OneDrive,24.x,Microsoft,Productivity,Unsupported,High,12515,9740
+Firefox ESR,115,Mozilla,Browser,Unsupported,High,12412,9701
+Node.js,16,OpenJS Foundation,Development,Unsupported,High,1156,1074
+Python,3.8,Python Software Foundation,Development,Unsupported,High,1123,1031
+Jenkins,2.401 LTS,Jenkins,DevOps,Unsupported,High,1115,1037
+Docker Desktop,4.28,Docker,Development,Unsupported,High,1109,1026
+Visual Studio Code,1.90,Microsoft,Development,Unsupported,High,1105,1023
+Git,2.43,Git,Development,Unsupported,High,1095,998
+IntelliJ IDEA,2023.3,JetBrains,Development,Unsupported,High,1091,1006
+Node.js,18,OpenJS Foundation,Development,Unsupported,High,1085,996
+Power BI Desktop,2024,Microsoft,Analytics,Unsupported,High,1083,999
+Bitbucket Data Center,8,Atlassian,DevOps,Unsupported,High,1080,985
+DBeaver,23,DBeaver Corp,Development,Unsupported,High,1079,992
+Tableau Desktop,2023.3,Tableau,Analytics,Unsupported,High,1050,966
+.NET,6,Microsoft,Development,Unsupported,High,1048,960
+Anaconda Distribution,2023.09,Anaconda,Analytics,Unsupported,High,1048,968
+Kubernetes,1.27,Kubernetes,Container Platform,Unsupported,High,539,468
+IBM MQ,9.2,IBM,Middleware,Unsupported,High,510,448
+Microsoft 365 Apps for Enterprise,Current Channel,Microsoft,Productivity,Support Ending in 12 Months,Medium,12354,9654
+Windows 11 Enterprise,23H2,Microsoft,Operating System,Support Ending in 12 Months,Medium,12344,9669
+.NET,8,Microsoft,Development,Support Ending in 12 Months,Medium,1132,1051
+Python,3.10,Python Software Foundation,Development,Support Ending in 12 Months,Medium,1108,1001
+IBM SPSS Statistics,29,IBM,Analytics,Support Ending in 24 Months,Medium,1095,992
+Windows Server 2016,1607,Microsoft,Server OS,Support Ending in 12 Months,Medium,547,465
+SQL Server,2016,Microsoft,Database,Support Ending in 12 Months,Medium,534,464
+PostgreSQL,14,PostgreSQL Global Development Group,Database,Support Ending in 12 Months,Medium,532,453
+Oracle Database,19c,Oracle,Database,Support Ending in 12 Months,Medium,506,439
+Apache Tomcat,9,Apache,Middleware,Support Ending in 12 Months,Medium,485,426
+SQL Server,2019,Microsoft,Database,Supported,Low,548,467
+Ubuntu Server,20.04 LTS,Canonical,Server OS,Supported,Low,528,442
+Windows Server 2019,1809,Microsoft,Server OS,Supported,Low,515,452
+Windows Server 2022,21H2,Microsoft,Server OS,Supported,Low,508,439
+Red Hat Enterprise Linux,9,Red Hat,Server OS,Supported,Low,504,433
+Red Hat Enterprise Linux,8,Red Hat,Server OS,Supported,Low,495,441

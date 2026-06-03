@@ -1,0 +1,1201 @@
+Resource_ID,Cloud_Platform,Service_Name,Subscription_ID,Resource_Group,Creation_Date,Business_Unit_ID,Environment,Resource_Type
+CLOUD000001,AWS,RDS,SUB-001,rg-000,2021-02-19,BU009,Production,Container
+CLOUD000002,AWS,Azure Kubernetes Service,SUB-002,rg-001,2021-06-29,BU003,Production,Container
+CLOUD000003,AWS,Azure Kubernetes Service,SUB-003,rg-002,2019-02-23,BU001,Production,VM
+CLOUD000004,AWS,EKS,SUB-004,rg-003,2019-07-24,BU002,Non-Production,VM
+CLOUD000005,AWS,EKS,SUB-005,rg-004,2018-12-19,BU002,Production,VM
+CLOUD000006,Azure,EKS,SUB-006,rg-005,2021-10-09,BU002,Production,Data Pipeline
+CLOUD000007,Azure,Azure Data Factory,SUB-007,rg-006,2022-04-09,BU002,Non-Production,Database
+CLOUD000008,AWS,S3,SUB-008,rg-007,2019-10-19,BU002,Non-Production,Data Pipeline
+CLOUD000009,Azure,RDS,SUB-009,rg-008,2026-02-09,BU007,Production,VM
+CLOUD000010,Azure,EKS,SUB-010,rg-009,2018-04-10,BU005,Production,Database
+CLOUD000011,Azure,RDS,SUB-011,rg-010,2026-04-10,BU002,Production,VM
+CLOUD000012,Azure,Azure SQL Database,SUB-012,rg-011,2018-02-28,BU002,Production,Container
+CLOUD000013,Azure,RDS,SUB-013,rg-012,2018-12-25,BU002,Production,Storage
+CLOUD000014,Azure,EKS,SUB-014,rg-013,2025-09-25,BU005,Non-Production,VM
+CLOUD000015,Azure,Azure SQL Database,SUB-015,rg-014,2024-04-20,BU001,Non-Production,Storage
+CLOUD000016,AWS,Virtual Machines,SUB-016,rg-015,2025-04-20,BU001,Production,Container
+CLOUD000017,Azure,Azure SQL Database,SUB-017,rg-016,2025-06-05,BU002,DR,VM
+CLOUD000018,AWS,S3,SUB-018,rg-017,2022-05-02,BU005,Production,Data Pipeline
+CLOUD000019,Azure,Virtual Machines,SUB-019,rg-018,2018-06-01,BU010,Production,Database
+CLOUD000020,Azure,Azure Kubernetes Service,SUB-020,rg-019,2023-02-23,BU001,Production,VM
+CLOUD000021,Azure,EKS,SUB-021,rg-020,2019-08-19,BU002,Production,VM
+CLOUD000022,Azure,RDS,SUB-022,rg-021,2021-01-19,BU007,Production,Database
+CLOUD000023,Azure,EKS,SUB-023,rg-022,2021-05-19,BU002,Non-Production,Container
+CLOUD000024,AWS,S3,SUB-024,rg-023,2024-02-26,BU003,DR,Container
+CLOUD000025,AWS,EKS,SUB-025,rg-024,2022-03-13,BU002,DR,Data Pipeline
+CLOUD000026,Azure,Azure Data Factory,SUB-026,rg-025,2018-09-18,BU005,Production,Container
+CLOUD000027,Azure,Virtual Machines,SUB-027,rg-026,2018-05-15,BU001,Non-Production,Data Pipeline
+CLOUD000028,Azure,EC2,SUB-028,rg-027,2025-06-04,BU002,Production,Data Pipeline
+CLOUD000029,Azure,S3,SUB-029,rg-028,2026-04-21,BU007,Production,VM
+CLOUD000030,Azure,Azure Kubernetes Service,SUB-030,rg-029,2024-12-04,BU003,Non-Production,Container
+CLOUD000031,AWS,Azure SQL Database,SUB-031,rg-030,2018-07-06,BU005,Non-Production,Data Pipeline
+CLOUD000032,AWS,EC2,SUB-032,rg-031,2025-10-14,BU008,Production,VM
+CLOUD000033,Azure,Azure SQL Database,SUB-033,rg-032,2021-08-13,BU002,Production,Storage
+CLOUD000034,AWS,Azure Data Factory,SUB-034,rg-033,2021-06-07,BU003,Non-Production,Storage
+CLOUD000035,AWS,RDS,SUB-035,rg-034,2026-01-26,BU010,Production,Storage
+CLOUD000036,Azure,EKS,SUB-036,rg-035,2025-09-12,BU002,DR,Database
+CLOUD000037,Azure,Azure Data Factory,SUB-037,rg-036,2018-12-29,BU002,Production,Storage
+CLOUD000038,Azure,RDS,SUB-038,rg-037,2024-01-14,BU003,Production,Storage
+CLOUD000039,AWS,Azure Kubernetes Service,SUB-039,rg-038,2022-01-27,BU001,Production,Container
+CLOUD000040,Azure,Azure Kubernetes Service,SUB-040,rg-039,2019-10-30,BU002,DR,Data Pipeline
+CLOUD000041,Azure,Virtual Machines,SUB-001,rg-040,2021-08-13,BU001,Production,Storage
+CLOUD000042,AWS,S3,SUB-002,rg-041,2018-04-02,BU003,Production,Database
+CLOUD000043,Azure,EKS,SUB-003,rg-042,2025-04-05,BU002,Production,VM
+CLOUD000044,Azure,Azure Data Factory,SUB-004,rg-043,2019-01-27,BU008,Production,VM
+CLOUD000045,Azure,Virtual Machines,SUB-005,rg-044,2020-04-19,BU002,Non-Production,Data Pipeline
+CLOUD000046,Azure,Virtual Machines,SUB-006,rg-045,2019-01-01,BU001,Non-Production,Data Pipeline
+CLOUD000047,Azure,S3,SUB-007,rg-046,2022-11-11,BU002,Production,Database
+CLOUD000048,AWS,S3,SUB-008,rg-047,2020-01-25,BU002,Production,Container
+CLOUD000049,AWS,S3,SUB-009,rg-048,2025-12-04,BU010,Non-Production,Database
+CLOUD000050,Azure,RDS,SUB-010,rg-049,2021-09-28,BU002,Non-Production,Data Pipeline
+CLOUD000051,Azure,Azure Kubernetes Service,SUB-011,rg-050,2019-09-24,BU002,Non-Production,VM
+CLOUD000052,Azure,Virtual Machines,SUB-012,rg-051,2021-03-23,BU009,Non-Production,Container
+CLOUD000053,Azure,Virtual Machines,SUB-013,rg-052,2018-06-30,BU005,Production,Data Pipeline
+CLOUD000054,Azure,Azure SQL Database,SUB-014,rg-053,2018-07-01,BU002,Non-Production,Data Pipeline
+CLOUD000055,Azure,S3,SUB-015,rg-054,2019-10-10,BU002,Non-Production,Container
+CLOUD000056,Azure,Azure SQL Database,SUB-016,rg-055,2018-07-05,BU002,Production,Storage
+CLOUD000057,AWS,Virtual Machines,SUB-017,rg-056,2022-04-06,BU002,Production,Data Pipeline
+CLOUD000058,AWS,Virtual Machines,SUB-018,rg-057,2019-11-13,BU005,Production,Container
+CLOUD000059,AWS,RDS,SUB-019,rg-058,2018-04-29,BU009,Production,Database
+CLOUD000060,Azure,EC2,SUB-020,rg-059,2019-11-02,BU006,Production,Database
+CLOUD000061,Azure,RDS,SUB-021,rg-060,2020-07-31,BU002,Production,Container
+CLOUD000062,AWS,RDS,SUB-022,rg-061,2022-11-10,BU002,Production,Container
+CLOUD000063,Azure,Azure Data Factory,SUB-023,rg-062,2022-01-23,BU001,Production,Container
+CLOUD000064,AWS,RDS,SUB-024,rg-063,2019-03-03,BU002,Production,Container
+CLOUD000065,AWS,RDS,SUB-025,rg-064,2023-07-27,BU007,Production,Database
+CLOUD000066,Azure,Azure Kubernetes Service,SUB-026,rg-065,2020-03-22,BU007,Production,Data Pipeline
+CLOUD000067,AWS,RDS,SUB-027,rg-066,2022-06-05,BU002,Production,Database
+CLOUD000068,AWS,Virtual Machines,SUB-028,rg-067,2024-08-18,BU002,Production,Container
+CLOUD000069,AWS,EKS,SUB-029,rg-068,2019-09-22,BU002,Production,Data Pipeline
+CLOUD000070,Azure,RDS,SUB-030,rg-069,2025-05-28,BU003,Production,Container
+CLOUD000071,AWS,EKS,SUB-031,rg-070,2019-01-29,BU007,Production,VM
+CLOUD000072,Azure,Azure Kubernetes Service,SUB-032,rg-071,2022-12-22,BU009,Production,Storage
+CLOUD000073,AWS,Azure Kubernetes Service,SUB-033,rg-072,2021-03-22,BU002,Production,Storage
+CLOUD000074,AWS,Azure Data Factory,SUB-034,rg-073,2025-09-24,BU009,Production,Container
+CLOUD000075,Azure,Azure SQL Database,SUB-035,rg-074,2021-04-14,BU007,Non-Production,Container
+CLOUD000076,Azure,S3,SUB-036,rg-075,2020-06-23,BU005,Production,Data Pipeline
+CLOUD000077,Azure,Azure SQL Database,SUB-037,rg-076,2022-01-23,BU002,Production,Storage
+CLOUD000078,Azure,RDS,SUB-038,rg-077,2022-10-12,BU002,Production,Data Pipeline
+CLOUD000079,Azure,Azure SQL Database,SUB-039,rg-078,2020-01-05,BU002,Production,VM
+CLOUD000080,AWS,Azure SQL Database,SUB-040,rg-079,2023-05-11,BU002,Production,Data Pipeline
+CLOUD000081,Azure,Azure Data Factory,SUB-001,rg-080,2018-08-23,BU002,Non-Production,VM
+CLOUD000082,Azure,Virtual Machines,SUB-002,rg-081,2021-06-17,BU010,DR,Data Pipeline
+CLOUD000083,AWS,S3,SUB-003,rg-082,2024-03-04,BU002,Production,Database
+CLOUD000084,Azure,EKS,SUB-004,rg-083,2018-02-01,BU002,Production,VM
+CLOUD000085,AWS,Azure Data Factory,SUB-005,rg-084,2025-12-22,BU001,Production,Storage
+CLOUD000086,Azure,S3,SUB-006,rg-085,2023-09-27,BU006,Production,VM
+CLOUD000087,Azure,RDS,SUB-007,rg-086,2024-03-17,BU003,Non-Production,Storage
+CLOUD000088,Azure,Virtual Machines,SUB-008,rg-087,2026-01-16,BU002,Production,Data Pipeline
+CLOUD000089,AWS,RDS,SUB-009,rg-088,2020-10-07,BU001,Production,Database
+CLOUD000090,AWS,Azure Data Factory,SUB-010,rg-089,2024-09-30,BU001,Production,Data Pipeline
+CLOUD000091,AWS,EKS,SUB-011,rg-090,2020-12-01,BU005,Non-Production,Container
+CLOUD000092,Azure,Azure Kubernetes Service,SUB-012,rg-091,2018-08-05,BU005,Production,VM
+CLOUD000093,Azure,EKS,SUB-013,rg-092,2020-06-02,BU010,Non-Production,VM
+CLOUD000094,Azure,Azure Kubernetes Service,SUB-014,rg-093,2025-05-16,BU005,Production,Database
+CLOUD000095,Azure,RDS,SUB-015,rg-094,2024-07-22,BU002,Non-Production,Storage
+CLOUD000096,AWS,Virtual Machines,SUB-016,rg-095,2023-08-23,BU006,Production,Storage
+CLOUD000097,Azure,Virtual Machines,SUB-017,rg-096,2022-08-04,BU002,Non-Production,Container
+CLOUD000098,Azure,Virtual Machines,SUB-018,rg-097,2024-05-11,BU002,Non-Production,Storage
+CLOUD000099,Azure,Azure Kubernetes Service,SUB-019,rg-098,2022-03-30,BU002,Non-Production,Storage
+CLOUD000100,Azure,S3,SUB-020,rg-099,2024-06-21,BU002,Non-Production,Data Pipeline
+CLOUD000101,Azure,EC2,SUB-021,rg-100,2020-08-03,BU005,DR,VM
+CLOUD000102,AWS,Azure Kubernetes Service,SUB-022,rg-101,2025-01-23,BU001,Production,VM
+CLOUD000103,Azure,Virtual Machines,SUB-023,rg-102,2021-10-01,BU003,Production,Storage
+CLOUD000104,AWS,S3,SUB-024,rg-103,2023-03-15,BU001,DR,Storage
+CLOUD000105,AWS,Virtual Machines,SUB-025,rg-104,2023-12-21,BU002,Non-Production,Storage
+CLOUD000106,AWS,EKS,SUB-026,rg-105,2022-05-28,BU007,Production,Container
+CLOUD000107,Azure,EKS,SUB-027,rg-106,2018-07-20,BU002,Production,Database
+CLOUD000108,Azure,RDS,SUB-028,rg-107,2025-08-30,BU006,Production,VM
+CLOUD000109,Azure,Azure Data Factory,SUB-029,rg-108,2024-06-24,BU002,Production,Data Pipeline
+CLOUD000110,AWS,EC2,SUB-030,rg-109,2021-04-10,BU005,Production,Storage
+CLOUD000111,Azure,Virtual Machines,SUB-031,rg-110,2020-09-18,BU002,DR,Data Pipeline
+CLOUD000112,Azure,Virtual Machines,SUB-032,rg-111,2020-04-20,BU007,Production,Container
+CLOUD000113,AWS,S3,SUB-033,rg-112,2025-11-19,BU002,Non-Production,VM
+CLOUD000114,Azure,Azure Data Factory,SUB-034,rg-113,2020-08-12,BU010,Production,Data Pipeline
+CLOUD000115,Azure,RDS,SUB-035,rg-114,2020-07-26,BU006,Production,VM
+CLOUD000116,AWS,Azure SQL Database,SUB-036,rg-115,2019-05-01,BU002,Production,Container
+CLOUD000117,AWS,Azure Data Factory,SUB-037,rg-116,2024-05-20,BU001,Non-Production,Database
+CLOUD000118,Azure,Azure SQL Database,SUB-038,rg-117,2020-01-09,BU009,Non-Production,Container
+CLOUD000119,Azure,S3,SUB-039,rg-118,2019-03-02,BU008,Production,VM
+CLOUD000120,Azure,EC2,SUB-040,rg-119,2021-12-12,BU002,Non-Production,Database
+CLOUD000121,AWS,S3,SUB-001,rg-120,2021-11-25,BU003,Production,Container
+CLOUD000122,Azure,RDS,SUB-002,rg-121,2024-10-20,BU006,Production,Container
+CLOUD000123,Azure,RDS,SUB-003,rg-122,2023-08-10,BU001,Production,Database
+CLOUD000124,Azure,Azure Kubernetes Service,SUB-004,rg-123,2024-05-07,BU002,Production,Database
+CLOUD000125,Azure,Azure Data Factory,SUB-005,rg-124,2018-04-04,BU002,Production,Container
+CLOUD000126,AWS,EC2,SUB-006,rg-125,2024-08-10,BU006,DR,Container
+CLOUD000127,Azure,Virtual Machines,SUB-007,rg-126,2024-02-17,BU001,Non-Production,Storage
+CLOUD000128,Azure,EKS,SUB-008,rg-127,2019-01-13,BU002,Production,VM
+CLOUD000129,Azure,EKS,SUB-009,rg-128,2023-11-01,BU001,Production,VM
+CLOUD000130,AWS,Virtual Machines,SUB-010,rg-129,2022-02-08,BU002,Production,VM
+CLOUD000131,Azure,S3,SUB-011,rg-130,2023-11-12,BU002,Non-Production,Data Pipeline
+CLOUD000132,Azure,EKS,SUB-012,rg-131,2018-03-02,BU002,Production,Container
+CLOUD000133,AWS,EKS,SUB-013,rg-132,2021-01-05,BU005,Production,Data Pipeline
+CLOUD000134,AWS,EKS,SUB-014,rg-133,2021-03-27,BU005,Non-Production,Data Pipeline
+CLOUD000135,Azure,Azure Data Factory,SUB-015,rg-134,2026-03-11,BU001,Production,Database
+CLOUD000136,AWS,S3,SUB-016,rg-135,2024-08-10,BU001,Production,VM
+CLOUD000137,AWS,S3,SUB-017,rg-136,2018-01-01,BU002,Production,Storage
+CLOUD000138,Azure,EC2,SUB-018,rg-137,2019-04-16,BU002,Production,Container
+CLOUD000139,Azure,Virtual Machines,SUB-019,rg-138,2018-07-03,BU001,Production,Data Pipeline
+CLOUD000140,Azure,Azure Kubernetes Service,SUB-020,rg-139,2025-03-07,BU003,Production,Data Pipeline
+CLOUD000141,Azure,Azure SQL Database,SUB-021,rg-140,2020-03-19,BU002,Production,Container
+CLOUD000142,Azure,Virtual Machines,SUB-022,rg-141,2024-09-26,BU009,Production,Data Pipeline
+CLOUD000143,Azure,RDS,SUB-023,rg-142,2026-03-08,BU004,Production,VM
+CLOUD000144,AWS,Azure SQL Database,SUB-024,rg-143,2021-12-22,BU002,Non-Production,Database
+CLOUD000145,Azure,S3,SUB-025,rg-144,2024-01-02,BU002,Non-Production,Container
+CLOUD000146,AWS,Virtual Machines,SUB-026,rg-145,2025-01-29,BU001,Production,Storage
+CLOUD000147,AWS,EKS,SUB-027,rg-146,2021-05-02,BU001,Production,Database
+CLOUD000148,Azure,Azure Data Factory,SUB-028,rg-147,2018-03-28,BU001,Production,Storage
+CLOUD000149,Azure,EKS,SUB-029,rg-148,2021-01-10,BU003,Production,VM
+CLOUD000150,Azure,S3,SUB-030,rg-149,2018-06-18,BU001,Non-Production,Data Pipeline
+CLOUD000151,Azure,Azure SQL Database,SUB-031,rg-000,2021-05-17,BU002,Production,Data Pipeline
+CLOUD000152,AWS,S3,SUB-032,rg-001,2019-09-19,BU002,Production,Storage
+CLOUD000153,Azure,EKS,SUB-033,rg-002,2025-09-02,BU002,Non-Production,Data Pipeline
+CLOUD000154,Azure,Azure Kubernetes Service,SUB-034,rg-003,2025-10-31,BU010,DR,Data Pipeline
+CLOUD000155,Azure,Azure SQL Database,SUB-035,rg-004,2019-09-09,BU002,DR,Data Pipeline
+CLOUD000156,Azure,Azure SQL Database,SUB-036,rg-005,2025-01-24,BU006,Production,Database
+CLOUD000157,AWS,Azure SQL Database,SUB-037,rg-006,2024-03-12,BU007,Production,Database
+CLOUD000158,Azure,EC2,SUB-038,rg-007,2024-10-12,BU002,Production,Storage
+CLOUD000159,Azure,Azure Data Factory,SUB-039,rg-008,2019-12-28,BU009,Non-Production,Storage
+CLOUD000160,Azure,EKS,SUB-040,rg-009,2025-10-16,BU002,Production,Database
+CLOUD000161,Azure,S3,SUB-001,rg-010,2019-09-11,BU002,Production,Data Pipeline
+CLOUD000162,Azure,Azure Data Factory,SUB-002,rg-011,2018-04-03,BU002,Non-Production,VM
+CLOUD000163,Azure,Azure Data Factory,SUB-003,rg-012,2026-04-23,BU009,Production,Storage
+CLOUD000164,AWS,Azure Data Factory,SUB-004,rg-013,2018-06-12,BU002,Non-Production,Database
+CLOUD000165,Azure,S3,SUB-005,rg-014,2020-12-02,BU003,Non-Production,Container
+CLOUD000166,Azure,EC2,SUB-006,rg-015,2019-12-13,BU002,Production,Data Pipeline
+CLOUD000167,Azure,Virtual Machines,SUB-007,rg-016,2025-05-30,BU002,Production,Database
+CLOUD000168,Azure,RDS,SUB-008,rg-017,2020-11-01,BU007,Production,Data Pipeline
+CLOUD000169,AWS,Azure SQL Database,SUB-009,rg-018,2022-09-28,BU003,Production,Container
+CLOUD000170,Azure,EC2,SUB-010,rg-019,2018-07-20,BU002,Non-Production,VM
+CLOUD000171,Azure,Azure Kubernetes Service,SUB-011,rg-020,2023-09-23,BU002,Production,Storage
+CLOUD000172,AWS,Azure Data Factory,SUB-012,rg-021,2018-10-24,BU002,DR,Container
+CLOUD000173,Azure,Virtual Machines,SUB-013,rg-022,2019-12-21,BU002,Production,VM
+CLOUD000174,AWS,Azure SQL Database,SUB-014,rg-023,2025-08-03,BU002,Production,Storage
+CLOUD000175,Azure,Azure Data Factory,SUB-015,rg-024,2018-01-06,BU010,Non-Production,Data Pipeline
+CLOUD000176,Azure,EKS,SUB-016,rg-025,2020-09-03,BU002,Production,Database
+CLOUD000177,Azure,Azure SQL Database,SUB-017,rg-026,2024-12-11,BU002,Production,Database
+CLOUD000178,AWS,Azure Data Factory,SUB-018,rg-027,2020-02-26,BU010,Production,Database
+CLOUD000179,Azure,EC2,SUB-019,rg-028,2018-04-30,BU003,Production,Database
+CLOUD000180,Azure,S3,SUB-020,rg-029,2019-12-23,BU002,Production,Container
+CLOUD000181,Azure,Virtual Machines,SUB-021,rg-030,2021-01-02,BU002,Production,Container
+CLOUD000182,Azure,EC2,SUB-022,rg-031,2024-06-02,BU002,Production,VM
+CLOUD000183,Azure,Azure SQL Database,SUB-023,rg-032,2023-02-14,BU002,Non-Production,Storage
+CLOUD000184,Azure,Virtual Machines,SUB-024,rg-033,2023-09-26,BU002,Production,Container
+CLOUD000185,Azure,Azure Data Factory,SUB-025,rg-034,2018-05-09,BU004,Production,Container
+CLOUD000186,Azure,EKS,SUB-026,rg-035,2018-05-26,BU009,Production,Data Pipeline
+CLOUD000187,AWS,Virtual Machines,SUB-027,rg-036,2018-12-31,BU010,Production,VM
+CLOUD000188,AWS,Azure Kubernetes Service,SUB-028,rg-037,2025-04-23,BU002,Non-Production,Storage
+CLOUD000189,Azure,Azure Kubernetes Service,SUB-029,rg-038,2018-05-19,BU007,Production,VM
+CLOUD000190,AWS,RDS,SUB-030,rg-039,2020-06-01,BU010,Non-Production,Container
+CLOUD000191,Azure,RDS,SUB-031,rg-040,2024-04-24,BU001,Production,Database
+CLOUD000192,Azure,Azure Data Factory,SUB-032,rg-041,2018-12-14,BU004,Production,Data Pipeline
+CLOUD000193,Azure,Azure Data Factory,SUB-033,rg-042,2022-06-04,BU004,Production,Container
+CLOUD000194,AWS,EC2,SUB-034,rg-043,2023-07-30,BU002,Non-Production,Database
+CLOUD000195,Azure,Azure SQL Database,SUB-035,rg-044,2020-03-08,BU006,Production,Container
+CLOUD000196,AWS,Azure Kubernetes Service,SUB-036,rg-045,2023-03-31,BU008,Non-Production,Data Pipeline
+CLOUD000197,Azure,S3,SUB-037,rg-046,2026-04-28,BU005,Production,Database
+CLOUD000198,AWS,Azure Kubernetes Service,SUB-038,rg-047,2023-01-01,BU004,Production,Container
+CLOUD000199,Azure,S3,SUB-039,rg-048,2023-12-31,BU002,Production,Database
+CLOUD000200,Azure,EKS,SUB-040,rg-049,2024-12-18,BU002,Non-Production,VM
+CLOUD000201,Azure,EC2,SUB-001,rg-050,2019-12-06,BU009,Production,Database
+CLOUD000202,AWS,Azure SQL Database,SUB-002,rg-051,2026-04-20,BU006,Non-Production,Storage
+CLOUD000203,Azure,Azure Data Factory,SUB-003,rg-052,2021-04-21,BU001,Production,Container
+CLOUD000204,AWS,Azure Kubernetes Service,SUB-004,rg-053,2025-04-21,BU005,Production,Data Pipeline
+CLOUD000205,AWS,Azure SQL Database,SUB-005,rg-054,2023-09-05,BU003,Production,Container
+CLOUD000206,Azure,Azure SQL Database,SUB-006,rg-055,2023-05-23,BU006,Production,Container
+CLOUD000207,Azure,RDS,SUB-007,rg-056,2022-11-09,BU001,Non-Production,Storage
+CLOUD000208,AWS,Azure Kubernetes Service,SUB-008,rg-057,2018-09-30,BU001,DR,Data Pipeline
+CLOUD000209,Azure,Azure SQL Database,SUB-009,rg-058,2023-08-20,BU002,Production,Data Pipeline
+CLOUD000210,Azure,RDS,SUB-010,rg-059,2024-11-20,BU002,Non-Production,Data Pipeline
+CLOUD000211,AWS,Azure Data Factory,SUB-011,rg-060,2022-11-20,BU005,DR,Data Pipeline
+CLOUD000212,Azure,Azure Data Factory,SUB-012,rg-061,2022-10-04,BU002,Production,Data Pipeline
+CLOUD000213,AWS,EKS,SUB-013,rg-062,2018-07-28,BU002,Production,Data Pipeline
+CLOUD000214,AWS,Virtual Machines,SUB-014,rg-063,2023-11-22,BU009,Production,Container
+CLOUD000215,Azure,S3,SUB-015,rg-064,2021-09-27,BU001,Non-Production,Database
+CLOUD000216,Azure,EKS,SUB-016,rg-065,2020-10-15,BU002,Non-Production,Data Pipeline
+CLOUD000217,AWS,Azure Kubernetes Service,SUB-017,rg-066,2020-11-27,BU001,Non-Production,Database
+CLOUD000218,AWS,Azure Data Factory,SUB-018,rg-067,2021-03-30,BU002,Production,Database
+CLOUD000219,AWS,EC2,SUB-019,rg-068,2020-03-21,BU001,Non-Production,VM
+CLOUD000220,AWS,Azure SQL Database,SUB-020,rg-069,2024-01-15,BU002,Production,Container
+CLOUD000221,Azure,EC2,SUB-021,rg-070,2025-02-21,BU002,Production,Storage
+CLOUD000222,Azure,Virtual Machines,SUB-022,rg-071,2020-04-05,BU002,Non-Production,Container
+CLOUD000223,Azure,Azure Kubernetes Service,SUB-023,rg-072,2022-12-02,BU002,Production,Database
+CLOUD000224,Azure,EC2,SUB-024,rg-073,2021-10-23,BU002,Production,Database
+CLOUD000225,AWS,S3,SUB-025,rg-074,2025-03-25,BU006,Non-Production,Data Pipeline
+CLOUD000226,AWS,RDS,SUB-026,rg-075,2024-07-13,BU001,Production,VM
+CLOUD000227,AWS,Azure Data Factory,SUB-027,rg-076,2018-01-09,BU003,Production,Database
+CLOUD000228,Azure,RDS,SUB-028,rg-077,2021-12-02,BU002,Non-Production,Container
+CLOUD000229,AWS,EKS,SUB-029,rg-078,2020-01-07,BU007,Production,Storage
+CLOUD000230,AWS,Azure Kubernetes Service,SUB-030,rg-079,2023-10-14,BU002,Production,Database
+CLOUD000231,Azure,Virtual Machines,SUB-031,rg-080,2019-03-05,BU001,DR,Storage
+CLOUD000232,AWS,RDS,SUB-032,rg-081,2024-09-01,BU009,Non-Production,Database
+CLOUD000233,Azure,Azure Data Factory,SUB-033,rg-082,2021-10-22,BU003,Production,Container
+CLOUD000234,Azure,EKS,SUB-034,rg-083,2024-01-19,BU002,Production,Data Pipeline
+CLOUD000235,AWS,Azure Kubernetes Service,SUB-035,rg-084,2026-02-05,BU002,Non-Production,VM
+CLOUD000236,Azure,RDS,SUB-036,rg-085,2025-11-11,BU002,Production,Database
+CLOUD000237,AWS,RDS,SUB-037,rg-086,2026-04-29,BU009,Production,Database
+CLOUD000238,AWS,RDS,SUB-038,rg-087,2024-07-20,BU002,DR,Storage
+CLOUD000239,AWS,Azure Data Factory,SUB-039,rg-088,2019-10-15,BU002,Production,Container
+CLOUD000240,Azure,EC2,SUB-040,rg-089,2019-08-17,BU001,Production,Database
+CLOUD000241,AWS,RDS,SUB-001,rg-090,2025-09-03,BU002,Production,VM
+CLOUD000242,Azure,EKS,SUB-002,rg-091,2025-07-14,BU002,Non-Production,Storage
+CLOUD000243,AWS,Azure SQL Database,SUB-003,rg-092,2024-07-08,BU004,Production,Database
+CLOUD000244,AWS,Azure Data Factory,SUB-004,rg-093,2021-05-03,BU002,Production,Storage
+CLOUD000245,Azure,Azure Kubernetes Service,SUB-005,rg-094,2020-12-22,BU002,Non-Production,Database
+CLOUD000246,Azure,Azure Kubernetes Service,SUB-006,rg-095,2018-01-02,BU006,Production,Database
+CLOUD000247,Azure,Azure Kubernetes Service,SUB-007,rg-096,2025-12-11,BU001,Non-Production,Database
+CLOUD000248,Azure,S3,SUB-008,rg-097,2023-01-23,BU001,Production,Data Pipeline
+CLOUD000249,Azure,Azure SQL Database,SUB-009,rg-098,2025-05-25,BU001,Production,Storage
+CLOUD000250,AWS,Azure Kubernetes Service,SUB-010,rg-099,2022-11-18,BU002,Production,VM
+CLOUD000251,Azure,Azure Data Factory,SUB-011,rg-100,2020-09-10,BU002,Non-Production,Data Pipeline
+CLOUD000252,Azure,S3,SUB-012,rg-101,2023-09-28,BU002,Production,Container
+CLOUD000253,Azure,Azure SQL Database,SUB-013,rg-102,2022-12-20,BU002,Production,Data Pipeline
+CLOUD000254,Azure,EC2,SUB-014,rg-103,2020-06-05,BU002,Production,Data Pipeline
+CLOUD000255,Azure,EC2,SUB-015,rg-104,2022-02-20,BU006,DR,VM
+CLOUD000256,AWS,EKS,SUB-016,rg-105,2025-04-08,BU006,Production,Storage
+CLOUD000257,Azure,EC2,SUB-017,rg-106,2025-06-09,BU009,Production,Storage
+CLOUD000258,Azure,RDS,SUB-018,rg-107,2025-06-09,BU009,Production,Container
+CLOUD000259,AWS,Azure Data Factory,SUB-019,rg-108,2023-08-26,BU002,Non-Production,Container
+CLOUD000260,Azure,EC2,SUB-020,rg-109,2022-10-05,BU002,Production,Container
+CLOUD000261,AWS,EKS,SUB-021,rg-110,2023-12-26,BU001,Non-Production,VM
+CLOUD000262,Azure,Azure Kubernetes Service,SUB-022,rg-111,2020-02-29,BU007,Production,Storage
+CLOUD000263,Azure,Virtual Machines,SUB-023,rg-112,2020-07-06,BU002,Production,Container
+CLOUD000264,Azure,EC2,SUB-024,rg-113,2025-02-10,BU001,Production,VM
+CLOUD000265,Azure,Azure SQL Database,SUB-025,rg-114,2019-10-04,BU003,Production,Container
+CLOUD000266,Azure,Azure SQL Database,SUB-026,rg-115,2019-07-01,BU007,Non-Production,Data Pipeline
+CLOUD000267,Azure,Azure SQL Database,SUB-027,rg-116,2021-12-11,BU002,Production,Container
+CLOUD000268,Azure,Azure Kubernetes Service,SUB-028,rg-117,2026-01-20,BU003,Production,VM
+CLOUD000269,Azure,Azure Kubernetes Service,SUB-029,rg-118,2025-10-07,BU005,Non-Production,Database
+CLOUD000270,AWS,RDS,SUB-030,rg-119,2019-06-27,BU002,Production,Data Pipeline
+CLOUD000271,Azure,S3,SUB-031,rg-120,2019-10-17,BU003,Non-Production,Data Pipeline
+CLOUD000272,Azure,Azure Data Factory,SUB-032,rg-121,2018-05-03,BU001,Production,Container
+CLOUD000273,Azure,Virtual Machines,SUB-033,rg-122,2022-07-17,BU007,Production,Data Pipeline
+CLOUD000274,Azure,EKS,SUB-034,rg-123,2021-08-03,BU005,DR,Database
+CLOUD000275,Azure,Virtual Machines,SUB-035,rg-124,2024-05-10,BU007,Non-Production,Container
+CLOUD000276,AWS,RDS,SUB-036,rg-125,2024-06-17,BU009,Non-Production,Storage
+CLOUD000277,AWS,EC2,SUB-037,rg-126,2021-05-05,BU001,Non-Production,Database
+CLOUD000278,AWS,EKS,SUB-038,rg-127,2025-10-03,BU006,Non-Production,Database
+CLOUD000279,Azure,EC2,SUB-039,rg-128,2021-10-29,BU002,Non-Production,Container
+CLOUD000280,Azure,Azure SQL Database,SUB-040,rg-129,2023-03-31,BU001,Production,Storage
+CLOUD000281,AWS,EC2,SUB-001,rg-130,2023-07-17,BU002,Production,VM
+CLOUD000282,Azure,EC2,SUB-002,rg-131,2019-03-17,BU002,Non-Production,Container
+CLOUD000283,Azure,Virtual Machines,SUB-003,rg-132,2025-09-16,BU002,Production,VM
+CLOUD000284,AWS,EC2,SUB-004,rg-133,2026-03-30,BU002,Production,VM
+CLOUD000285,Azure,Azure SQL Database,SUB-005,rg-134,2021-04-24,BU006,Non-Production,Storage
+CLOUD000286,AWS,EC2,SUB-006,rg-135,2022-06-30,BU007,Non-Production,Data Pipeline
+CLOUD000287,Azure,Virtual Machines,SUB-007,rg-136,2021-05-09,BU002,Production,Data Pipeline
+CLOUD000288,Azure,Azure Kubernetes Service,SUB-008,rg-137,2025-04-16,BU002,Production,Container
+CLOUD000289,Azure,EKS,SUB-009,rg-138,2019-10-09,BU002,Non-Production,Database
+CLOUD000290,Azure,RDS,SUB-010,rg-139,2020-01-05,BU005,DR,VM
+CLOUD000291,AWS,Virtual Machines,SUB-011,rg-140,2024-08-07,BU002,Production,Database
+CLOUD000292,Azure,Virtual Machines,SUB-012,rg-141,2020-05-22,BU001,Production,Database
+CLOUD000293,Azure,Azure Kubernetes Service,SUB-013,rg-142,2018-12-01,BU006,Non-Production,VM
+CLOUD000294,Azure,Azure Kubernetes Service,SUB-014,rg-143,2023-11-10,BU002,Non-Production,Database
+CLOUD000295,Azure,Azure SQL Database,SUB-015,rg-144,2022-11-06,BU002,Production,Storage
+CLOUD000296,AWS,RDS,SUB-016,rg-145,2024-06-05,BU002,Production,VM
+CLOUD000297,Azure,RDS,SUB-017,rg-146,2020-06-16,BU002,DR,VM
+CLOUD000298,Azure,Azure Kubernetes Service,SUB-018,rg-147,2025-08-04,BU007,Production,Database
+CLOUD000299,Azure,Virtual Machines,SUB-019,rg-148,2019-05-02,BU005,Production,Data Pipeline
+CLOUD000300,Azure,Azure SQL Database,SUB-020,rg-149,2026-04-06,BU002,Production,Container
+CLOUD000301,Azure,Azure Kubernetes Service,SUB-021,rg-000,2024-03-02,BU002,Non-Production,Storage
+CLOUD000302,Azure,EKS,SUB-022,rg-001,2024-07-12,BU004,Production,Database
+CLOUD000303,Azure,RDS,SUB-023,rg-002,2020-11-28,BU002,Production,Data Pipeline
+CLOUD000304,Azure,EKS,SUB-024,rg-003,2023-01-19,BU002,Production,Database
+CLOUD000305,Azure,Azure SQL Database,SUB-025,rg-004,2018-02-02,BU003,Production,Container
+CLOUD000306,Azure,S3,SUB-026,rg-005,2019-01-23,BU002,Non-Production,Container
+CLOUD000307,Azure,EC2,SUB-027,rg-006,2025-09-09,BU009,Production,VM
+CLOUD000308,Azure,S3,SUB-028,rg-007,2018-04-16,BU001,Production,Storage
+CLOUD000309,AWS,EC2,SUB-029,rg-008,2026-01-26,BU001,Production,Data Pipeline
+CLOUD000310,Azure,Azure SQL Database,SUB-030,rg-009,2020-08-03,BU009,Production,Storage
+CLOUD000311,Azure,Azure SQL Database,SUB-031,rg-010,2020-02-14,BU002,Production,Storage
+CLOUD000312,Azure,EC2,SUB-032,rg-011,2023-05-30,BU002,DR,VM
+CLOUD000313,Azure,S3,SUB-033,rg-012,2025-11-23,BU002,Non-Production,Storage
+CLOUD000314,AWS,RDS,SUB-034,rg-013,2022-08-21,BU002,Non-Production,Data Pipeline
+CLOUD000315,AWS,EKS,SUB-035,rg-014,2024-10-20,BU009,Production,Storage
+CLOUD000316,Azure,RDS,SUB-036,rg-015,2020-12-14,BU002,Non-Production,Data Pipeline
+CLOUD000317,AWS,RDS,SUB-037,rg-016,2018-07-07,BU001,Production,Container
+CLOUD000318,AWS,Virtual Machines,SUB-038,rg-017,2019-01-17,BU002,Production,Container
+CLOUD000319,Azure,Virtual Machines,SUB-039,rg-018,2020-11-02,BU002,DR,Data Pipeline
+CLOUD000320,Azure,EC2,SUB-040,rg-019,2024-06-09,BU002,Production,Data Pipeline
+CLOUD000321,Azure,Azure SQL Database,SUB-001,rg-020,2025-06-22,BU010,DR,Database
+CLOUD000322,AWS,Azure Kubernetes Service,SUB-002,rg-021,2024-06-04,BU001,Production,VM
+CLOUD000323,Azure,EKS,SUB-003,rg-022,2022-09-11,BU001,DR,Data Pipeline
+CLOUD000324,AWS,EKS,SUB-004,rg-023,2018-01-16,BU002,Non-Production,Storage
+CLOUD000325,AWS,Azure SQL Database,SUB-005,rg-024,2021-09-10,BU002,Production,Storage
+CLOUD000326,Azure,EC2,SUB-006,rg-025,2026-01-21,BU002,Production,Storage
+CLOUD000327,Azure,RDS,SUB-007,rg-026,2025-12-16,BU009,Production,Data Pipeline
+CLOUD000328,Azure,Azure Data Factory,SUB-008,rg-027,2022-05-02,BU003,Non-Production,Storage
+CLOUD000329,Azure,EC2,SUB-009,rg-028,2019-03-18,BU002,Production,Storage
+CLOUD000330,AWS,EC2,SUB-010,rg-029,2018-02-13,BU005,Production,Storage
+CLOUD000331,AWS,Virtual Machines,SUB-011,rg-030,2020-08-25,BU001,Production,Data Pipeline
+CLOUD000332,Azure,EKS,SUB-012,rg-031,2020-12-08,BU006,Production,Data Pipeline
+CLOUD000333,Azure,Virtual Machines,SUB-013,rg-032,2019-08-16,BU002,Non-Production,VM
+CLOUD000334,Azure,Azure Kubernetes Service,SUB-014,rg-033,2024-05-01,BU003,Non-Production,Data Pipeline
+CLOUD000335,Azure,Virtual Machines,SUB-015,rg-034,2023-09-18,BU009,DR,Data Pipeline
+CLOUD000336,Azure,S3,SUB-016,rg-035,2024-04-15,BU002,Production,VM
+CLOUD000337,AWS,RDS,SUB-017,rg-036,2021-12-15,BU002,Production,Database
+CLOUD000338,Azure,Azure Kubernetes Service,SUB-018,rg-037,2025-10-05,BU009,Production,Database
+CLOUD000339,Azure,Azure SQL Database,SUB-019,rg-038,2018-01-18,BU002,Non-Production,Data Pipeline
+CLOUD000340,AWS,S3,SUB-020,rg-039,2019-10-28,BU001,Non-Production,Storage
+CLOUD000341,AWS,EC2,SUB-021,rg-040,2023-08-15,BU001,Non-Production,VM
+CLOUD000342,Azure,Azure Kubernetes Service,SUB-022,rg-041,2018-12-21,BU005,Production,VM
+CLOUD000343,Azure,Azure SQL Database,SUB-023,rg-042,2019-02-09,BU002,Production,Storage
+CLOUD000344,AWS,RDS,SUB-024,rg-043,2020-01-22,BU003,Production,Data Pipeline
+CLOUD000345,Azure,Azure SQL Database,SUB-025,rg-044,2019-06-23,BU003,Production,Database
+CLOUD000346,Azure,EKS,SUB-026,rg-045,2020-10-24,BU002,Non-Production,Database
+CLOUD000347,Azure,Azure SQL Database,SUB-027,rg-046,2023-08-11,BU004,Production,VM
+CLOUD000348,Azure,EKS,SUB-028,rg-047,2022-03-15,BU010,Production,Container
+CLOUD000349,Azure,Azure SQL Database,SUB-029,rg-048,2024-10-28,BU001,DR,Database
+CLOUD000350,AWS,EKS,SUB-030,rg-049,2023-09-10,BU002,Production,Container
+CLOUD000351,Azure,Azure Data Factory,SUB-031,rg-050,2022-10-01,BU009,DR,Data Pipeline
+CLOUD000352,AWS,EKS,SUB-032,rg-051,2022-10-24,BU002,Production,Data Pipeline
+CLOUD000353,AWS,S3,SUB-033,rg-052,2020-10-16,BU002,Production,Data Pipeline
+CLOUD000354,AWS,Virtual Machines,SUB-034,rg-053,2022-03-04,BU002,Non-Production,Container
+CLOUD000355,Azure,RDS,SUB-035,rg-054,2023-09-24,BU001,Production,Database
+CLOUD000356,AWS,RDS,SUB-036,rg-055,2018-08-29,BU008,Production,VM
+CLOUD000357,AWS,Azure SQL Database,SUB-037,rg-056,2025-11-13,BU006,Production,Container
+CLOUD000358,Azure,EC2,SUB-038,rg-057,2021-09-25,BU003,Production,VM
+CLOUD000359,AWS,RDS,SUB-039,rg-058,2026-04-20,BU002,Production,Container
+CLOUD000360,Azure,Virtual Machines,SUB-040,rg-059,2023-09-04,BU010,Non-Production,Data Pipeline
+CLOUD000361,Azure,Azure Kubernetes Service,SUB-001,rg-060,2025-05-03,BU007,Production,Database
+CLOUD000362,Azure,Azure SQL Database,SUB-002,rg-061,2019-05-23,BU005,Non-Production,Data Pipeline
+CLOUD000363,Azure,Azure SQL Database,SUB-003,rg-062,2024-04-12,BU002,Production,Database
+CLOUD000364,Azure,Virtual Machines,SUB-004,rg-063,2020-06-15,BU002,Non-Production,Data Pipeline
+CLOUD000365,AWS,RDS,SUB-005,rg-064,2022-12-09,BU002,Production,Container
+CLOUD000366,AWS,Azure Kubernetes Service,SUB-006,rg-065,2019-11-27,BU010,Production,Storage
+CLOUD000367,Azure,Virtual Machines,SUB-007,rg-066,2021-04-15,BU009,Production,VM
+CLOUD000368,AWS,EKS,SUB-008,rg-067,2019-02-08,BU002,Production,Database
+CLOUD000369,Azure,EC2,SUB-009,rg-068,2022-08-30,BU002,Production,VM
+CLOUD000370,Azure,Azure SQL Database,SUB-010,rg-069,2024-12-13,BU009,Production,VM
+CLOUD000371,AWS,EC2,SUB-011,rg-070,2021-02-21,BU006,Production,Storage
+CLOUD000372,Azure,Azure Data Factory,SUB-012,rg-071,2021-01-20,BU003,Production,VM
+CLOUD000373,Azure,RDS,SUB-013,rg-072,2024-06-20,BU003,Non-Production,VM
+CLOUD000374,Azure,Azure SQL Database,SUB-014,rg-073,2025-03-15,BU001,Production,Container
+CLOUD000375,Azure,Virtual Machines,SUB-015,rg-074,2023-05-27,BU002,Non-Production,VM
+CLOUD000376,AWS,EKS,SUB-016,rg-075,2026-01-18,BU004,Production,VM
+CLOUD000377,Azure,EKS,SUB-017,rg-076,2022-07-14,BU002,Production,VM
+CLOUD000378,Azure,Azure Data Factory,SUB-018,rg-077,2021-11-12,BU010,Production,Container
+CLOUD000379,Azure,Azure Data Factory,SUB-019,rg-078,2026-01-11,BU002,Production,Data Pipeline
+CLOUD000380,Azure,Virtual Machines,SUB-020,rg-079,2023-09-07,BU002,Production,VM
+CLOUD000381,Azure,RDS,SUB-021,rg-080,2020-09-09,BU002,Production,VM
+CLOUD000382,Azure,Virtual Machines,SUB-022,rg-081,2025-06-08,BU001,Production,Storage
+CLOUD000383,Azure,RDS,SUB-023,rg-082,2019-07-02,BU009,Non-Production,Data Pipeline
+CLOUD000384,Azure,Azure SQL Database,SUB-024,rg-083,2019-09-21,BU005,Production,Storage
+CLOUD000385,Azure,Virtual Machines,SUB-025,rg-084,2025-11-28,BU003,Non-Production,Database
+CLOUD000386,AWS,EC2,SUB-026,rg-085,2020-11-14,BU002,Production,Data Pipeline
+CLOUD000387,Azure,EC2,SUB-027,rg-086,2026-02-11,BU002,Non-Production,VM
+CLOUD000388,AWS,S3,SUB-028,rg-087,2020-11-18,BU001,Production,Database
+CLOUD000389,Azure,Azure Data Factory,SUB-029,rg-088,2018-03-26,BU002,Production,Storage
+CLOUD000390,AWS,Azure Data Factory,SUB-030,rg-089,2024-02-24,BU003,Non-Production,Database
+CLOUD000391,Azure,Azure Data Factory,SUB-031,rg-090,2021-03-31,BU002,Production,Database
+CLOUD000392,Azure,Virtual Machines,SUB-032,rg-091,2020-10-13,BU002,Production,Storage
+CLOUD000393,Azure,Azure Data Factory,SUB-033,rg-092,2023-06-22,BU004,Non-Production,Container
+CLOUD000394,Azure,RDS,SUB-034,rg-093,2019-02-28,BU002,Production,Data Pipeline
+CLOUD000395,Azure,S3,SUB-035,rg-094,2018-02-07,BU001,Production,VM
+CLOUD000396,AWS,RDS,SUB-036,rg-095,2026-04-06,BU005,Non-Production,Database
+CLOUD000397,Azure,Azure Data Factory,SUB-037,rg-096,2018-01-01,BU002,Production,Data Pipeline
+CLOUD000398,AWS,S3,SUB-038,rg-097,2024-07-14,BU001,Non-Production,Database
+CLOUD000399,Azure,EKS,SUB-039,rg-098,2019-09-20,BU010,Non-Production,VM
+CLOUD000400,Azure,EKS,SUB-040,rg-099,2018-11-09,BU002,Production,Container
+CLOUD000401,Azure,S3,SUB-001,rg-100,2025-01-21,BU005,Non-Production,Database
+CLOUD000402,Azure,EKS,SUB-002,rg-101,2025-11-03,BU002,Non-Production,Storage
+CLOUD000403,AWS,S3,SUB-003,rg-102,2026-01-07,BU009,Non-Production,Database
+CLOUD000404,Azure,EKS,SUB-004,rg-103,2021-12-18,BU002,DR,VM
+CLOUD000405,Azure,Virtual Machines,SUB-005,rg-104,2021-10-16,BU003,DR,VM
+CLOUD000406,AWS,RDS,SUB-006,rg-105,2020-03-05,BU002,Non-Production,VM
+CLOUD000407,Azure,Azure Data Factory,SUB-007,rg-106,2020-02-15,BU003,Production,Container
+CLOUD000408,Azure,Virtual Machines,SUB-008,rg-107,2021-08-10,BU007,Production,Storage
+CLOUD000409,Azure,Azure Kubernetes Service,SUB-009,rg-108,2023-03-15,BU002,Non-Production,Container
+CLOUD000410,AWS,Azure Kubernetes Service,SUB-010,rg-109,2025-06-05,BU002,Production,Database
+CLOUD000411,Azure,Azure SQL Database,SUB-011,rg-110,2023-04-23,BU007,Non-Production,Database
+CLOUD000412,Azure,Azure Data Factory,SUB-012,rg-111,2024-11-28,BU002,Production,Data Pipeline
+CLOUD000413,Azure,Azure SQL Database,SUB-013,rg-112,2018-07-26,BU002,Production,Data Pipeline
+CLOUD000414,Azure,S3,SUB-014,rg-113,2018-07-16,BU002,Production,Database
+CLOUD000415,AWS,Azure Kubernetes Service,SUB-015,rg-114,2024-07-29,BU001,DR,Database
+CLOUD000416,Azure,EC2,SUB-016,rg-115,2024-12-28,BU002,Production,VM
+CLOUD000417,AWS,EKS,SUB-017,rg-116,2023-04-29,BU002,Production,VM
+CLOUD000418,Azure,Azure SQL Database,SUB-018,rg-117,2021-04-29,BU005,DR,Database
+CLOUD000419,AWS,Azure SQL Database,SUB-019,rg-118,2019-04-30,BU002,Production,VM
+CLOUD000420,AWS,S3,SUB-020,rg-119,2023-05-11,BU003,Non-Production,Storage
+CLOUD000421,AWS,Azure Kubernetes Service,SUB-021,rg-120,2019-07-31,BU002,Production,VM
+CLOUD000422,Azure,Azure Data Factory,SUB-022,rg-121,2021-01-08,BU009,Production,Container
+CLOUD000423,Azure,RDS,SUB-023,rg-122,2022-01-10,BU002,Production,Data Pipeline
+CLOUD000424,AWS,Virtual Machines,SUB-024,rg-123,2022-10-17,BU006,Production,Container
+CLOUD000425,AWS,RDS,SUB-025,rg-124,2022-02-26,BU009,Non-Production,Storage
+CLOUD000426,Azure,EKS,SUB-026,rg-125,2023-12-10,BU006,Production,Storage
+CLOUD000427,AWS,Virtual Machines,SUB-027,rg-126,2019-08-27,BU006,Production,Storage
+CLOUD000428,AWS,Azure Data Factory,SUB-028,rg-127,2019-07-24,BU003,Non-Production,Data Pipeline
+CLOUD000429,Azure,RDS,SUB-029,rg-128,2021-12-20,BU002,Production,Data Pipeline
+CLOUD000430,Azure,S3,SUB-030,rg-129,2023-07-30,BU005,Production,Container
+CLOUD000431,Azure,EC2,SUB-031,rg-130,2024-11-12,BU002,Non-Production,Container
+CLOUD000432,Azure,EKS,SUB-032,rg-131,2018-08-30,BU005,Production,VM
+CLOUD000433,Azure,RDS,SUB-033,rg-132,2021-11-02,BU007,Production,Database
+CLOUD000434,Azure,RDS,SUB-034,rg-133,2021-10-02,BU002,Non-Production,Database
+CLOUD000435,Azure,EKS,SUB-035,rg-134,2019-04-24,BU001,Non-Production,VM
+CLOUD000436,Azure,RDS,SUB-036,rg-135,2020-06-09,BU002,Production,Container
+CLOUD000437,AWS,Azure Data Factory,SUB-037,rg-136,2018-12-19,BU005,Production,Container
+CLOUD000438,Azure,Azure Data Factory,SUB-038,rg-137,2024-12-10,BU004,Non-Production,Data Pipeline
+CLOUD000439,AWS,Azure Kubernetes Service,SUB-039,rg-138,2023-11-01,BU002,Production,Storage
+CLOUD000440,Azure,Azure Data Factory,SUB-040,rg-139,2023-08-24,BU002,Production,Data Pipeline
+CLOUD000441,Azure,EKS,SUB-001,rg-140,2022-10-11,BU004,Non-Production,VM
+CLOUD000442,Azure,Azure SQL Database,SUB-002,rg-141,2023-06-09,BU002,Production,Storage
+CLOUD000443,Azure,EC2,SUB-003,rg-142,2021-06-11,BU007,Non-Production,Database
+CLOUD000444,Azure,Azure SQL Database,SUB-004,rg-143,2021-11-08,BU002,Non-Production,Container
+CLOUD000445,AWS,EKS,SUB-005,rg-144,2023-07-09,BU001,Non-Production,VM
+CLOUD000446,AWS,S3,SUB-006,rg-145,2025-08-15,BU005,Non-Production,Database
+CLOUD000447,Azure,RDS,SUB-007,rg-146,2019-04-16,BU002,Production,Database
+CLOUD000448,Azure,Azure Data Factory,SUB-008,rg-147,2022-08-17,BU002,Production,Data Pipeline
+CLOUD000449,AWS,Virtual Machines,SUB-009,rg-148,2025-04-30,BU003,Non-Production,Container
+CLOUD000450,AWS,Azure Data Factory,SUB-010,rg-149,2025-10-23,BU003,Production,Data Pipeline
+CLOUD000451,AWS,Azure Kubernetes Service,SUB-011,rg-000,2024-06-25,BU007,DR,Storage
+CLOUD000452,AWS,Azure Kubernetes Service,SUB-012,rg-001,2025-08-02,BU002,Production,Data Pipeline
+CLOUD000453,Azure,S3,SUB-013,rg-002,2025-04-26,BU002,Non-Production,VM
+CLOUD000454,Azure,Azure Data Factory,SUB-014,rg-003,2018-09-15,BU001,Non-Production,Data Pipeline
+CLOUD000455,AWS,Azure Data Factory,SUB-015,rg-004,2025-02-25,BU007,Non-Production,VM
+CLOUD000456,AWS,EC2,SUB-016,rg-005,2020-02-23,BU002,Non-Production,Data Pipeline
+CLOUD000457,Azure,Virtual Machines,SUB-017,rg-006,2021-11-26,BU009,Non-Production,Data Pipeline
+CLOUD000458,Azure,Azure SQL Database,SUB-018,rg-007,2021-11-01,BU003,Production,VM
+CLOUD000459,Azure,RDS,SUB-019,rg-008,2023-06-18,BU002,Production,Data Pipeline
+CLOUD000460,Azure,RDS,SUB-020,rg-009,2023-02-02,BU002,Production,Storage
+CLOUD000461,Azure,Azure Kubernetes Service,SUB-021,rg-010,2024-05-08,BU005,Non-Production,VM
+CLOUD000462,Azure,EC2,SUB-022,rg-011,2023-01-20,BU010,Production,Container
+CLOUD000463,Azure,Azure SQL Database,SUB-023,rg-012,2025-01-29,BU002,Non-Production,VM
+CLOUD000464,Azure,EC2,SUB-024,rg-013,2022-11-06,BU010,Production,Container
+CLOUD000465,Azure,S3,SUB-025,rg-014,2020-11-28,BU008,Non-Production,Database
+CLOUD000466,Azure,S3,SUB-026,rg-015,2018-05-18,BU002,Non-Production,Data Pipeline
+CLOUD000467,Azure,Azure SQL Database,SUB-027,rg-016,2024-04-18,BU005,Non-Production,Container
+CLOUD000468,Azure,S3,SUB-028,rg-017,2019-08-18,BU002,Non-Production,Container
+CLOUD000469,Azure,Azure Kubernetes Service,SUB-029,rg-018,2020-08-17,BU002,Production,Data Pipeline
+CLOUD000470,Azure,S3,SUB-030,rg-019,2023-08-24,BU001,Production,Data Pipeline
+CLOUD000471,AWS,Azure Kubernetes Service,SUB-031,rg-020,2024-08-06,BU002,Non-Production,VM
+CLOUD000472,Azure,Azure SQL Database,SUB-032,rg-021,2025-09-09,BU001,Production,Database
+CLOUD000473,AWS,Azure Kubernetes Service,SUB-033,rg-022,2018-02-08,BU002,Non-Production,VM
+CLOUD000474,AWS,Virtual Machines,SUB-034,rg-023,2019-06-28,BU002,Production,Storage
+CLOUD000475,AWS,Azure Kubernetes Service,SUB-035,rg-024,2021-03-14,BU002,DR,Container
+CLOUD000476,AWS,RDS,SUB-036,rg-025,2019-07-25,BU007,Production,Container
+CLOUD000477,AWS,Azure Kubernetes Service,SUB-037,rg-026,2024-10-08,BU001,DR,Container
+CLOUD000478,Azure,Azure Data Factory,SUB-038,rg-027,2018-02-15,BU005,Production,Database
+CLOUD000479,Azure,Azure Data Factory,SUB-039,rg-028,2018-12-31,BU002,Production,Database
+CLOUD000480,AWS,RDS,SUB-040,rg-029,2024-10-24,BU002,Production,Data Pipeline
+CLOUD000481,Azure,S3,SUB-001,rg-030,2024-10-15,BU002,Non-Production,VM
+CLOUD000482,Azure,RDS,SUB-002,rg-031,2021-03-03,BU002,Production,Container
+CLOUD000483,Azure,EKS,SUB-003,rg-032,2021-07-13,BU001,Production,Database
+CLOUD000484,Azure,RDS,SUB-004,rg-033,2025-07-23,BU001,DR,VM
+CLOUD000485,AWS,Azure SQL Database,SUB-005,rg-034,2022-02-14,BU001,Non-Production,Container
+CLOUD000486,Azure,Virtual Machines,SUB-006,rg-035,2023-08-23,BU008,Production,Data Pipeline
+CLOUD000487,Azure,EC2,SUB-007,rg-036,2026-04-05,BU008,Production,Container
+CLOUD000488,Azure,Virtual Machines,SUB-008,rg-037,2021-03-11,BU006,Production,Storage
+CLOUD000489,AWS,S3,SUB-009,rg-038,2024-11-08,BU002,Production,VM
+CLOUD000490,AWS,EKS,SUB-010,rg-039,2025-11-02,BU005,Production,Container
+CLOUD000491,Azure,S3,SUB-011,rg-040,2025-06-13,BU002,Production,Storage
+CLOUD000492,Azure,Azure SQL Database,SUB-012,rg-041,2018-08-10,BU001,Production,Container
+CLOUD000493,Azure,EKS,SUB-013,rg-042,2020-08-21,BU002,Production,VM
+CLOUD000494,Azure,S3,SUB-014,rg-043,2022-03-08,BU003,DR,Container
+CLOUD000495,AWS,Azure Data Factory,SUB-015,rg-044,2018-10-28,BU002,Non-Production,Database
+CLOUD000496,Azure,EKS,SUB-016,rg-045,2024-04-07,BU002,Production,Container
+CLOUD000497,Azure,Azure Kubernetes Service,SUB-017,rg-046,2018-03-23,BU002,Production,Database
+CLOUD000498,Azure,Azure SQL Database,SUB-018,rg-047,2025-12-20,BU002,Non-Production,Database
+CLOUD000499,AWS,Azure Kubernetes Service,SUB-019,rg-048,2025-10-31,BU002,Production,VM
+CLOUD000500,Azure,S3,SUB-020,rg-049,2020-08-08,BU002,Non-Production,Data Pipeline
+CLOUD000501,AWS,Azure Kubernetes Service,SUB-021,rg-050,2024-03-22,BU005,Non-Production,Database
+CLOUD000502,AWS,S3,SUB-022,rg-051,2022-12-21,BU007,Production,VM
+CLOUD000503,Azure,S3,SUB-023,rg-052,2023-08-05,BU002,Production,Database
+CLOUD000504,Azure,Virtual Machines,SUB-024,rg-053,2024-07-14,BU002,Production,Container
+CLOUD000505,Azure,S3,SUB-025,rg-054,2019-05-28,BU002,Production,Data Pipeline
+CLOUD000506,AWS,Azure Kubernetes Service,SUB-026,rg-055,2023-04-18,BU002,Production,Container
+CLOUD000507,AWS,Azure Kubernetes Service,SUB-027,rg-056,2025-10-23,BU009,Production,Container
+CLOUD000508,Azure,EKS,SUB-028,rg-057,2019-03-18,BU001,Production,Database
+CLOUD000509,Azure,Virtual Machines,SUB-029,rg-058,2023-02-06,BU006,Production,Container
+CLOUD000510,AWS,Virtual Machines,SUB-030,rg-059,2025-12-07,BU002,Production,VM
+CLOUD000511,Azure,EC2,SUB-031,rg-060,2024-12-31,BU001,Production,Database
+CLOUD000512,Azure,Virtual Machines,SUB-032,rg-061,2020-11-16,BU001,Production,VM
+CLOUD000513,Azure,S3,SUB-033,rg-062,2021-03-15,BU008,Non-Production,Data Pipeline
+CLOUD000514,Azure,RDS,SUB-034,rg-063,2022-03-20,BU003,Production,Data Pipeline
+CLOUD000515,AWS,Azure SQL Database,SUB-035,rg-064,2020-08-30,BU001,Production,VM
+CLOUD000516,AWS,S3,SUB-036,rg-065,2018-06-06,BU009,Non-Production,Container
+CLOUD000517,Azure,EC2,SUB-037,rg-066,2025-02-23,BU003,Production,Container
+CLOUD000518,AWS,EC2,SUB-038,rg-067,2019-05-19,BU003,Production,Storage
+CLOUD000519,Azure,RDS,SUB-039,rg-068,2024-02-23,BU002,Production,Container
+CLOUD000520,Azure,Virtual Machines,SUB-040,rg-069,2018-12-29,BU002,Production,VM
+CLOUD000521,Azure,Azure Kubernetes Service,SUB-001,rg-070,2021-06-07,BU002,Production,VM
+CLOUD000522,Azure,S3,SUB-002,rg-071,2022-03-24,BU009,Non-Production,Container
+CLOUD000523,Azure,Azure SQL Database,SUB-003,rg-072,2021-09-13,BU002,Production,Database
+CLOUD000524,AWS,Azure Kubernetes Service,SUB-004,rg-073,2025-01-12,BU002,Production,VM
+CLOUD000525,AWS,EC2,SUB-005,rg-074,2021-12-02,BU002,DR,VM
+CLOUD000526,Azure,RDS,SUB-006,rg-075,2025-11-25,BU003,Non-Production,Data Pipeline
+CLOUD000527,Azure,EKS,SUB-007,rg-076,2018-11-01,BU010,DR,Container
+CLOUD000528,Azure,Azure SQL Database,SUB-008,rg-077,2021-11-30,BU002,Production,Container
+CLOUD000529,Azure,Azure Kubernetes Service,SUB-009,rg-078,2022-05-23,BU005,DR,Container
+CLOUD000530,Azure,Virtual Machines,SUB-010,rg-079,2020-12-26,BU005,Non-Production,Container
+CLOUD000531,Azure,Azure Kubernetes Service,SUB-011,rg-080,2022-08-14,BU004,DR,Container
+CLOUD000532,Azure,RDS,SUB-012,rg-081,2023-03-27,BU006,DR,Data Pipeline
+CLOUD000533,Azure,EKS,SUB-013,rg-082,2018-06-06,BU002,Production,VM
+CLOUD000534,Azure,S3,SUB-014,rg-083,2020-07-23,BU002,DR,Container
+CLOUD000535,AWS,Azure Data Factory,SUB-015,rg-084,2018-09-12,BU010,Production,VM
+CLOUD000536,AWS,EC2,SUB-016,rg-085,2018-10-05,BU002,Production,Database
+CLOUD000537,Azure,Azure Data Factory,SUB-017,rg-086,2018-09-20,BU001,Production,Database
+CLOUD000538,Azure,EKS,SUB-018,rg-087,2023-09-25,BU001,Production,Container
+CLOUD000539,Azure,Virtual Machines,SUB-019,rg-088,2019-07-04,BU002,Production,Container
+CLOUD000540,Azure,EC2,SUB-020,rg-089,2025-05-28,BU002,Production,Database
+CLOUD000541,AWS,EKS,SUB-021,rg-090,2024-04-28,BU003,Production,Storage
+CLOUD000542,AWS,Azure SQL Database,SUB-022,rg-091,2021-05-18,BU006,Production,VM
+CLOUD000543,Azure,Azure SQL Database,SUB-023,rg-092,2021-01-10,BU009,Non-Production,Storage
+CLOUD000544,Azure,Azure Kubernetes Service,SUB-024,rg-093,2022-10-17,BU004,Production,Container
+CLOUD000545,AWS,Virtual Machines,SUB-025,rg-094,2023-09-17,BU002,Non-Production,Storage
+CLOUD000546,Azure,Azure SQL Database,SUB-026,rg-095,2020-03-21,BU002,Production,Data Pipeline
+CLOUD000547,Azure,EC2,SUB-027,rg-096,2019-12-27,BU002,Production,Database
+CLOUD000548,Azure,EKS,SUB-028,rg-097,2022-11-25,BU006,Production,Storage
+CLOUD000549,Azure,RDS,SUB-029,rg-098,2024-06-07,BU002,Production,VM
+CLOUD000550,Azure,Virtual Machines,SUB-030,rg-099,2021-03-07,BU002,Non-Production,Data Pipeline
+CLOUD000551,AWS,EKS,SUB-031,rg-100,2019-02-04,BU002,Production,Storage
+CLOUD000552,Azure,EKS,SUB-032,rg-101,2025-04-03,BU002,Production,Storage
+CLOUD000553,AWS,Azure SQL Database,SUB-033,rg-102,2020-05-24,BU004,Production,Storage
+CLOUD000554,Azure,S3,SUB-034,rg-103,2024-12-01,BU001,Production,Container
+CLOUD000555,Azure,RDS,SUB-035,rg-104,2023-08-31,BU009,Non-Production,VM
+CLOUD000556,Azure,EKS,SUB-036,rg-105,2020-02-24,BU001,DR,Data Pipeline
+CLOUD000557,AWS,Azure Kubernetes Service,SUB-037,rg-106,2022-09-10,BU001,Production,Storage
+CLOUD000558,Azure,Azure SQL Database,SUB-038,rg-107,2023-05-23,BU002,Production,Storage
+CLOUD000559,AWS,Azure SQL Database,SUB-039,rg-108,2023-04-05,BU005,Production,Data Pipeline
+CLOUD000560,AWS,S3,SUB-040,rg-109,2024-06-28,BU005,Production,VM
+CLOUD000561,Azure,EKS,SUB-001,rg-110,2018-02-14,BU002,Production,Container
+CLOUD000562,Azure,EKS,SUB-002,rg-111,2023-07-26,BU001,Production,Database
+CLOUD000563,AWS,EC2,SUB-003,rg-112,2023-05-14,BU002,Production,Database
+CLOUD000564,Azure,Azure Data Factory,SUB-004,rg-113,2019-12-14,BU002,Production,Database
+CLOUD000565,Azure,EC2,SUB-005,rg-114,2020-10-20,BU002,Production,VM
+CLOUD000566,AWS,RDS,SUB-006,rg-115,2022-12-18,BU002,Production,Container
+CLOUD000567,Azure,Virtual Machines,SUB-007,rg-116,2023-11-04,BU002,Non-Production,Container
+CLOUD000568,Azure,EKS,SUB-008,rg-117,2025-08-06,BU004,DR,Container
+CLOUD000569,AWS,S3,SUB-009,rg-118,2026-01-08,BU002,Production,Container
+CLOUD000570,Azure,EKS,SUB-010,rg-119,2022-07-08,BU008,Production,Storage
+CLOUD000571,AWS,EKS,SUB-011,rg-120,2019-03-09,BU002,Non-Production,Database
+CLOUD000572,AWS,EKS,SUB-012,rg-121,2018-01-13,BU001,Non-Production,Storage
+CLOUD000573,Azure,S3,SUB-013,rg-122,2024-12-28,BU001,Production,Container
+CLOUD000574,Azure,Azure Data Factory,SUB-014,rg-123,2025-05-05,BU006,Production,VM
+CLOUD000575,AWS,RDS,SUB-015,rg-124,2018-05-01,BU003,Production,Storage
+CLOUD000576,Azure,EKS,SUB-016,rg-125,2022-07-25,BU002,Production,Data Pipeline
+CLOUD000577,Azure,S3,SUB-017,rg-126,2021-12-31,BU002,DR,VM
+CLOUD000578,Azure,S3,SUB-018,rg-127,2025-09-24,BU002,Production,Data Pipeline
+CLOUD000579,AWS,Azure Kubernetes Service,SUB-019,rg-128,2024-05-17,BU002,DR,Container
+CLOUD000580,Azure,Azure Data Factory,SUB-020,rg-129,2024-08-11,BU001,Non-Production,Storage
+CLOUD000581,Azure,Virtual Machines,SUB-021,rg-130,2021-10-27,BU001,Non-Production,Container
+CLOUD000582,Azure,Azure Kubernetes Service,SUB-022,rg-131,2022-12-13,BU009,Production,Data Pipeline
+CLOUD000583,AWS,S3,SUB-023,rg-132,2026-02-09,BU001,Production,VM
+CLOUD000584,AWS,Azure Data Factory,SUB-024,rg-133,2022-03-19,BU002,Production,Data Pipeline
+CLOUD000585,Azure,EKS,SUB-025,rg-134,2024-03-09,BU010,Production,Database
+CLOUD000586,Azure,RDS,SUB-026,rg-135,2021-04-14,BU003,Production,Data Pipeline
+CLOUD000587,AWS,Azure SQL Database,SUB-027,rg-136,2021-06-29,BU001,Production,Container
+CLOUD000588,AWS,EC2,SUB-028,rg-137,2023-05-12,BU005,DR,Database
+CLOUD000589,AWS,Azure SQL Database,SUB-029,rg-138,2025-12-02,BU002,Production,VM
+CLOUD000590,Azure,RDS,SUB-030,rg-139,2022-12-15,BU006,Production,Container
+CLOUD000591,Azure,RDS,SUB-031,rg-140,2019-11-03,BU002,DR,Container
+CLOUD000592,Azure,Azure Data Factory,SUB-032,rg-141,2023-07-05,BU002,Non-Production,Data Pipeline
+CLOUD000593,AWS,S3,SUB-033,rg-142,2025-12-20,BU002,Production,Container
+CLOUD000594,AWS,Azure Data Factory,SUB-034,rg-143,2023-11-18,BU005,DR,Container
+CLOUD000595,Azure,Azure Data Factory,SUB-035,rg-144,2024-03-20,BU002,Non-Production,Database
+CLOUD000596,Azure,EC2,SUB-036,rg-145,2024-06-11,BU002,Production,Data Pipeline
+CLOUD000597,AWS,Azure Kubernetes Service,SUB-037,rg-146,2019-03-02,BU002,Production,Container
+CLOUD000598,AWS,Azure Kubernetes Service,SUB-038,rg-147,2022-01-21,BU005,Non-Production,Database
+CLOUD000599,Azure,S3,SUB-039,rg-148,2025-09-13,BU002,Production,Container
+CLOUD000600,AWS,Azure Kubernetes Service,SUB-040,rg-149,2022-05-23,BU002,Production,Data Pipeline
+CLOUD000601,Azure,Azure Kubernetes Service,SUB-001,rg-000,2020-06-10,BU005,Production,Storage
+CLOUD000602,AWS,EC2,SUB-002,rg-001,2020-06-16,BU010,Production,Container
+CLOUD000603,Azure,EKS,SUB-003,rg-002,2018-03-28,BU005,Production,Container
+CLOUD000604,AWS,Azure Kubernetes Service,SUB-004,rg-003,2018-01-30,BU005,Production,Container
+CLOUD000605,Azure,EC2,SUB-005,rg-004,2024-09-14,BU002,Production,Storage
+CLOUD000606,Azure,S3,SUB-006,rg-005,2019-08-15,BU002,Production,Data Pipeline
+CLOUD000607,Azure,Azure SQL Database,SUB-007,rg-006,2023-11-09,BU007,Non-Production,Data Pipeline
+CLOUD000608,Azure,EKS,SUB-008,rg-007,2024-01-25,BU002,Non-Production,Container
+CLOUD000609,Azure,EC2,SUB-009,rg-008,2022-11-02,BU006,Production,Database
+CLOUD000610,AWS,Azure Kubernetes Service,SUB-010,rg-009,2020-09-30,BU006,Production,VM
+CLOUD000611,Azure,Virtual Machines,SUB-011,rg-010,2021-10-19,BU001,DR,Storage
+CLOUD000612,Azure,S3,SUB-012,rg-011,2019-07-12,BU010,Non-Production,Database
+CLOUD000613,AWS,RDS,SUB-013,rg-012,2019-12-30,BU006,Production,Container
+CLOUD000614,Azure,Azure Kubernetes Service,SUB-014,rg-013,2025-06-09,BU002,Production,Data Pipeline
+CLOUD000615,Azure,Azure Kubernetes Service,SUB-015,rg-014,2021-03-04,BU005,DR,Database
+CLOUD000616,AWS,Azure Kubernetes Service,SUB-016,rg-015,2018-07-22,BU002,Production,Storage
+CLOUD000617,Azure,S3,SUB-017,rg-016,2018-02-10,BU009,Production,Storage
+CLOUD000618,Azure,EC2,SUB-018,rg-017,2024-09-18,BU002,Production,VM
+CLOUD000619,Azure,Virtual Machines,SUB-019,rg-018,2021-01-21,BU001,Production,VM
+CLOUD000620,AWS,EKS,SUB-020,rg-019,2024-11-07,BU001,Production,Container
+CLOUD000621,Azure,Azure Kubernetes Service,SUB-021,rg-020,2021-04-25,BU002,Production,Storage
+CLOUD000622,Azure,EKS,SUB-022,rg-021,2025-09-13,BU002,Production,Database
+CLOUD000623,Azure,Virtual Machines,SUB-023,rg-022,2022-02-09,BU006,Production,VM
+CLOUD000624,Azure,Azure Data Factory,SUB-024,rg-023,2018-02-05,BU002,Production,Storage
+CLOUD000625,Azure,Virtual Machines,SUB-025,rg-024,2026-01-29,BU005,Production,Data Pipeline
+CLOUD000626,AWS,Azure Kubernetes Service,SUB-026,rg-025,2019-01-22,BU002,Production,Container
+CLOUD000627,Azure,RDS,SUB-027,rg-026,2021-11-18,BU002,Non-Production,Data Pipeline
+CLOUD000628,Azure,Virtual Machines,SUB-028,rg-027,2023-12-04,BU005,Non-Production,Container
+CLOUD000629,Azure,RDS,SUB-029,rg-028,2018-09-09,BU007,Non-Production,Data Pipeline
+CLOUD000630,AWS,Azure Data Factory,SUB-030,rg-029,2020-02-04,BU009,Non-Production,Container
+CLOUD000631,AWS,Azure SQL Database,SUB-031,rg-030,2024-11-06,BU002,Non-Production,Database
+CLOUD000632,Azure,Azure SQL Database,SUB-032,rg-031,2023-04-15,BU007,Production,Data Pipeline
+CLOUD000633,Azure,RDS,SUB-033,rg-032,2018-07-21,BU006,Production,VM
+CLOUD000634,AWS,S3,SUB-034,rg-033,2025-02-25,BU002,Production,Container
+CLOUD000635,Azure,Azure Kubernetes Service,SUB-035,rg-034,2026-01-02,BU002,Production,VM
+CLOUD000636,Azure,Azure Data Factory,SUB-036,rg-035,2023-06-28,BU001,Non-Production,Container
+CLOUD000637,Azure,Azure Kubernetes Service,SUB-037,rg-036,2024-10-06,BU007,Production,Data Pipeline
+CLOUD000638,Azure,Virtual Machines,SUB-038,rg-037,2024-01-14,BU002,Production,VM
+CLOUD000639,AWS,Virtual Machines,SUB-039,rg-038,2018-05-09,BU001,Production,Database
+CLOUD000640,AWS,Azure SQL Database,SUB-040,rg-039,2024-07-08,BU002,DR,Container
+CLOUD000641,Azure,RDS,SUB-001,rg-040,2023-05-15,BU002,Production,VM
+CLOUD000642,Azure,Azure Kubernetes Service,SUB-002,rg-041,2020-05-03,BU002,Production,Container
+CLOUD000643,AWS,EKS,SUB-003,rg-042,2020-07-30,BU004,Production,Storage
+CLOUD000644,Azure,Azure Kubernetes Service,SUB-004,rg-043,2022-04-20,BU002,DR,Container
+CLOUD000645,Azure,RDS,SUB-005,rg-044,2019-08-28,BU002,Production,Storage
+CLOUD000646,Azure,Azure SQL Database,SUB-006,rg-045,2025-12-11,BU004,Production,Container
+CLOUD000647,Azure,EC2,SUB-007,rg-046,2020-12-25,BU001,Production,Storage
+CLOUD000648,Azure,EKS,SUB-008,rg-047,2021-02-27,BU006,Production,Container
+CLOUD000649,Azure,S3,SUB-009,rg-048,2025-01-31,BU002,Production,Container
+CLOUD000650,Azure,Azure Data Factory,SUB-010,rg-049,2019-01-22,BU002,Production,Database
+CLOUD000651,Azure,Azure SQL Database,SUB-011,rg-050,2025-10-25,BU002,Non-Production,Database
+CLOUD000652,Azure,RDS,SUB-012,rg-051,2019-07-17,BU004,Production,VM
+CLOUD000653,AWS,EKS,SUB-013,rg-052,2020-02-11,BU002,Non-Production,VM
+CLOUD000654,Azure,Azure SQL Database,SUB-014,rg-053,2023-08-08,BU002,Production,Database
+CLOUD000655,Azure,EC2,SUB-015,rg-054,2025-07-28,BU002,Production,Storage
+CLOUD000656,Azure,Azure Kubernetes Service,SUB-016,rg-055,2019-10-21,BU002,Production,Data Pipeline
+CLOUD000657,Azure,Azure Data Factory,SUB-017,rg-056,2025-08-09,BU005,Production,Database
+CLOUD000658,Azure,Azure SQL Database,SUB-018,rg-057,2024-01-05,BU002,DR,Database
+CLOUD000659,Azure,EC2,SUB-019,rg-058,2021-01-17,BU002,Production,VM
+CLOUD000660,AWS,Azure SQL Database,SUB-020,rg-059,2022-05-05,BU002,Production,Database
+CLOUD000661,AWS,Virtual Machines,SUB-021,rg-060,2021-11-06,BU005,Non-Production,VM
+CLOUD000662,Azure,EC2,SUB-022,rg-061,2022-06-07,BU002,Production,Data Pipeline
+CLOUD000663,AWS,Azure SQL Database,SUB-023,rg-062,2026-04-30,BU001,Production,Data Pipeline
+CLOUD000664,Azure,Azure Kubernetes Service,SUB-024,rg-063,2019-04-08,BU002,Production,VM
+CLOUD000665,Azure,S3,SUB-025,rg-064,2025-01-15,BU002,Production,Storage
+CLOUD000666,Azure,Azure Kubernetes Service,SUB-026,rg-065,2025-05-03,BU002,Non-Production,Database
+CLOUD000667,AWS,Azure SQL Database,SUB-027,rg-066,2022-11-12,BU008,Non-Production,Database
+CLOUD000668,Azure,Azure Data Factory,SUB-028,rg-067,2022-11-20,BU002,Production,Storage
+CLOUD000669,Azure,Azure Kubernetes Service,SUB-029,rg-068,2020-11-10,BU006,DR,Storage
+CLOUD000670,AWS,EKS,SUB-030,rg-069,2025-02-15,BU002,Production,Database
+CLOUD000671,Azure,EKS,SUB-031,rg-070,2019-02-16,BU007,Non-Production,Storage
+CLOUD000672,Azure,Azure Kubernetes Service,SUB-032,rg-071,2026-01-09,BU001,Production,Data Pipeline
+CLOUD000673,AWS,Azure SQL Database,SUB-033,rg-072,2020-09-15,BU001,DR,Database
+CLOUD000674,AWS,Virtual Machines,SUB-034,rg-073,2025-05-04,BU005,DR,VM
+CLOUD000675,Azure,S3,SUB-035,rg-074,2025-06-11,BU003,Production,Database
+CLOUD000676,AWS,Azure Kubernetes Service,SUB-036,rg-075,2022-06-28,BU002,Production,Data Pipeline
+CLOUD000677,Azure,EC2,SUB-037,rg-076,2024-03-10,BU009,Production,Storage
+CLOUD000678,Azure,EKS,SUB-038,rg-077,2018-03-06,BU007,Production,VM
+CLOUD000679,Azure,EKS,SUB-039,rg-078,2018-09-11,BU005,Non-Production,Data Pipeline
+CLOUD000680,Azure,EC2,SUB-040,rg-079,2018-07-31,BU002,Production,Container
+CLOUD000681,AWS,RDS,SUB-001,rg-080,2026-04-14,BU003,Production,Storage
+CLOUD000682,Azure,EKS,SUB-002,rg-081,2019-03-09,BU004,Production,VM
+CLOUD000683,Azure,EKS,SUB-003,rg-082,2025-06-05,BU003,Production,Data Pipeline
+CLOUD000684,Azure,Azure SQL Database,SUB-004,rg-083,2023-10-18,BU002,DR,Container
+CLOUD000685,Azure,EC2,SUB-005,rg-084,2019-07-07,BU002,Non-Production,Data Pipeline
+CLOUD000686,AWS,EKS,SUB-006,rg-085,2020-05-11,BU006,Non-Production,Data Pipeline
+CLOUD000687,AWS,EC2,SUB-007,rg-086,2022-09-30,BU006,Non-Production,Container
+CLOUD000688,Azure,RDS,SUB-008,rg-087,2020-03-31,BU002,Non-Production,Container
+CLOUD000689,Azure,Azure SQL Database,SUB-009,rg-088,2020-04-12,BU008,Non-Production,Storage
+CLOUD000690,Azure,Azure SQL Database,SUB-010,rg-089,2020-06-09,BU001,Non-Production,Container
+CLOUD000691,Azure,Azure Kubernetes Service,SUB-011,rg-090,2021-12-21,BU002,Non-Production,Container
+CLOUD000692,Azure,RDS,SUB-012,rg-091,2019-09-22,BU008,Production,VM
+CLOUD000693,AWS,Azure Data Factory,SUB-013,rg-092,2019-04-19,BU002,Non-Production,Container
+CLOUD000694,Azure,Azure Data Factory,SUB-014,rg-093,2023-08-03,BU002,Production,Container
+CLOUD000695,Azure,Azure SQL Database,SUB-015,rg-094,2020-12-24,BU009,Production,Container
+CLOUD000696,Azure,Azure SQL Database,SUB-016,rg-095,2018-04-17,BU003,Production,Database
+CLOUD000697,Azure,Azure Data Factory,SUB-017,rg-096,2019-05-29,BU002,Production,Database
+CLOUD000698,Azure,Azure Data Factory,SUB-018,rg-097,2025-03-07,BU001,Production,Data Pipeline
+CLOUD000699,Azure,Azure SQL Database,SUB-019,rg-098,2021-11-09,BU002,DR,Data Pipeline
+CLOUD000700,Azure,Azure Data Factory,SUB-020,rg-099,2022-03-19,BU002,Production,Data Pipeline
+CLOUD000701,Azure,S3,SUB-021,rg-100,2022-02-27,BU001,Non-Production,Data Pipeline
+CLOUD000702,AWS,Virtual Machines,SUB-022,rg-101,2018-05-27,BU002,Production,Storage
+CLOUD000703,Azure,Azure Kubernetes Service,SUB-023,rg-102,2019-12-25,BU002,Production,Database
+CLOUD000704,AWS,Azure SQL Database,SUB-024,rg-103,2024-04-26,BU009,Production,Database
+CLOUD000705,Azure,Azure Data Factory,SUB-025,rg-104,2022-06-12,BU002,Production,Container
+CLOUD000706,AWS,EKS,SUB-026,rg-105,2026-03-03,BU002,Production,Storage
+CLOUD000707,Azure,Azure Data Factory,SUB-027,rg-106,2018-04-14,BU005,Production,VM
+CLOUD000708,Azure,Azure Data Factory,SUB-028,rg-107,2018-07-09,BU005,Production,Database
+CLOUD000709,Azure,S3,SUB-029,rg-108,2022-10-09,BU002,Production,Storage
+CLOUD000710,Azure,RDS,SUB-030,rg-109,2026-02-19,BU001,Non-Production,Data Pipeline
+CLOUD000711,Azure,Azure SQL Database,SUB-031,rg-110,2022-01-24,BU002,Non-Production,Database
+CLOUD000712,AWS,S3,SUB-032,rg-111,2021-02-23,BU002,Non-Production,VM
+CLOUD000713,Azure,Azure Data Factory,SUB-033,rg-112,2020-08-24,BU002,Production,Data Pipeline
+CLOUD000714,AWS,EC2,SUB-034,rg-113,2023-06-16,BU005,Production,Data Pipeline
+CLOUD000715,Azure,Virtual Machines,SUB-035,rg-114,2024-06-04,BU001,Production,VM
+CLOUD000716,Azure,Azure Kubernetes Service,SUB-036,rg-115,2026-04-19,BU004,DR,Storage
+CLOUD000717,Azure,EC2,SUB-037,rg-116,2020-02-17,BU003,DR,Storage
+CLOUD000718,AWS,EKS,SUB-038,rg-117,2024-03-05,BU002,Production,Container
+CLOUD000719,AWS,Azure Kubernetes Service,SUB-039,rg-118,2023-01-24,BU002,Production,VM
+CLOUD000720,Azure,Virtual Machines,SUB-040,rg-119,2018-11-25,BU002,Non-Production,Storage
+CLOUD000721,Azure,EKS,SUB-001,rg-120,2019-10-19,BU002,Production,VM
+CLOUD000722,Azure,RDS,SUB-002,rg-121,2020-07-12,BU003,Production,Container
+CLOUD000723,AWS,Virtual Machines,SUB-003,rg-122,2019-12-16,BU010,Production,Database
+CLOUD000724,Azure,S3,SUB-004,rg-123,2026-04-15,BU001,Production,Container
+CLOUD000725,Azure,RDS,SUB-005,rg-124,2021-08-02,BU002,Production,VM
+CLOUD000726,Azure,Virtual Machines,SUB-006,rg-125,2025-11-21,BU003,Production,Storage
+CLOUD000727,AWS,Azure SQL Database,SUB-007,rg-126,2020-12-27,BU007,Production,Container
+CLOUD000728,Azure,S3,SUB-008,rg-127,2023-12-15,BU001,Non-Production,Storage
+CLOUD000729,AWS,Azure Data Factory,SUB-009,rg-128,2025-07-31,BU002,DR,Storage
+CLOUD000730,Azure,Azure SQL Database,SUB-010,rg-129,2018-05-25,BU005,Production,Data Pipeline
+CLOUD000731,AWS,Virtual Machines,SUB-011,rg-130,2024-03-03,BU009,Production,Database
+CLOUD000732,Azure,S3,SUB-012,rg-131,2018-09-01,BU005,Non-Production,Storage
+CLOUD000733,Azure,EKS,SUB-013,rg-132,2019-11-22,BU003,Non-Production,Storage
+CLOUD000734,AWS,Azure Data Factory,SUB-014,rg-133,2021-03-24,BU002,DR,Storage
+CLOUD000735,Azure,Azure Kubernetes Service,SUB-015,rg-134,2020-11-07,BU002,Production,Container
+CLOUD000736,AWS,S3,SUB-016,rg-135,2024-01-15,BU005,DR,VM
+CLOUD000737,AWS,Azure Kubernetes Service,SUB-017,rg-136,2022-07-30,BU003,Production,Database
+CLOUD000738,Azure,RDS,SUB-018,rg-137,2025-09-17,BU002,Non-Production,VM
+CLOUD000739,Azure,Azure Kubernetes Service,SUB-019,rg-138,2025-02-07,BU002,Non-Production,Container
+CLOUD000740,AWS,S3,SUB-020,rg-139,2025-08-19,BU002,Non-Production,VM
+CLOUD000741,Azure,Azure SQL Database,SUB-021,rg-140,2026-04-06,BU002,Production,Data Pipeline
+CLOUD000742,AWS,Azure Data Factory,SUB-022,rg-141,2020-07-01,BU002,Non-Production,Data Pipeline
+CLOUD000743,Azure,Azure Data Factory,SUB-023,rg-142,2018-06-17,BU004,Non-Production,Data Pipeline
+CLOUD000744,AWS,EC2,SUB-024,rg-143,2018-02-14,BU007,Production,VM
+CLOUD000745,Azure,Azure SQL Database,SUB-025,rg-144,2024-07-21,BU002,Non-Production,Data Pipeline
+CLOUD000746,Azure,Azure Data Factory,SUB-026,rg-145,2018-07-31,BU001,Non-Production,Database
+CLOUD000747,Azure,RDS,SUB-027,rg-146,2026-02-05,BU002,Production,VM
+CLOUD000748,Azure,Azure Kubernetes Service,SUB-028,rg-147,2022-10-24,BU002,Production,VM
+CLOUD000749,Azure,Azure Data Factory,SUB-029,rg-148,2021-11-28,BU009,DR,Data Pipeline
+CLOUD000750,Azure,Azure Data Factory,SUB-030,rg-149,2021-02-24,BU002,Production,Database
+CLOUD000751,Azure,Azure SQL Database,SUB-031,rg-000,2020-01-25,BU003,Production,Container
+CLOUD000752,Azure,EKS,SUB-032,rg-001,2021-09-05,BU002,Production,Storage
+CLOUD000753,Azure,S3,SUB-033,rg-002,2020-06-06,BU001,Production,Storage
+CLOUD000754,AWS,EKS,SUB-034,rg-003,2023-12-05,BU002,Production,Container
+CLOUD000755,Azure,Azure Data Factory,SUB-035,rg-004,2020-11-20,BU003,Production,Database
+CLOUD000756,Azure,EKS,SUB-036,rg-005,2023-11-09,BU002,Non-Production,Storage
+CLOUD000757,Azure,S3,SUB-037,rg-006,2020-11-11,BU008,Production,Database
+CLOUD000758,AWS,Azure SQL Database,SUB-038,rg-007,2019-06-24,BU009,Production,VM
+CLOUD000759,AWS,EKS,SUB-039,rg-008,2022-10-20,BU001,Production,VM
+CLOUD000760,Azure,Azure SQL Database,SUB-040,rg-009,2021-03-26,BU009,Production,Data Pipeline
+CLOUD000761,Azure,S3,SUB-001,rg-010,2019-09-28,BU001,Production,Storage
+CLOUD000762,Azure,Azure Kubernetes Service,SUB-002,rg-011,2019-05-05,BU002,Production,VM
+CLOUD000763,AWS,RDS,SUB-003,rg-012,2026-02-28,BU002,Non-Production,Database
+CLOUD000764,AWS,S3,SUB-004,rg-013,2021-07-24,BU003,DR,Storage
+CLOUD000765,Azure,Azure Kubernetes Service,SUB-005,rg-014,2019-06-30,BU002,Production,Storage
+CLOUD000766,Azure,S3,SUB-006,rg-015,2023-07-29,BU007,Production,Database
+CLOUD000767,Azure,EKS,SUB-007,rg-016,2020-12-06,BU002,Non-Production,Data Pipeline
+CLOUD000768,AWS,S3,SUB-008,rg-017,2020-06-28,BU005,Non-Production,Data Pipeline
+CLOUD000769,AWS,RDS,SUB-009,rg-018,2025-02-26,BU001,Production,Storage
+CLOUD000770,Azure,S3,SUB-010,rg-019,2020-05-04,BU002,Production,Storage
+CLOUD000771,AWS,S3,SUB-011,rg-020,2019-06-10,BU002,Production,Storage
+CLOUD000772,AWS,Azure Data Factory,SUB-012,rg-021,2018-08-12,BU002,Production,Container
+CLOUD000773,Azure,EC2,SUB-013,rg-022,2018-01-30,BU002,Production,Storage
+CLOUD000774,AWS,EKS,SUB-014,rg-023,2020-06-06,BU002,DR,Storage
+CLOUD000775,Azure,EKS,SUB-015,rg-024,2018-08-10,BU002,Non-Production,Container
+CLOUD000776,AWS,S3,SUB-016,rg-025,2021-04-30,BU001,Production,VM
+CLOUD000777,Azure,S3,SUB-017,rg-026,2024-01-29,BU002,DR,VM
+CLOUD000778,Azure,Azure SQL Database,SUB-018,rg-027,2019-12-21,BU006,Production,Data Pipeline
+CLOUD000779,Azure,EC2,SUB-019,rg-028,2018-08-17,BU002,Production,VM
+CLOUD000780,AWS,S3,SUB-020,rg-029,2024-04-04,BU002,Production,Database
+CLOUD000781,Azure,RDS,SUB-021,rg-030,2025-03-26,BU002,DR,Database
+CLOUD000782,Azure,Azure Data Factory,SUB-022,rg-031,2020-10-10,BU002,Non-Production,Database
+CLOUD000783,Azure,EC2,SUB-023,rg-032,2025-10-03,BU005,Production,Data Pipeline
+CLOUD000784,AWS,EC2,SUB-024,rg-033,2025-03-09,BU002,DR,VM
+CLOUD000785,Azure,EKS,SUB-025,rg-034,2024-05-20,BU006,Production,Database
+CLOUD000786,Azure,Azure Data Factory,SUB-026,rg-035,2025-09-02,BU004,Production,Storage
+CLOUD000787,AWS,Azure Kubernetes Service,SUB-027,rg-036,2024-02-27,BU005,Production,Data Pipeline
+CLOUD000788,Azure,EC2,SUB-028,rg-037,2022-11-14,BU001,Production,Data Pipeline
+CLOUD000789,AWS,Azure Kubernetes Service,SUB-029,rg-038,2021-10-17,BU002,Production,VM
+CLOUD000790,Azure,EKS,SUB-030,rg-039,2020-06-20,BU009,Production,VM
+CLOUD000791,Azure,Azure Data Factory,SUB-031,rg-040,2024-01-17,BU002,Production,Storage
+CLOUD000792,AWS,S3,SUB-032,rg-041,2018-09-15,BU001,Production,VM
+CLOUD000793,Azure,Azure Data Factory,SUB-033,rg-042,2020-02-29,BU006,Non-Production,Container
+CLOUD000794,Azure,EKS,SUB-034,rg-043,2020-08-29,BU003,Non-Production,Database
+CLOUD000795,AWS,EKS,SUB-035,rg-044,2022-09-17,BU001,Production,Storage
+CLOUD000796,Azure,Azure Data Factory,SUB-036,rg-045,2022-02-18,BU001,DR,Data Pipeline
+CLOUD000797,Azure,Virtual Machines,SUB-037,rg-046,2020-01-04,BU002,Production,VM
+CLOUD000798,Azure,S3,SUB-038,rg-047,2023-11-15,BU005,Production,Data Pipeline
+CLOUD000799,Azure,Virtual Machines,SUB-039,rg-048,2023-08-08,BU002,DR,Data Pipeline
+CLOUD000800,Azure,S3,SUB-040,rg-049,2022-09-21,BU003,Production,Container
+CLOUD000801,Azure,Azure Data Factory,SUB-001,rg-050,2024-09-19,BU001,Production,VM
+CLOUD000802,AWS,EKS,SUB-002,rg-051,2020-09-06,BU002,DR,VM
+CLOUD000803,Azure,EKS,SUB-003,rg-052,2020-02-06,BU002,Production,Storage
+CLOUD000804,Azure,Azure Data Factory,SUB-004,rg-053,2024-09-09,BU004,Non-Production,Container
+CLOUD000805,Azure,EKS,SUB-005,rg-054,2023-05-19,BU002,Non-Production,VM
+CLOUD000806,AWS,Azure SQL Database,SUB-006,rg-055,2024-12-31,BU009,Production,Database
+CLOUD000807,Azure,EC2,SUB-007,rg-056,2019-03-26,BU001,Production,Storage
+CLOUD000808,Azure,Virtual Machines,SUB-008,rg-057,2024-12-26,BU004,Production,Database
+CLOUD000809,AWS,Azure Kubernetes Service,SUB-009,rg-058,2019-09-12,BU006,Production,Database
+CLOUD000810,AWS,RDS,SUB-010,rg-059,2022-05-30,BU002,Production,Database
+CLOUD000811,Azure,EKS,SUB-011,rg-060,2020-04-22,BU005,Non-Production,VM
+CLOUD000812,Azure,Azure SQL Database,SUB-012,rg-061,2020-03-20,BU001,Production,Data Pipeline
+CLOUD000813,AWS,RDS,SUB-013,rg-062,2021-07-21,BU002,Production,Database
+CLOUD000814,Azure,Azure Data Factory,SUB-014,rg-063,2024-07-30,BU001,Production,Container
+CLOUD000815,Azure,S3,SUB-015,rg-064,2021-03-24,BU002,Production,Container
+CLOUD000816,Azure,Azure Data Factory,SUB-016,rg-065,2023-07-08,BU001,Non-Production,Database
+CLOUD000817,AWS,Azure Data Factory,SUB-017,rg-066,2019-05-29,BU002,Non-Production,Container
+CLOUD000818,AWS,EKS,SUB-018,rg-067,2022-11-10,BU002,Production,VM
+CLOUD000819,AWS,S3,SUB-019,rg-068,2020-12-19,BU002,Production,Data Pipeline
+CLOUD000820,Azure,Azure Data Factory,SUB-020,rg-069,2020-12-27,BU001,Production,Storage
+CLOUD000821,Azure,Azure SQL Database,SUB-021,rg-070,2023-09-19,BU002,Production,Data Pipeline
+CLOUD000822,Azure,EC2,SUB-022,rg-071,2019-04-22,BU008,Production,Container
+CLOUD000823,Azure,EC2,SUB-023,rg-072,2021-01-31,BU002,Production,Container
+CLOUD000824,Azure,EKS,SUB-024,rg-073,2025-04-25,BU003,Production,Database
+CLOUD000825,AWS,EC2,SUB-025,rg-074,2018-10-30,BU002,Non-Production,Container
+CLOUD000826,Azure,Azure Kubernetes Service,SUB-026,rg-075,2024-11-18,BU009,Non-Production,Database
+CLOUD000827,AWS,EC2,SUB-027,rg-076,2023-10-13,BU006,Production,Container
+CLOUD000828,Azure,Azure SQL Database,SUB-028,rg-077,2018-07-09,BU005,Production,VM
+CLOUD000829,AWS,EC2,SUB-029,rg-078,2018-11-11,BU009,Production,Container
+CLOUD000830,AWS,Azure SQL Database,SUB-030,rg-079,2024-10-20,BU003,Production,VM
+CLOUD000831,Azure,EKS,SUB-031,rg-080,2024-04-14,BU001,Non-Production,Database
+CLOUD000832,AWS,Azure Kubernetes Service,SUB-032,rg-081,2020-05-25,BU002,Non-Production,VM
+CLOUD000833,Azure,EC2,SUB-033,rg-082,2019-05-23,BU002,Production,VM
+CLOUD000834,AWS,S3,SUB-034,rg-083,2023-01-20,BU002,Non-Production,Storage
+CLOUD000835,Azure,Azure Kubernetes Service,SUB-035,rg-084,2025-11-22,BU009,Production,Container
+CLOUD000836,Azure,EC2,SUB-036,rg-085,2023-10-09,BU003,DR,Database
+CLOUD000837,Azure,Azure Kubernetes Service,SUB-037,rg-086,2020-06-15,BU002,DR,Database
+CLOUD000838,Azure,Azure Data Factory,SUB-038,rg-087,2020-01-28,BU002,Production,Data Pipeline
+CLOUD000839,AWS,Azure Kubernetes Service,SUB-039,rg-088,2019-09-29,BU006,Non-Production,Storage
+CLOUD000840,AWS,Azure SQL Database,SUB-040,rg-089,2025-07-07,BU002,Production,Data Pipeline
+CLOUD000841,Azure,Virtual Machines,SUB-001,rg-090,2019-05-04,BU002,Non-Production,Container
+CLOUD000842,Azure,EKS,SUB-002,rg-091,2024-03-11,BU005,Non-Production,Container
+CLOUD000843,Azure,EKS,SUB-003,rg-092,2023-09-25,BU002,Production,Container
+CLOUD000844,Azure,Azure Kubernetes Service,SUB-004,rg-093,2026-02-21,BU001,Non-Production,VM
+CLOUD000845,AWS,Azure Kubernetes Service,SUB-005,rg-094,2023-10-18,BU002,Production,Storage
+CLOUD000846,Azure,Azure Data Factory,SUB-006,rg-095,2023-03-12,BU005,Production,Data Pipeline
+CLOUD000847,Azure,EC2,SUB-007,rg-096,2021-10-29,BU001,Non-Production,Database
+CLOUD000848,Azure,Virtual Machines,SUB-008,rg-097,2022-11-15,BU009,Production,Data Pipeline
+CLOUD000849,Azure,S3,SUB-009,rg-098,2020-01-23,BU009,Production,Database
+CLOUD000850,AWS,EC2,SUB-010,rg-099,2020-12-01,BU006,Production,VM
+CLOUD000851,Azure,Azure Kubernetes Service,SUB-011,rg-100,2022-08-22,BU002,Non-Production,VM
+CLOUD000852,AWS,EC2,SUB-012,rg-101,2023-02-18,BU002,Production,Database
+CLOUD000853,AWS,Azure Kubernetes Service,SUB-013,rg-102,2019-08-12,BU008,Non-Production,VM
+CLOUD000854,AWS,Azure Kubernetes Service,SUB-014,rg-103,2018-11-06,BU004,DR,Database
+CLOUD000855,Azure,S3,SUB-015,rg-104,2024-05-11,BU003,Production,Database
+CLOUD000856,AWS,Azure Data Factory,SUB-016,rg-105,2020-04-18,BU005,Production,Data Pipeline
+CLOUD000857,Azure,EC2,SUB-017,rg-106,2024-06-16,BU001,Production,Database
+CLOUD000858,Azure,EKS,SUB-018,rg-107,2023-12-30,BU003,Production,Container
+CLOUD000859,Azure,Azure Kubernetes Service,SUB-019,rg-108,2021-12-30,BU005,Production,Database
+CLOUD000860,Azure,Azure SQL Database,SUB-020,rg-109,2018-05-29,BU004,Non-Production,Storage
+CLOUD000861,Azure,Virtual Machines,SUB-021,rg-110,2019-08-21,BU002,Production,Container
+CLOUD000862,AWS,RDS,SUB-022,rg-111,2019-05-15,BU002,Non-Production,Container
+CLOUD000863,AWS,Virtual Machines,SUB-023,rg-112,2018-02-24,BU004,Production,Storage
+CLOUD000864,Azure,EKS,SUB-024,rg-113,2020-01-25,BU002,Production,VM
+CLOUD000865,Azure,S3,SUB-025,rg-114,2019-02-25,BU002,Production,Storage
+CLOUD000866,Azure,EKS,SUB-026,rg-115,2023-01-05,BU001,Production,Database
+CLOUD000867,Azure,Azure Kubernetes Service,SUB-027,rg-116,2020-09-09,BU002,Production,Data Pipeline
+CLOUD000868,Azure,Azure Kubernetes Service,SUB-028,rg-117,2025-08-13,BU007,Non-Production,VM
+CLOUD000869,Azure,Azure Data Factory,SUB-029,rg-118,2019-08-18,BU003,Production,VM
+CLOUD000870,AWS,EKS,SUB-030,rg-119,2021-08-27,BU002,Production,Database
+CLOUD000871,AWS,Virtual Machines,SUB-031,rg-120,2025-04-25,BU009,DR,Container
+CLOUD000872,Azure,EC2,SUB-032,rg-121,2023-04-03,BU004,Production,VM
+CLOUD000873,Azure,S3,SUB-033,rg-122,2022-03-15,BU002,Production,VM
+CLOUD000874,AWS,Virtual Machines,SUB-034,rg-123,2025-06-09,BU010,Production,Storage
+CLOUD000875,Azure,Azure Kubernetes Service,SUB-035,rg-124,2022-07-02,BU003,Production,VM
+CLOUD000876,Azure,RDS,SUB-036,rg-125,2018-08-15,BU001,Production,Data Pipeline
+CLOUD000877,Azure,EC2,SUB-037,rg-126,2018-10-04,BU004,Production,Database
+CLOUD000878,AWS,RDS,SUB-038,rg-127,2021-01-06,BU006,Production,Database
+CLOUD000879,Azure,Azure Data Factory,SUB-039,rg-128,2022-03-31,BU002,Non-Production,Storage
+CLOUD000880,Azure,Azure SQL Database,SUB-040,rg-129,2021-06-11,BU002,Production,Database
+CLOUD000881,Azure,EKS,SUB-001,rg-130,2022-09-09,BU001,Production,Data Pipeline
+CLOUD000882,Azure,S3,SUB-002,rg-131,2025-09-07,BU002,Production,Container
+CLOUD000883,AWS,Virtual Machines,SUB-003,rg-132,2024-08-21,BU001,Non-Production,Storage
+CLOUD000884,Azure,Azure Data Factory,SUB-004,rg-133,2018-04-01,BU007,Production,VM
+CLOUD000885,AWS,Azure Kubernetes Service,SUB-005,rg-134,2024-11-23,BU002,Production,Container
+CLOUD000886,AWS,EKS,SUB-006,rg-135,2022-08-29,BU002,Production,Container
+CLOUD000887,Azure,Azure SQL Database,SUB-007,rg-136,2018-08-10,BU003,Production,Data Pipeline
+CLOUD000888,Azure,S3,SUB-008,rg-137,2023-03-22,BU007,Production,Database
+CLOUD000889,Azure,S3,SUB-009,rg-138,2019-02-14,BU002,Non-Production,Data Pipeline
+CLOUD000890,Azure,RDS,SUB-010,rg-139,2022-03-29,BU005,Non-Production,Database
+CLOUD000891,Azure,EC2,SUB-011,rg-140,2019-03-09,BU005,Production,Container
+CLOUD000892,AWS,Azure Kubernetes Service,SUB-012,rg-141,2022-04-17,BU002,Production,Storage
+CLOUD000893,AWS,Azure Kubernetes Service,SUB-013,rg-142,2024-04-25,BU002,Production,Database
+CLOUD000894,AWS,EKS,SUB-014,rg-143,2021-03-07,BU008,Non-Production,Storage
+CLOUD000895,Azure,Azure Data Factory,SUB-015,rg-144,2023-11-18,BU008,DR,Database
+CLOUD000896,Azure,Virtual Machines,SUB-016,rg-145,2024-12-22,BU002,Production,Storage
+CLOUD000897,AWS,EC2,SUB-017,rg-146,2025-09-05,BU002,Production,Database
+CLOUD000898,Azure,Azure Data Factory,SUB-018,rg-147,2024-05-27,BU002,Production,Container
+CLOUD000899,Azure,EKS,SUB-019,rg-148,2021-12-27,BU004,Production,Data Pipeline
+CLOUD000900,AWS,EC2,SUB-020,rg-149,2021-02-20,BU002,Production,Storage
+CLOUD000901,AWS,Azure SQL Database,SUB-021,rg-000,2023-08-23,BU006,Non-Production,Database
+CLOUD000902,AWS,Azure SQL Database,SUB-022,rg-001,2020-09-04,BU005,Production,Data Pipeline
+CLOUD000903,Azure,Azure Data Factory,SUB-023,rg-002,2025-07-07,BU001,Non-Production,Database
+CLOUD000904,Azure,RDS,SUB-024,rg-003,2025-10-09,BU002,Production,Data Pipeline
+CLOUD000905,Azure,EKS,SUB-025,rg-004,2026-04-03,BU009,Production,Container
+CLOUD000906,Azure,Azure Data Factory,SUB-026,rg-005,2020-08-02,BU001,DR,Storage
+CLOUD000907,AWS,Azure SQL Database,SUB-027,rg-006,2025-06-04,BU005,Non-Production,Storage
+CLOUD000908,Azure,RDS,SUB-028,rg-007,2025-04-13,BU004,Non-Production,Storage
+CLOUD000909,AWS,Azure Kubernetes Service,SUB-029,rg-008,2019-01-11,BU002,Production,Data Pipeline
+CLOUD000910,Azure,EKS,SUB-030,rg-009,2021-06-06,BU002,DR,Storage
+CLOUD000911,AWS,EKS,SUB-031,rg-010,2021-08-31,BU002,Production,Data Pipeline
+CLOUD000912,AWS,EC2,SUB-032,rg-011,2019-03-03,BU005,Production,Data Pipeline
+CLOUD000913,AWS,Azure Data Factory,SUB-033,rg-012,2023-03-31,BU002,Production,Database
+CLOUD000914,Azure,EC2,SUB-034,rg-013,2018-05-29,BU002,Production,Database
+CLOUD000915,AWS,RDS,SUB-035,rg-014,2019-02-15,BU002,Non-Production,VM
+CLOUD000916,Azure,Virtual Machines,SUB-036,rg-015,2023-01-02,BU002,Non-Production,Container
+CLOUD000917,AWS,EKS,SUB-037,rg-016,2018-09-07,BU001,Production,Data Pipeline
+CLOUD000918,Azure,RDS,SUB-038,rg-017,2022-11-15,BU009,Production,Container
+CLOUD000919,Azure,RDS,SUB-039,rg-018,2018-03-14,BU004,Production,Data Pipeline
+CLOUD000920,AWS,Azure Data Factory,SUB-040,rg-019,2018-09-09,BU004,Non-Production,Container
+CLOUD000921,AWS,S3,SUB-001,rg-020,2018-09-20,BU002,Production,Storage
+CLOUD000922,AWS,S3,SUB-002,rg-021,2019-09-11,BU002,Non-Production,Container
+CLOUD000923,Azure,EKS,SUB-003,rg-022,2021-12-01,BU002,Production,Container
+CLOUD000924,Azure,Azure SQL Database,SUB-004,rg-023,2019-07-25,BU006,Production,Data Pipeline
+CLOUD000925,Azure,Azure Kubernetes Service,SUB-005,rg-024,2019-07-31,BU001,Production,Database
+CLOUD000926,Azure,EC2,SUB-006,rg-025,2023-01-25,BU002,Production,Data Pipeline
+CLOUD000927,Azure,Virtual Machines,SUB-007,rg-026,2025-03-21,BU001,Production,Storage
+CLOUD000928,AWS,Azure Kubernetes Service,SUB-008,rg-027,2020-06-16,BU003,Production,Database
+CLOUD000929,Azure,EKS,SUB-009,rg-028,2019-05-25,BU001,Production,Data Pipeline
+CLOUD000930,Azure,EKS,SUB-010,rg-029,2024-07-15,BU005,Production,Storage
+CLOUD000931,Azure,RDS,SUB-011,rg-030,2023-07-05,BU010,Non-Production,Container
+CLOUD000932,Azure,Azure Kubernetes Service,SUB-012,rg-031,2018-01-05,BU002,Production,Data Pipeline
+CLOUD000933,Azure,Azure Data Factory,SUB-013,rg-032,2021-09-21,BU003,Production,Container
+CLOUD000934,Azure,Azure SQL Database,SUB-014,rg-033,2021-09-19,BU001,Non-Production,VM
+CLOUD000935,Azure,RDS,SUB-015,rg-034,2018-03-11,BU002,Non-Production,Data Pipeline
+CLOUD000936,Azure,Azure Kubernetes Service,SUB-016,rg-035,2026-03-05,BU002,Non-Production,Database
+CLOUD000937,Azure,RDS,SUB-017,rg-036,2026-01-28,BU002,Non-Production,Data Pipeline
+CLOUD000938,Azure,S3,SUB-018,rg-037,2019-04-09,BU003,Production,Database
+CLOUD000939,Azure,EC2,SUB-019,rg-038,2023-05-10,BU002,Production,Data Pipeline
+CLOUD000940,Azure,Azure Kubernetes Service,SUB-020,rg-039,2023-09-02,BU002,Non-Production,Storage
+CLOUD000941,Azure,EC2,SUB-021,rg-040,2023-01-24,BU002,Production,Database
+CLOUD000942,AWS,Virtual Machines,SUB-022,rg-041,2025-04-26,BU002,Non-Production,Storage
+CLOUD000943,Azure,Azure Data Factory,SUB-023,rg-042,2023-03-07,BU002,Production,Storage
+CLOUD000944,Azure,EKS,SUB-024,rg-043,2025-12-11,BU005,Production,Database
+CLOUD000945,AWS,Azure Kubernetes Service,SUB-025,rg-044,2021-07-12,BU001,Non-Production,Data Pipeline
+CLOUD000946,Azure,S3,SUB-026,rg-045,2020-02-20,BU009,Non-Production,Storage
+CLOUD000947,AWS,S3,SUB-027,rg-046,2018-05-16,BU003,Production,Storage
+CLOUD000948,AWS,S3,SUB-028,rg-047,2023-06-29,BU002,Production,Storage
+CLOUD000949,Azure,RDS,SUB-029,rg-048,2018-04-17,BU002,Non-Production,VM
+CLOUD000950,AWS,EC2,SUB-030,rg-049,2025-08-03,BU001,Non-Production,Storage
+CLOUD000951,Azure,Azure Data Factory,SUB-031,rg-050,2019-07-25,BU002,Production,VM
+CLOUD000952,AWS,Virtual Machines,SUB-032,rg-051,2021-06-29,BU002,Non-Production,Data Pipeline
+CLOUD000953,Azure,Virtual Machines,SUB-033,rg-052,2018-03-09,BU003,Non-Production,Data Pipeline
+CLOUD000954,AWS,Azure Data Factory,SUB-034,rg-053,2020-11-18,BU005,Non-Production,Database
+CLOUD000955,Azure,Azure Kubernetes Service,SUB-035,rg-054,2019-12-19,BU001,Non-Production,Storage
+CLOUD000956,Azure,Virtual Machines,SUB-036,rg-055,2025-05-13,BU001,Production,VM
+CLOUD000957,Azure,Azure SQL Database,SUB-037,rg-056,2024-04-22,BU002,Production,Database
+CLOUD000958,AWS,Azure SQL Database,SUB-038,rg-057,2018-01-20,BU007,Production,Storage
+CLOUD000959,AWS,RDS,SUB-039,rg-058,2021-08-29,BU001,Non-Production,Container
+CLOUD000960,Azure,EKS,SUB-040,rg-059,2019-11-19,BU001,Production,VM
+CLOUD000961,Azure,EC2,SUB-001,rg-060,2018-06-29,BU003,Production,Database
+CLOUD000962,Azure,RDS,SUB-002,rg-061,2020-08-17,BU002,Non-Production,Container
+CLOUD000963,Azure,EC2,SUB-003,rg-062,2023-12-17,BU002,Production,VM
+CLOUD000964,Azure,RDS,SUB-004,rg-063,2019-06-25,BU002,Production,VM
+CLOUD000965,AWS,RDS,SUB-005,rg-064,2021-05-03,BU003,Production,Container
+CLOUD000966,Azure,RDS,SUB-006,rg-065,2020-01-13,BU002,Production,Database
+CLOUD000967,Azure,S3,SUB-007,rg-066,2020-12-27,BU002,Production,Container
+CLOUD000968,Azure,EC2,SUB-008,rg-067,2024-03-29,BU010,Production,Database
+CLOUD000969,AWS,Virtual Machines,SUB-009,rg-068,2020-07-14,BU002,Production,Container
+CLOUD000970,Azure,EKS,SUB-010,rg-069,2022-12-24,BU007,Production,VM
+CLOUD000971,Azure,Virtual Machines,SUB-011,rg-070,2023-05-28,BU001,Non-Production,Data Pipeline
+CLOUD000972,Azure,Azure SQL Database,SUB-012,rg-071,2021-04-28,BU001,Production,Data Pipeline
+CLOUD000973,Azure,Azure Data Factory,SUB-013,rg-072,2025-12-28,BU002,Production,Data Pipeline
+CLOUD000974,Azure,RDS,SUB-014,rg-073,2020-04-28,BU008,Production,Data Pipeline
+CLOUD000975,AWS,EC2,SUB-015,rg-074,2022-12-31,BU002,Production,Database
+CLOUD000976,Azure,Azure SQL Database,SUB-016,rg-075,2026-04-27,BU002,Production,Container
+CLOUD000977,Azure,RDS,SUB-017,rg-076,2026-03-28,BU010,Production,Data Pipeline
+CLOUD000978,AWS,RDS,SUB-018,rg-077,2024-11-13,BU003,Non-Production,Data Pipeline
+CLOUD000979,Azure,EC2,SUB-019,rg-078,2025-06-15,BU010,Production,Container
+CLOUD000980,AWS,Azure Kubernetes Service,SUB-020,rg-079,2020-08-03,BU004,DR,Storage
+CLOUD000981,Azure,S3,SUB-021,rg-080,2022-06-17,BU003,Production,VM
+CLOUD000982,AWS,S3,SUB-022,rg-081,2019-08-24,BU002,Production,Data Pipeline
+CLOUD000983,Azure,EKS,SUB-023,rg-082,2021-01-29,BU007,Production,Storage
+CLOUD000984,Azure,RDS,SUB-024,rg-083,2019-11-07,BU005,DR,Container
+CLOUD000985,Azure,Azure Data Factory,SUB-025,rg-084,2018-12-14,BU002,Production,Storage
+CLOUD000986,Azure,S3,SUB-026,rg-085,2025-04-11,BU002,Production,VM
+CLOUD000987,AWS,EC2,SUB-027,rg-086,2024-03-27,BU002,Production,VM
+CLOUD000988,Azure,Virtual Machines,SUB-028,rg-087,2023-10-01,BU002,Production,Storage
+CLOUD000989,Azure,Virtual Machines,SUB-029,rg-088,2018-09-14,BU001,Non-Production,Storage
+CLOUD000990,Azure,Virtual Machines,SUB-030,rg-089,2025-06-11,BU003,Non-Production,Data Pipeline
+CLOUD000991,AWS,EKS,SUB-031,rg-090,2024-07-26,BU002,Production,Container
+CLOUD000992,Azure,S3,SUB-032,rg-091,2021-08-26,BU007,Production,Data Pipeline
+CLOUD000993,Azure,Azure Kubernetes Service,SUB-033,rg-092,2018-04-16,BU002,Non-Production,Storage
+CLOUD000994,Azure,EKS,SUB-034,rg-093,2022-12-30,BU010,Production,Container
+CLOUD000995,AWS,Azure Data Factory,SUB-035,rg-094,2019-05-26,BU003,Production,Data Pipeline
+CLOUD000996,AWS,Virtual Machines,SUB-036,rg-095,2025-11-01,BU001,Non-Production,Storage
+CLOUD000997,AWS,RDS,SUB-037,rg-096,2019-03-09,BU002,Non-Production,Data Pipeline
+CLOUD000998,Azure,Azure SQL Database,SUB-038,rg-097,2022-11-22,BU002,Non-Production,VM
+CLOUD000999,Azure,Virtual Machines,SUB-039,rg-098,2018-05-27,BU002,DR,Storage
+CLOUD001000,Azure,EC2,SUB-040,rg-099,2025-04-28,BU006,Production,Container
+CLOUD001001,Azure,Azure SQL Database,SUB-001,rg-100,2024-06-02,BU002,Production,Data Pipeline
+CLOUD001002,Azure,EC2,SUB-002,rg-101,2021-11-15,BU007,Non-Production,VM
+CLOUD001003,Azure,RDS,SUB-003,rg-102,2018-09-07,BU001,Production,Data Pipeline
+CLOUD001004,AWS,S3,SUB-004,rg-103,2022-10-29,BU009,Production,Database
+CLOUD001005,Azure,Azure Kubernetes Service,SUB-005,rg-104,2023-08-18,BU002,Production,Storage
+CLOUD001006,Azure,EC2,SUB-006,rg-105,2023-09-16,BU002,Production,Data Pipeline
+CLOUD001007,Azure,S3,SUB-007,rg-106,2023-05-15,BU001,Non-Production,Container
+CLOUD001008,Azure,Azure SQL Database,SUB-008,rg-107,2025-10-07,BU002,Production,Container
+CLOUD001009,Azure,Virtual Machines,SUB-009,rg-108,2020-09-28,BU002,Production,Data Pipeline
+CLOUD001010,Azure,EC2,SUB-010,rg-109,2024-04-27,BU010,Production,Container
+CLOUD001011,Azure,Azure Kubernetes Service,SUB-011,rg-110,2023-05-05,BU009,Non-Production,Database
+CLOUD001012,Azure,RDS,SUB-012,rg-111,2022-05-24,BU006,Production,VM
+CLOUD001013,Azure,Azure SQL Database,SUB-013,rg-112,2025-04-19,BU004,Production,Container
+CLOUD001014,Azure,Virtual Machines,SUB-014,rg-113,2024-08-24,BU003,Production,Container
+CLOUD001015,AWS,EKS,SUB-015,rg-114,2022-01-24,BU003,Production,VM
+CLOUD001016,Azure,Azure Data Factory,SUB-016,rg-115,2021-12-05,BU009,Non-Production,Data Pipeline
+CLOUD001017,Azure,Azure Kubernetes Service,SUB-017,rg-116,2018-01-17,BU001,Non-Production,Data Pipeline
+CLOUD001018,AWS,S3,SUB-018,rg-117,2023-10-07,BU002,Production,Container
+CLOUD001019,Azure,Virtual Machines,SUB-019,rg-118,2024-03-10,BU002,Production,Database
+CLOUD001020,Azure,Azure Kubernetes Service,SUB-020,rg-119,2019-07-14,BU006,Production,Data Pipeline
+CLOUD001021,AWS,Azure SQL Database,SUB-021,rg-120,2024-03-12,BU005,Production,Storage
+CLOUD001022,AWS,S3,SUB-022,rg-121,2023-02-24,BU007,Production,Database
+CLOUD001023,Azure,Virtual Machines,SUB-023,rg-122,2018-06-06,BU005,Non-Production,VM
+CLOUD001024,AWS,Azure Data Factory,SUB-024,rg-123,2020-05-06,BU002,Production,Container
+CLOUD001025,AWS,Virtual Machines,SUB-025,rg-124,2021-11-03,BU002,DR,Database
+CLOUD001026,Azure,Azure SQL Database,SUB-026,rg-125,2021-08-26,BU001,Non-Production,Container
+CLOUD001027,AWS,Azure Data Factory,SUB-027,rg-126,2022-07-26,BU003,Production,Storage
+CLOUD001028,AWS,S3,SUB-028,rg-127,2019-09-27,BU009,Non-Production,Data Pipeline
+CLOUD001029,Azure,EKS,SUB-029,rg-128,2021-10-18,BU002,Production,Data Pipeline
+CLOUD001030,AWS,Azure Data Factory,SUB-030,rg-129,2023-05-23,BU007,Production,Storage
+CLOUD001031,Azure,Azure Data Factory,SUB-031,rg-130,2024-04-23,BU002,Production,Container
+CLOUD001032,AWS,S3,SUB-032,rg-131,2021-08-13,BU001,DR,Container
+CLOUD001033,Azure,Azure Data Factory,SUB-033,rg-132,2021-01-19,BU009,Production,Storage
+CLOUD001034,Azure,S3,SUB-034,rg-133,2021-04-13,BU003,Production,Storage
+CLOUD001035,Azure,EC2,SUB-035,rg-134,2019-06-14,BU007,Production,Database
+CLOUD001036,Azure,Virtual Machines,SUB-036,rg-135,2022-01-20,BU008,Production,Data Pipeline
+CLOUD001037,Azure,Azure SQL Database,SUB-037,rg-136,2024-11-04,BU002,Production,Container
+CLOUD001038,Azure,Virtual Machines,SUB-038,rg-137,2020-05-15,BU002,Production,Storage
+CLOUD001039,AWS,EKS,SUB-039,rg-138,2019-10-25,BU004,Production,Container
+CLOUD001040,Azure,Azure SQL Database,SUB-040,rg-139,2020-08-17,BU002,Production,VM
+CLOUD001041,Azure,RDS,SUB-001,rg-140,2026-01-12,BU002,Production,Database
+CLOUD001042,AWS,Azure SQL Database,SUB-002,rg-141,2020-07-27,BU002,Production,Database
+CLOUD001043,AWS,S3,SUB-003,rg-142,2022-10-25,BU001,Non-Production,Container
+CLOUD001044,AWS,EC2,SUB-004,rg-143,2018-12-29,BU001,Production,Data Pipeline
+CLOUD001045,AWS,S3,SUB-005,rg-144,2023-05-10,BU002,Production,Data Pipeline
+CLOUD001046,Azure,Azure SQL Database,SUB-006,rg-145,2024-09-19,BU003,Production,Container
+CLOUD001047,AWS,S3,SUB-007,rg-146,2024-01-27,BU002,Production,Data Pipeline
+CLOUD001048,AWS,EKS,SUB-008,rg-147,2022-08-12,BU002,Production,VM
+CLOUD001049,Azure,EC2,SUB-009,rg-148,2022-03-19,BU003,Non-Production,Database
+CLOUD001050,Azure,Virtual Machines,SUB-010,rg-149,2019-06-27,BU001,Production,Data Pipeline
+CLOUD001051,Azure,RDS,SUB-011,rg-000,2024-07-08,BU001,Production,Data Pipeline
+CLOUD001052,Azure,Azure Kubernetes Service,SUB-012,rg-001,2023-04-12,BU002,Non-Production,Container
+CLOUD001053,AWS,Azure Data Factory,SUB-013,rg-002,2021-03-29,BU002,Production,Container
+CLOUD001054,Azure,EKS,SUB-014,rg-003,2024-11-16,BU005,Production,Data Pipeline
+CLOUD001055,Azure,Azure SQL Database,SUB-015,rg-004,2018-07-25,BU003,Non-Production,Container
+CLOUD001056,Azure,Azure Kubernetes Service,SUB-016,rg-005,2024-12-14,BU001,DR,VM
+CLOUD001057,Azure,Azure SQL Database,SUB-017,rg-006,2020-02-17,BU002,Production,Storage
+CLOUD001058,Azure,S3,SUB-018,rg-007,2018-10-20,BU002,Non-Production,Container
+CLOUD001059,Azure,EKS,SUB-019,rg-008,2023-04-29,BU002,Production,VM
+CLOUD001060,Azure,Azure Kubernetes Service,SUB-020,rg-009,2022-10-08,BU004,Production,Database
+CLOUD001061,AWS,RDS,SUB-021,rg-010,2026-02-20,BU003,Production,Storage
+CLOUD001062,Azure,EC2,SUB-022,rg-011,2023-10-10,BU009,Non-Production,Storage
+CLOUD001063,Azure,Azure Kubernetes Service,SUB-023,rg-012,2025-02-18,BU009,DR,Storage
+CLOUD001064,Azure,Virtual Machines,SUB-024,rg-013,2020-03-30,BU002,DR,Storage
+CLOUD001065,Azure,Azure Kubernetes Service,SUB-025,rg-014,2022-10-31,BU005,Production,Data Pipeline
+CLOUD001066,AWS,EKS,SUB-026,rg-015,2022-12-02,BU001,Non-Production,VM
+CLOUD001067,Azure,Azure SQL Database,SUB-027,rg-016,2024-11-07,BU003,Production,Storage
+CLOUD001068,AWS,RDS,SUB-028,rg-017,2018-07-28,BU005,Non-Production,Container
+CLOUD001069,Azure,Azure Data Factory,SUB-029,rg-018,2024-07-11,BU001,Production,VM
+CLOUD001070,AWS,S3,SUB-030,rg-019,2021-09-30,BU009,Production,Container
+CLOUD001071,Azure,EKS,SUB-031,rg-020,2020-09-18,BU002,Non-Production,Database
+CLOUD001072,AWS,Azure Data Factory,SUB-032,rg-021,2018-06-28,BU001,Production,Storage
+CLOUD001073,AWS,Azure SQL Database,SUB-033,rg-022,2025-09-25,BU007,Production,Database
+CLOUD001074,AWS,Virtual Machines,SUB-034,rg-023,2025-04-02,BU001,Production,Data Pipeline
+CLOUD001075,AWS,RDS,SUB-035,rg-024,2020-09-19,BU002,Production,Container
+CLOUD001076,AWS,EC2,SUB-036,rg-025,2021-07-26,BU002,Production,Container
+CLOUD001077,Azure,EC2,SUB-037,rg-026,2025-06-25,BU002,Non-Production,Storage
+CLOUD001078,Azure,Virtual Machines,SUB-038,rg-027,2019-02-12,BU002,Production,VM
+CLOUD001079,AWS,Virtual Machines,SUB-039,rg-028,2022-10-15,BU005,Production,Storage
+CLOUD001080,Azure,S3,SUB-040,rg-029,2021-01-26,BU009,Production,Database
+CLOUD001081,Azure,RDS,SUB-001,rg-030,2021-07-02,BU005,Production,VM
+CLOUD001082,AWS,Azure Kubernetes Service,SUB-002,rg-031,2022-11-30,BU005,Non-Production,Container
+CLOUD001083,AWS,Azure Kubernetes Service,SUB-003,rg-032,2022-06-20,BU007,Non-Production,VM
+CLOUD001084,Azure,EKS,SUB-004,rg-033,2025-12-28,BU010,Production,Storage
+CLOUD001085,Azure,S3,SUB-005,rg-034,2025-10-20,BU009,Non-Production,Data Pipeline
+CLOUD001086,Azure,EC2,SUB-006,rg-035,2024-12-02,BU002,Non-Production,Storage
+CLOUD001087,AWS,Virtual Machines,SUB-007,rg-036,2022-04-26,BU004,Non-Production,Data Pipeline
+CLOUD001088,AWS,Virtual Machines,SUB-008,rg-037,2025-07-20,BU002,DR,Container
+CLOUD001089,AWS,Azure Data Factory,SUB-009,rg-038,2019-01-26,BU009,Production,Storage
+CLOUD001090,AWS,Azure SQL Database,SUB-010,rg-039,2025-04-05,BU001,Production,Storage
+CLOUD001091,Azure,RDS,SUB-011,rg-040,2020-10-31,BU002,Non-Production,Data Pipeline
+CLOUD001092,Azure,S3,SUB-012,rg-041,2023-07-15,BU001,Non-Production,Database
+CLOUD001093,Azure,EC2,SUB-013,rg-042,2021-10-15,BU001,Production,Data Pipeline
+CLOUD001094,Azure,EKS,SUB-014,rg-043,2023-02-04,BU001,DR,Data Pipeline
+CLOUD001095,AWS,EC2,SUB-015,rg-044,2024-02-27,BU001,Production,Storage
+CLOUD001096,Azure,Azure Data Factory,SUB-016,rg-045,2025-09-22,BU002,Production,Container
+CLOUD001097,AWS,Azure Kubernetes Service,SUB-017,rg-046,2023-02-11,BU002,Production,VM
+CLOUD001098,Azure,Azure Data Factory,SUB-018,rg-047,2021-10-30,BU005,Production,Storage
+CLOUD001099,Azure,Virtual Machines,SUB-019,rg-048,2022-04-11,BU002,Non-Production,VM
+CLOUD001100,Azure,RDS,SUB-020,rg-049,2020-05-27,BU004,Production,VM
+CLOUD001101,Azure,EC2,SUB-021,rg-050,2025-09-13,BU005,Non-Production,Container
+CLOUD001102,Azure,Azure SQL Database,SUB-022,rg-051,2025-01-17,BU003,Production,VM
+CLOUD001103,Azure,Azure Kubernetes Service,SUB-023,rg-052,2021-07-21,BU002,Production,Data Pipeline
+CLOUD001104,AWS,Azure SQL Database,SUB-024,rg-053,2025-01-02,BU002,Production,Storage
+CLOUD001105,AWS,Azure Data Factory,SUB-025,rg-054,2019-11-18,BU001,Production,Data Pipeline
+CLOUD001106,Azure,Azure Data Factory,SUB-026,rg-055,2018-10-20,BU004,Non-Production,VM
+CLOUD001107,AWS,Azure Kubernetes Service,SUB-027,rg-056,2021-06-09,BU005,Non-Production,Database
+CLOUD001108,Azure,RDS,SUB-028,rg-057,2022-10-18,BU004,Non-Production,Container
+CLOUD001109,Azure,Azure Data Factory,SUB-029,rg-058,2021-08-10,BU009,Non-Production,Container
+CLOUD001110,Azure,S3,SUB-030,rg-059,2023-07-31,BU002,Production,Data Pipeline
+CLOUD001111,AWS,EC2,SUB-031,rg-060,2020-10-04,BU002,Production,Database
+CLOUD001112,Azure,Azure SQL Database,SUB-032,rg-061,2019-05-15,BU002,Production,Database
+CLOUD001113,Azure,S3,SUB-033,rg-062,2019-04-15,BU002,Production,Data Pipeline
+CLOUD001114,AWS,S3,SUB-034,rg-063,2022-05-03,BU002,Non-Production,VM
+CLOUD001115,AWS,EC2,SUB-035,rg-064,2018-12-05,BU003,Non-Production,Data Pipeline
+CLOUD001116,Azure,RDS,SUB-036,rg-065,2018-03-27,BU002,Production,Database
+CLOUD001117,Azure,EKS,SUB-037,rg-066,2019-03-19,BU002,Production,Storage
+CLOUD001118,Azure,S3,SUB-038,rg-067,2026-02-17,BU010,Production,Storage
+CLOUD001119,Azure,Azure Data Factory,SUB-039,rg-068,2023-03-03,BU002,Production,Container
+CLOUD001120,AWS,Virtual Machines,SUB-040,rg-069,2021-06-08,BU002,Production,VM
+CLOUD001121,Azure,Azure SQL Database,SUB-001,rg-070,2021-10-19,BU001,DR,VM
+CLOUD001122,Azure,S3,SUB-002,rg-071,2022-11-07,BU002,DR,VM
+CLOUD001123,Azure,Azure Data Factory,SUB-003,rg-072,2024-07-18,BU002,Non-Production,Storage
+CLOUD001124,Azure,Azure SQL Database,SUB-004,rg-073,2020-01-05,BU009,Production,Container
+CLOUD001125,AWS,Azure Data Factory,SUB-005,rg-074,2020-11-28,BU008,Production,Storage
+CLOUD001126,Azure,Virtual Machines,SUB-006,rg-075,2020-07-26,BU002,Non-Production,Container
+CLOUD001127,Azure,Azure Data Factory,SUB-007,rg-076,2019-01-29,BU002,DR,Data Pipeline
+CLOUD001128,Azure,Azure Kubernetes Service,SUB-008,rg-077,2024-11-03,BU009,Production,Database
+CLOUD001129,AWS,Azure SQL Database,SUB-009,rg-078,2019-10-29,BU007,Production,Data Pipeline
+CLOUD001130,AWS,S3,SUB-010,rg-079,2024-02-04,BU003,DR,Storage
+CLOUD001131,Azure,Virtual Machines,SUB-011,rg-080,2023-11-07,BU002,Non-Production,Data Pipeline
+CLOUD001132,Azure,Azure SQL Database,SUB-012,rg-081,2026-02-20,BU007,Non-Production,Database
+CLOUD001133,AWS,EKS,SUB-013,rg-082,2025-07-19,BU002,Non-Production,Database
+CLOUD001134,AWS,Azure SQL Database,SUB-014,rg-083,2018-05-25,BU002,Production,VM
+CLOUD001135,Azure,Azure Data Factory,SUB-015,rg-084,2019-04-30,BU002,Production,Container
+CLOUD001136,AWS,EKS,SUB-016,rg-085,2022-10-09,BU006,Non-Production,Storage
+CLOUD001137,Azure,Azure SQL Database,SUB-017,rg-086,2020-03-31,BU009,Production,Data Pipeline
+CLOUD001138,Azure,Azure Kubernetes Service,SUB-018,rg-087,2019-10-17,BU001,Production,Storage
+CLOUD001139,Azure,Azure Kubernetes Service,SUB-019,rg-088,2023-05-26,BU005,Production,Container
+CLOUD001140,Azure,Azure SQL Database,SUB-020,rg-089,2024-03-11,BU002,Non-Production,Data Pipeline
+CLOUD001141,AWS,Azure SQL Database,SUB-021,rg-090,2022-07-12,BU002,Non-Production,Database
+CLOUD001142,Azure,Azure SQL Database,SUB-022,rg-091,2019-08-07,BU001,Production,Database
+CLOUD001143,Azure,Azure Data Factory,SUB-023,rg-092,2024-11-22,BU002,Non-Production,Database
+CLOUD001144,Azure,Virtual Machines,SUB-024,rg-093,2025-02-15,BU010,Non-Production,Container
+CLOUD001145,Azure,EKS,SUB-025,rg-094,2022-06-25,BU002,Production,Container
+CLOUD001146,Azure,EKS,SUB-026,rg-095,2022-07-08,BU005,Production,VM
+CLOUD001147,Azure,S3,SUB-027,rg-096,2023-04-20,BU002,Production,Database
+CLOUD001148,AWS,S3,SUB-028,rg-097,2019-04-30,BU010,DR,Database
+CLOUD001149,AWS,EC2,SUB-029,rg-098,2023-08-07,BU002,Production,Database
+CLOUD001150,AWS,EC2,SUB-030,rg-099,2020-03-27,BU001,DR,VM
+CLOUD001151,Azure,Virtual Machines,SUB-031,rg-100,2023-01-13,BU002,Production,Database
+CLOUD001152,Azure,Azure SQL Database,SUB-032,rg-101,2018-09-09,BU002,Non-Production,Storage
+CLOUD001153,AWS,Azure Data Factory,SUB-033,rg-102,2019-11-08,BU007,Production,Container
+CLOUD001154,AWS,S3,SUB-034,rg-103,2024-04-29,BU001,Production,VM
+CLOUD001155,Azure,EC2,SUB-035,rg-104,2022-09-29,BU001,Production,Database
+CLOUD001156,Azure,Azure SQL Database,SUB-036,rg-105,2023-02-03,BU001,Non-Production,Container
+CLOUD001157,Azure,S3,SUB-037,rg-106,2019-04-25,BU002,Production,Database
+CLOUD001158,Azure,Azure Kubernetes Service,SUB-038,rg-107,2019-03-13,BU001,Production,Container
+CLOUD001159,Azure,S3,SUB-039,rg-108,2018-11-29,BU003,Production,VM
+CLOUD001160,AWS,Virtual Machines,SUB-040,rg-109,2018-07-02,BU002,Production,Storage
+CLOUD001161,Azure,EC2,SUB-001,rg-110,2020-10-06,BU002,Production,Database
+CLOUD001162,Azure,Azure Kubernetes Service,SUB-002,rg-111,2019-01-22,BU002,Production,Database
+CLOUD001163,Azure,EKS,SUB-003,rg-112,2019-11-03,BU002,Production,Data Pipeline
+CLOUD001164,Azure,S3,SUB-004,rg-113,2019-02-04,BU003,Production,Database
+CLOUD001165,Azure,Azure Kubernetes Service,SUB-005,rg-114,2025-09-22,BU006,Non-Production,Container
+CLOUD001166,AWS,S3,SUB-006,rg-115,2018-07-30,BU004,Production,Storage
+CLOUD001167,Azure,EC2,SUB-007,rg-116,2024-02-15,BU002,Production,Data Pipeline
+CLOUD001168,AWS,Azure SQL Database,SUB-008,rg-117,2025-10-10,BU002,Production,Container
+CLOUD001169,Azure,Azure Data Factory,SUB-009,rg-118,2025-07-07,BU002,Non-Production,Storage
+CLOUD001170,Azure,Azure Data Factory,SUB-010,rg-119,2022-09-03,BU002,Production,Container
+CLOUD001171,Azure,Azure Kubernetes Service,SUB-011,rg-120,2021-11-25,BU002,Production,Database
+CLOUD001172,Azure,S3,SUB-012,rg-121,2024-03-12,BU007,Production,Data Pipeline
+CLOUD001173,Azure,S3,SUB-013,rg-122,2021-10-02,BU002,DR,Container
+CLOUD001174,Azure,S3,SUB-014,rg-123,2018-05-26,BU003,Production,Database
+CLOUD001175,Azure,EKS,SUB-015,rg-124,2019-08-20,BU010,Production,VM
+CLOUD001176,AWS,Azure SQL Database,SUB-016,rg-125,2024-03-13,BU001,Production,VM
+CLOUD001177,AWS,Azure Data Factory,SUB-017,rg-126,2023-02-12,BU008,Production,Data Pipeline
+CLOUD001178,AWS,Azure Data Factory,SUB-018,rg-127,2025-11-01,BU002,Production,Storage
+CLOUD001179,AWS,Azure SQL Database,SUB-019,rg-128,2018-04-25,BU009,Non-Production,Container
+CLOUD001180,AWS,Virtual Machines,SUB-020,rg-129,2023-01-12,BU002,Production,Storage
+CLOUD001181,Azure,Azure Kubernetes Service,SUB-021,rg-130,2019-02-23,BU001,Non-Production,VM
+CLOUD001182,Azure,Azure Data Factory,SUB-022,rg-131,2019-11-19,BU002,Production,VM
+CLOUD001183,AWS,Azure Kubernetes Service,SUB-023,rg-132,2020-11-18,BU002,Production,VM
+CLOUD001184,Azure,EKS,SUB-024,rg-133,2022-07-03,BU005,Non-Production,Container
+CLOUD001185,Azure,S3,SUB-025,rg-134,2025-01-10,BU004,Non-Production,VM
+CLOUD001186,Azure,EKS,SUB-026,rg-135,2023-12-02,BU002,Non-Production,Container
+CLOUD001187,Azure,RDS,SUB-027,rg-136,2024-01-20,BU002,Non-Production,Database
+CLOUD001188,AWS,EC2,SUB-028,rg-137,2020-08-15,BU002,Production,VM
+CLOUD001189,AWS,Azure Kubernetes Service,SUB-029,rg-138,2022-12-24,BU001,Non-Production,Database
+CLOUD001190,Azure,Virtual Machines,SUB-030,rg-139,2022-03-02,BU006,Non-Production,Container
+CLOUD001191,Azure,RDS,SUB-031,rg-140,2019-10-09,BU005,Production,Container
+CLOUD001192,Azure,EC2,SUB-032,rg-141,2024-03-15,BU010,Production,Container
+CLOUD001193,Azure,S3,SUB-033,rg-142,2024-04-03,BU001,Production,Container
+CLOUD001194,Azure,EKS,SUB-034,rg-143,2023-10-25,BU007,Non-Production,Data Pipeline
+CLOUD001195,AWS,RDS,SUB-035,rg-144,2024-11-22,BU002,Production,Container
+CLOUD001196,Azure,Azure SQL Database,SUB-036,rg-145,2021-03-31,BU009,Production,VM
+CLOUD001197,Azure,Azure Data Factory,SUB-037,rg-146,2023-03-23,BU002,Non-Production,Database
+CLOUD001198,Azure,EC2,SUB-038,rg-147,2023-03-28,BU002,Production,Storage
+CLOUD001199,Azure,S3,SUB-039,rg-148,2020-12-26,BU001,Production,Storage
+CLOUD001200,Azure,RDS,SUB-040,rg-149,2021-03-15,BU005,Production,Data Pipeline

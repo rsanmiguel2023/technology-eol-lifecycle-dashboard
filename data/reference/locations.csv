@@ -1,0 +1,180 @@
+Location_ID,Location_Name,Region_Code,Province,Office_Type
+TOR001,Toronto HQ 1,TOR,Ontario,Corporate Office
+TOR002,Toronto HQ 2,TOR,Ontario,Corporate Office
+TOR003,Toronto HQ 3,TOR,Ontario,Corporate Office
+TOR004,Toronto HQ 4,TOR,Ontario,Corporate Office
+TOR005,Toronto HQ 5,TOR,Ontario,Corporate Office
+TOR006,Toronto HQ 6,TOR,Ontario,Corporate Office
+GTA001,GTA Branch Network 1,GTA,Ontario,Branch
+GTA002,GTA Branch Network 2,GTA,Ontario,Branch
+GTA003,GTA Branch Network 3,GTA,Ontario,Branch
+GTA004,GTA Branch Network 4,GTA,Ontario,Branch
+GTA005,GTA Branch Network 5,GTA,Ontario,Branch
+GTA006,GTA Branch Network 6,GTA,Ontario,Branch
+GTA007,GTA Branch Network 7,GTA,Ontario,Branch
+GTA008,GTA Branch Network 8,GTA,Ontario,Branch
+GTA009,GTA Branch Network 9,GTA,Ontario,Branch
+GTA010,GTA Branch Network 10,GTA,Ontario,Branch
+GTA011,GTA Branch Network 11,GTA,Ontario,Branch
+GTA012,GTA Branch Network 12,GTA,Ontario,Branch
+GTA013,GTA Branch Network 13,GTA,Ontario,Branch
+GTA014,GTA Branch Network 14,GTA,Ontario,Branch
+GTA015,GTA Branch Network 15,GTA,Ontario,Branch
+GTA016,GTA Branch Network 16,GTA,Ontario,Branch
+GTA017,GTA Branch Network 17,GTA,Ontario,Branch
+GTA018,GTA Branch Network 18,GTA,Ontario,Branch
+GTA019,GTA Branch Network 19,GTA,Ontario,Branch
+GTA020,GTA Branch Network 20,GTA,Ontario,Branch
+GTA021,GTA Branch Network 21,GTA,Ontario,Branch
+GTA022,GTA Branch Network 22,GTA,Ontario,Branch
+GTA023,GTA Branch Network 23,GTA,Ontario,Branch
+GTA024,GTA Branch Network 24,GTA,Ontario,Branch
+GTA025,GTA Branch Network 25,GTA,Ontario,Branch
+GTA026,GTA Branch Network 26,GTA,Ontario,Branch
+GTA027,GTA Branch Network 27,GTA,Ontario,Branch
+GTA028,GTA Branch Network 28,GTA,Ontario,Branch
+GTA029,GTA Branch Network 29,GTA,Ontario,Branch
+GTA030,GTA Branch Network 30,GTA,Ontario,Branch
+GTA031,GTA Branch Network 31,GTA,Ontario,Branch
+GTA032,GTA Branch Network 32,GTA,Ontario,Branch
+GTA033,GTA Branch Network 33,GTA,Ontario,Branch
+GTA034,GTA Branch Network 34,GTA,Ontario,Branch
+GTA035,GTA Branch Network 35,GTA,Ontario,Branch
+GTA036,GTA Branch Network 36,GTA,Ontario,Branch
+GTA037,GTA Branch Network 37,GTA,Ontario,Branch
+GTA038,GTA Branch Network 38,GTA,Ontario,Branch
+GTA039,GTA Branch Network 39,GTA,Ontario,Branch
+GTA040,GTA Branch Network 40,GTA,Ontario,Branch
+GTA041,GTA Branch Network 41,GTA,Ontario,Branch
+GTA042,GTA Branch Network 42,GTA,Ontario,Branch
+GTA043,GTA Branch Network 43,GTA,Ontario,Branch
+GTA044,GTA Branch Network 44,GTA,Ontario,Branch
+GTA045,GTA Branch Network 45,GTA,Ontario,Branch
+GTA046,GTA Branch Network 46,GTA,Ontario,Branch
+GTA047,GTA Branch Network 47,GTA,Ontario,Branch
+GTA048,GTA Branch Network 48,GTA,Ontario,Branch
+GTA049,GTA Branch Network 49,GTA,Ontario,Branch
+GTA050,GTA Branch Network 50,GTA,Ontario,Branch
+GTA051,GTA Branch Network 51,GTA,Ontario,Branch
+GTA052,GTA Branch Network 52,GTA,Ontario,Branch
+GTA053,GTA Branch Network 53,GTA,Ontario,Branch
+GTA054,GTA Branch Network 54,GTA,Ontario,Branch
+GTA055,GTA Branch Network 55,GTA,Ontario,Branch
+GTA056,GTA Branch Network 56,GTA,Ontario,Branch
+GTA057,GTA Branch Network 57,GTA,Ontario,Branch
+GTA058,GTA Branch Network 58,GTA,Ontario,Branch
+GTA059,GTA Branch Network 59,GTA,Ontario,Branch
+GTA060,GTA Branch Network 60,GTA,Ontario,Branch
+GTA061,GTA Branch Network 61,GTA,Ontario,Branch
+GTA062,GTA Branch Network 62,GTA,Ontario,Branch
+GTA063,GTA Branch Network 63,GTA,Ontario,Branch
+GTA064,GTA Branch Network 64,GTA,Ontario,Branch
+GTA065,GTA Branch Network 65,GTA,Ontario,Branch
+GTA066,GTA Branch Network 66,GTA,Ontario,Branch
+GTA067,GTA Branch Network 67,GTA,Ontario,Branch
+GTA068,GTA Branch Network 68,GTA,Ontario,Branch
+GTA069,GTA Branch Network 69,GTA,Ontario,Branch
+GTA070,GTA Branch Network 70,GTA,Ontario,Branch
+GTA071,GTA Branch Network 71,GTA,Ontario,Branch
+GTA072,GTA Branch Network 72,GTA,Ontario,Branch
+GTA073,GTA Branch Network 73,GTA,Ontario,Branch
+GTA074,GTA Branch Network 74,GTA,Ontario,Branch
+GTA075,GTA Branch Network 75,GTA,Ontario,Branch
+GTA076,GTA Branch Network 76,GTA,Ontario,Branch
+GTA077,GTA Branch Network 77,GTA,Ontario,Branch
+GTA078,GTA Branch Network 78,GTA,Ontario,Branch
+GTA079,GTA Branch Network 79,GTA,Ontario,Branch
+GTA080,GTA Branch Network 80,GTA,Ontario,Branch
+ONR001,Ontario Regional 1,ONR,Ontario,Regional Office
+ONR002,Ontario Regional 2,ONR,Ontario,Regional Office
+ONR003,Ontario Regional 3,ONR,Ontario,Regional Office
+ONR004,Ontario Regional 4,ONR,Ontario,Regional Office
+ONR005,Ontario Regional 5,ONR,Ontario,Regional Office
+ONR006,Ontario Regional 6,ONR,Ontario,Regional Office
+ONR007,Ontario Regional 7,ONR,Ontario,Regional Office
+ONR008,Ontario Regional 8,ONR,Ontario,Regional Office
+ONR009,Ontario Regional 9,ONR,Ontario,Regional Office
+ONR010,Ontario Regional 10,ONR,Ontario,Regional Office
+ONR011,Ontario Regional 11,ONR,Ontario,Regional Office
+ONR012,Ontario Regional 12,ONR,Ontario,Regional Office
+ONR013,Ontario Regional 13,ONR,Ontario,Regional Office
+ONR014,Ontario Regional 14,ONR,Ontario,Regional Office
+ONR015,Ontario Regional 15,ONR,Ontario,Regional Office
+ONR016,Ontario Regional 16,ONR,Ontario,Regional Office
+ONR017,Ontario Regional 17,ONR,Ontario,Regional Office
+ONR018,Ontario Regional 18,ONR,Ontario,Regional Office
+ONR019,Ontario Regional 19,ONR,Ontario,Regional Office
+ONR020,Ontario Regional 20,ONR,Ontario,Regional Office
+WST001,Western Canada 1,WST,Alberta,Regional Office
+WST002,Western Canada 2,WST,Alberta,Regional Office
+WST003,Western Canada 3,WST,Alberta,Regional Office
+WST004,Western Canada 4,WST,Alberta,Regional Office
+WST005,Western Canada 5,WST,Alberta,Regional Office
+WST006,Western Canada 6,WST,Alberta,Regional Office
+WST007,Western Canada 7,WST,Alberta,Regional Office
+WST008,Western Canada 8,WST,Alberta,Regional Office
+WST009,Western Canada 9,WST,Alberta,Regional Office
+WST010,Western Canada 10,WST,Alberta,Regional Office
+WST011,Western Canada 11,WST,Alberta,Regional Office
+WST012,Western Canada 12,WST,Alberta,Regional Office
+WST013,Western Canada 13,WST,Alberta,Regional Office
+WST014,Western Canada 14,WST,Alberta,Regional Office
+WST015,Western Canada 15,WST,Alberta,Regional Office
+WST016,Western Canada 16,WST,Alberta,Regional Office
+WST017,Western Canada 17,WST,Alberta,Regional Office
+WST018,Western Canada 18,WST,Alberta,Regional Office
+WST019,Western Canada 19,WST,Alberta,Regional Office
+WST020,Western Canada 20,WST,Alberta,Regional Office
+WST021,Western Canada 21,WST,Alberta,Regional Office
+WST022,Western Canada 22,WST,Alberta,Regional Office
+WST023,Western Canada 23,WST,Alberta,Regional Office
+WST024,Western Canada 24,WST,Alberta,Regional Office
+WST025,Western Canada 25,WST,Alberta,Regional Office
+WST026,Western Canada 26,WST,Alberta,Regional Office
+WST027,Western Canada 27,WST,Alberta,Regional Office
+WST028,Western Canada 28,WST,Alberta,Regional Office
+WST029,Western Canada 29,WST,Alberta,Regional Office
+WST030,Western Canada 30,WST,Alberta,Regional Office
+QUE001,Quebec 1,QUE,Quebec,Regional Office
+QUE002,Quebec 2,QUE,Quebec,Regional Office
+QUE003,Quebec 3,QUE,Quebec,Regional Office
+QUE004,Quebec 4,QUE,Quebec,Regional Office
+QUE005,Quebec 5,QUE,Quebec,Regional Office
+QUE006,Quebec 6,QUE,Quebec,Regional Office
+QUE007,Quebec 7,QUE,Quebec,Regional Office
+QUE008,Quebec 8,QUE,Quebec,Regional Office
+QUE009,Quebec 9,QUE,Quebec,Regional Office
+QUE010,Quebec 10,QUE,Quebec,Regional Office
+QUE011,Quebec 11,QUE,Quebec,Regional Office
+QUE012,Quebec 12,QUE,Quebec,Regional Office
+QUE013,Quebec 13,QUE,Quebec,Regional Office
+QUE014,Quebec 14,QUE,Quebec,Regional Office
+QUE015,Quebec 15,QUE,Quebec,Regional Office
+QUE016,Quebec 16,QUE,Quebec,Regional Office
+QUE017,Quebec 17,QUE,Quebec,Regional Office
+QUE018,Quebec 18,QUE,Quebec,Regional Office
+QUE019,Quebec 19,QUE,Quebec,Regional Office
+QUE020,Quebec 20,QUE,Quebec,Regional Office
+QUE021,Quebec 21,QUE,Quebec,Regional Office
+QUE022,Quebec 22,QUE,Quebec,Regional Office
+QUE023,Quebec 23,QUE,Quebec,Regional Office
+QUE024,Quebec 24,QUE,Quebec,Regional Office
+QUE025,Quebec 25,QUE,Quebec,Regional Office
+ATL001,Atlantic Canada 1,ATL,Nova Scotia,Regional Office
+ATL002,Atlantic Canada 2,ATL,Nova Scotia,Regional Office
+ATL003,Atlantic Canada 3,ATL,Nova Scotia,Regional Office
+ATL004,Atlantic Canada 4,ATL,Nova Scotia,Regional Office
+ATL005,Atlantic Canada 5,ATL,Nova Scotia,Regional Office
+ATL006,Atlantic Canada 6,ATL,Nova Scotia,Regional Office
+ATL007,Atlantic Canada 7,ATL,Nova Scotia,Regional Office
+ATL008,Atlantic Canada 8,ATL,Nova Scotia,Regional Office
+ATL009,Atlantic Canada 9,ATL,Nova Scotia,Regional Office
+ATL010,Atlantic Canada 10,ATL,Nova Scotia,Regional Office
+ATL011,Atlantic Canada 11,ATL,Nova Scotia,Regional Office
+ATL012,Atlantic Canada 12,ATL,Nova Scotia,Regional Office
+ATL013,Atlantic Canada 13,ATL,Nova Scotia,Regional Office
+ATL014,Atlantic Canada 14,ATL,Nova Scotia,Regional Office
+ATL015,Atlantic Canada 15,ATL,Nova Scotia,Regional Office
+DC1001,Primary Data Centre,DC1,Ontario,Data Centre
+DC2001,Secondary Data Centre,DC2,Ontario,Data Centre
+DR1001,Disaster Recovery Site,DR1,Quebec,DR Site

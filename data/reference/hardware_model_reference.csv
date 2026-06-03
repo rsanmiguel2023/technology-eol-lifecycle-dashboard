@@ -1,0 +1,40 @@
+Asset_Type,Manufacturer,Model,Model_Release_Date,Vendor_Support_End_Date,Standard_Refresh_Cycle_Years,Standard_Replacement_Cost
+Laptop,Dell,Latitude 5420,2021-03-01,2027-06-01,4,1250
+Laptop,Dell,Latitude 5430,2022-03-01,2029-03-01,4,1350
+Laptop,Dell,Latitude 7440,2023-05-01,2029-05-01,4,1650
+Laptop,Lenovo,ThinkPad T14 Gen 2,2021-02-01,2027-09-01,4,1300
+Laptop,Lenovo,ThinkPad T14 Gen 3,2022-04-01,2027-04-01,4,1450
+Laptop,HP,EliteBook 840 G8,2021-01-01,2026-01-01,4,1300
+Laptop,HP,EliteBook 850 G9,2022-05-01,2027-05-01,4,1500
+Laptop,Apple,MacBook Pro M2,2022-10-01,2028-10-01,4,2300
+Desktop,Dell,OptiPlex 7090,2021-02-01,2027-03-01,5,950
+Desktop,Dell,OptiPlex 7010,2022-08-01,2027-08-01,5,1050
+Desktop,HP,EliteDesk 800 G9,2022-09-01,2029-09-01,5,1100
+Desktop,Lenovo,ThinkCentre M90q,2021-06-01,2026-06-01,5,1000
+Server,Dell,PowerEdge R650,2021-06-01,2027-06-01,5,12500
+Server,Dell,PowerEdge R750,2021-06-01,2027-06-01,5,18500
+Server,HPE,ProLiant DL380 Gen10,2017-07-01,2024-07-01,5,16000
+Server,HPE,ProLiant DL380 Gen11,2022-11-01,2029-11-01,5,21000
+Server,Lenovo,ThinkSystem SR650,2018-01-01,2025-01-01,5,15000
+Access Switch,Cisco,Catalyst 9200,2019-04-01,2027-04-01,7,5200
+Access Switch,Cisco,Catalyst 9300,2017-06-01,2026-06-01,7,7800
+Distribution Switch,Cisco,Catalyst 9500,2018-01-01,2027-01-01,7,21000
+Core Switch,Cisco,Catalyst 9600,2019-07-01,2028-07-01,7,65000
+Access Switch,Aruba,Aruba 6200F,2021-08-01,2029-08-01,7,5000
+Distribution Switch,Aruba,Aruba 6300M,2021-08-01,2029-08-01,7,14000
+Router,Cisco,ISR 4331,2014-10-01,2024-10-01,7,6500
+Router,Cisco,ISR 4451,2014-10-01,2024-10-01,7,12500
+Router,Cisco,ASR 1001-X,2014-02-01,2025-02-01,7,28000
+Firewall,Palo Alto Networks,PA-3220,2018-02-01,2026-02-01,5,22000
+Firewall,Palo Alto Networks,PA-5220,2017-04-01,2025-04-01,5,48000
+Firewall,Fortinet,FortiGate 200F,2020-02-01,2028-02-01,5,9000
+Firewall,Fortinet,FortiGate 600F,2020-08-01,2028-08-01,5,22000
+Wireless AP,Cisco,Catalyst 9120AX,2019-11-01,2027-11-01,5,850
+Wireless AP,Cisco,Catalyst 9130AX,2019-11-01,2027-11-01,5,1050
+Wireless AP,Aruba,AP-515,2019-09-01,2027-09-01,5,800
+Wireless AP,Aruba,AP-635,2021-09-01,2029-09-01,5,950
+Storage,Dell EMC,PowerStore 500T,2020-05-01,2028-05-01,5,85000
+Storage,NetApp,AFF A400,2020-03-01,2028-03-01,5,90000
+Storage,Pure Storage,FlashArray X50,2019-06-01,2027-06-01,5,95000
+VDI Endpoint,Dell,Wyse 5070 Thin Client,2018-05-01,2025-05-01,5,450
+VDI Endpoint,HP,t640 Thin Client,2019-09-01,2026-09-01,5,500

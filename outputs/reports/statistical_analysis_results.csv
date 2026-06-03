@@ -1,0 +1,4 @@
+test,statistic,p_value,interpretation
+Chi-square: Lifecycle status vs Criticality,13.892278633868216,0.30764004003258716,Tests whether EOL exposure is independent of business criticality.
+Kruskal-Wallis: Risk score by asset type,2410.5344754714624,0.0,Tests whether risk score distributions differ across hardware categories.
+Spearman correlation: Asset age vs incident count,-0.0032939650649274404,0.6103069385247991,Tests monotonic relationship between asset age and incident frequency.
