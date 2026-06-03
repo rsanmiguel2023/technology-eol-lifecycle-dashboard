@@ -1,0 +1,40 @@
+Publisher,Software_Name,Version,Release_Date,Vendor_Support_End_Date,Software_Category
+Microsoft,Windows 10 Enterprise,22H2,2022-10-18,2025-10-14,Operating System
+Microsoft,Windows 11 Enterprise,23H2,2023-10-31,2026-11-10,Operating System
+Microsoft,Windows Server 2016,1607,2016-10-15,2027-01-12,Server OS
+Microsoft,Windows Server 2019,1809,2018-11-13,2029-01-09,Server OS
+Microsoft,Windows Server 2022,21H2,2021-08-18,2031-10-14,Server OS
+Red Hat,Red Hat Enterprise Linux,8,2019-05-07,2029-05-31,Server OS
+Red Hat,Red Hat Enterprise Linux,9,2022-05-17,2032-05-31,Server OS
+Canonical,Ubuntu Server,20.04 LTS,2020-04-23,2030-04-23,Server OS
+Microsoft,Microsoft Teams Classic,1.6,2022-01-01,2024-06-30,Collaboration
+Adobe,Adobe Acrobat Pro 2020,20,2020-06-01,2025-11-30,Productivity
+Google,Google Chrome,124,2024-04-01,2025-04-01,Browser
+Mozilla,Firefox ESR,115,2023-07-01,2024-10-01,Browser
+Microsoft,Microsoft 365 Apps for Enterprise,Current Channel,2023-01-01,2027-01-01,Productivity
+Microsoft,OneDrive,24.x,2024-01-01,2026-01-01,Productivity
+Oracle,Java Runtime Environment,8,2014-03-18,2030-12-31,Runtime
+Python Software Foundation,Python,3.8,2019-10-14,2024-10-07,Development
+Python Software Foundation,Python,3.10,2021-10-04,2026-10-04,Development
+OpenJS Foundation,Node.js,16,2021-04-20,2023-09-11,Development
+OpenJS Foundation,Node.js,18,2022-04-19,2025-04-30,Development
+Microsoft,.NET,6,2021-11-08,2024-11-12,Development
+Microsoft,.NET,8,2023-11-14,2026-11-10,Development
+Microsoft,Visual Studio Code,1.90,2024-06-01,2026-06-01,Development
+JetBrains,IntelliJ IDEA,2023.3,2023-12-01,2025-12-01,Development
+DBeaver Corp,DBeaver,23,2023-01-01,2025-01-01,Development
+Git,Git,2.43,2023-11-20,2025-11-20,Development
+Docker,Docker Desktop,4.28,2024-02-01,2026-02-01,Development
+Jenkins,Jenkins,2.401 LTS,2023-04-01,2024-09-01,DevOps
+Atlassian,Bitbucket Data Center,8,2022-09-01,2026-02-15,DevOps
+Microsoft,SQL Server,2016,2016-06-01,2026-07-14,Database
+Microsoft,SQL Server,2019,2019-11-04,2030-01-08,Database
+Oracle,Oracle Database,19c,2019-04-01,2027-04-30,Database
+PostgreSQL Global Development Group,PostgreSQL,14,2021-09-30,2026-11-12,Database
+Apache,Apache Tomcat,9,2018-01-01,2027-03-31,Middleware
+IBM,IBM MQ,9.2,2020-07-01,2025-09-30,Middleware
+Kubernetes,Kubernetes,1.27,2023-04-01,2024-06-28,Container Platform
+Microsoft,Power BI Desktop,2024,2024-01-01,2026-01-01,Analytics
+Tableau,Tableau Desktop,2023.3,2023-10-01,2025-10-01,Analytics
+IBM,IBM SPSS Statistics,29,2022-09-01,2027-09-01,Analytics
+Anaconda,Anaconda Distribution,2023.09,2023-09-01,2025-09-01,Analytics

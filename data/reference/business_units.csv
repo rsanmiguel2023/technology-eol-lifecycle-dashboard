@@ -1,0 +1,11 @@
+Business_Unit_ID,Business_Unit_Name,Executive_Owner,Business_Function,Business_Criticality
+BU001,Retail Banking,EVP Retail Banking,Customer Facing,Critical
+BU002,Technology,CIO,Technology Operations,Critical
+BU003,Commercial Banking,EVP Commercial,Customer Facing,High
+BU004,Wealth Management,EVP Wealth,Customer Facing,High
+BU005,Capital Markets,EVP Capital Markets,Trading,Critical
+BU006,Risk Management,CRO,Control Function,High
+BU007,Finance,CFO,Corporate Function,Medium
+BU008,Human Resources,CHRO,Corporate Function,Medium
+BU009,Operations,COO,Back Office,High
+BU010,Legal and Compliance,General Counsel,Control Function,High

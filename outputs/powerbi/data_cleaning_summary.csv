@@ -1,0 +1,8 @@
+source_file,processed_file,rows_before,rows_after,duplicates_removed,missing_values_after
+hardware_assets_raw.csv,hardware_assets.csv,23770,23770,0,0
+software_installations_raw.csv,software_installations.csv,125353,125353,0,0
+vulnerabilities_raw.csv,vulnerabilities.csv,60000,60000,0,0
+incidents_raw.csv,incidents.csv,100000,100000,0,0
+refresh_projects_raw.csv,refresh_projects.csv,8000,8000,0,8000
+cloud_resources_raw.csv,cloud_resources.csv,1200,1200,0,0
+budget_allocations_raw.csv,budget_allocations.csv,160,160,0,0

@@ -1,0 +1,10 @@
+Asset_Type,Cyber_Risk_Category,Asset_Count,Critical_Vulnerabilities,High_Vulnerabilities
+Access Switch,Infrastructure / Network,55,52,21
+Desktop,End User Computing / Branch,249,225,96
+Distribution Switch,Infrastructure / Network,12,11,3
+Firewall,Infrastructure / Network,15,12,10
+Laptop,End User Computing / Branch,748,659,329
+Router,Infrastructure / Network,31,23,20
+Server,Infrastructure / Network,121,115,43
+Storage,Infrastructure / Network,1,1,0
+VDI Endpoint,End User Computing / Branch,159,137,81

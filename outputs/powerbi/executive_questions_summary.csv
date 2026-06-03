@@ -1,0 +1,11 @@
+Executive_Question,Executive_Answer
+Total managed technology assets,23770
+Assets already past vendor support,4682
+Assets expiring within 12 months,8337
+Assets expiring within 24 months,11704
+Assets expiring within 36 months,17106
+Unsupported assets with critical/high vulnerabilities,1391
+Unsupported software installations,91618
+Estimated refresh cost for past/near-EOL assets,70816400.0
+Downtime hours linked to past-EOL assets,129119.04
+Highest lifecycle risk business unit,Retail Banking

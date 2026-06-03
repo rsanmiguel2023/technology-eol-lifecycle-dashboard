@@ -1,9 +1,2 @@
-project_name: Technology EOL Lifecycle Dashboard
-bank_name: Maple Financial Bank
-as_of_date: 2026-06-01
-currency: CAD
-risk_weights:
-  eol_status: 0.35
-  criticality: 0.25
-  vulnerability: 0.25
-  incident: 0.15
+analysis_date: "2026-06-02"
+company_name: "Maple Financial Bank"
