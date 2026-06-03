@@ -1,23 +1,36 @@
-from streamlit_app.business_page import *
-content = page_header("operational_impact", "⏱️")
-df = _read_report("operational_impact_by_lifecycle_status.csv")
 
-incidents = int(df["incidents"].sum())
-downtime = float(df["downtime_hours"].sum())
-max_rate = df.sort_values("downtime_per_asset", ascending=False).iloc[0]
-assets = int(df["assets"].sum())
+import streamlit as st
+from common import *
 
-c1,c2,c3,c4 = st.columns(4)
-c1.metric("Incidents", f"{incidents:,}", help="Total incident count attached to assets.")
-c2.metric("Downtime Hours", f"{downtime:,.0f}", help="Total downtime hours attached to assets.")
-c3.metric("Highest Downtime Group", str(max_rate["Lifecycle_Status"]), help="Lifecycle group with the highest downtime per asset.")
-c4.metric("Assets in Analysis", f"{assets:,}", help="Assets included in operational impact analysis.")
+apply_page_config("Operational Impact")
+page_header(
+    "Operational Impact",
+    "Incident and downtime patterns by lifecycle status, translated into management-level disruption indicators.",
+    "Service resilience",
+)
 
-st.divider()
-col1, col2 = st.columns(2)
-with col1:
-    plot_bar(df.sort_values("downtime_per_asset", ascending=False), "Lifecycle_Status", "downtime_per_asset", "Downtime per asset by lifecycle status")
-with col2:
-    plot_bar(df.sort_values("incident_rate_per_asset", ascending=False), "Lifecycle_Status", "incident_rate_per_asset", "Incident rate per asset by lifecycle status")
+op = read_engineered("operational_risk_analysis.csv")
+if op.empty:
+    st.warning("Operational risk analysis table not found.")
+    st.stop()
 
-show_standard_tabs(content, df, content["file"], "Operational impact by lifecycle status")
+past = op[op["Lifecycle_Status"] == "Past EOL"].iloc[0] if (op["Lifecycle_Status"] == "Past EOL").any() else op.iloc[0]
+highest = op.sort_values("Operational_Disruption_Index", ascending=False).iloc[0]
+
+metric_row([
+    ("Past-EOL incidents", number(past["Incident_Count"])),
+    ("Past-EOL downtime", number(past["Downtime_Hours"]), "hours"),
+    ("Past-EOL disruption index", f"{past['Operational_Disruption_Index']:.1f}"),
+    ("Highest disruption status", highest["Lifecycle_Status"]),
+    ("Highest disruption index", f"{highest['Operational_Disruption_Index']:.1f}"),
+    ("Avg downtime/asset", f"{past['Avg_Downtime_Per_Asset']:.1f}", "hours"),
+    ("Avg incidents/asset", f"{past['Avg_Incidents_Per_Asset']:.2f}"),
+    ("Lifecycle statuses", number(op["Lifecycle_Status"].nunique())),
+])
+
+st.markdown(read_doc("operational_impact.md"))
+
+bar_chart(op.sort_values("Operational_Disruption_Index", ascending=True), "Operational_Disruption_Index", "Lifecycle_Status", "Operational disruption index by lifecycle status", orientation="h")
+bar_chart(op.sort_values("Downtime_Hours", ascending=False), "Lifecycle_Status", "Downtime_Hours", "Downtime hours by lifecycle status", color="Lifecycle_Status")
+
+st.dataframe(op, use_container_width=True, hide_index=True)

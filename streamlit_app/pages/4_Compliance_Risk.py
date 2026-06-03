@@ -1,25 +1,44 @@
-from streamlit_app.business_page import *
-content = page_header("compliance_risk", "⚖️")
-df = _read_report("compliance_software_versions_summary.csv")
 
-installs = int(df["non_compliant_installs"].sum())
-assets = int(df["distinct_assets"].sum()) if "distinct_assets" in df.columns else 0
-products = df["Software_Name"].nunique()
-versions = len(df)
+import streamlit as st
+from common import *
 
-c1,c2,c3,c4 = st.columns(4)
-c1.metric("Non-Compliant Installs", f"{installs:,}", help=content["tooltip"])
-c2.metric("Affected Asset Count", f"{assets:,}", help="Distinct asset count summed across software/version groups.")
-c3.metric("Software Products", f"{products:,}", help="Number of software products represented in non-compliant inventory.")
-c4.metric("Versions in Scope", f"{versions:,}", help="Software-version combinations in scope.")
+apply_page_config("Compliance Risk")
+page_header(
+    "Compliance Risk",
+    "Unsupported software versions and compliance exposure across the endpoint and infrastructure estate.",
+    "Software lifecycle",
+)
 
-st.divider()
-col1, col2 = st.columns(2)
-with col1:
-    top = df.sort_values("non_compliant_installs", ascending=True).tail(15)
-    plot_bar(top, "non_compliant_installs", "Software_Name", "Top software products creating compliance exposure", orientation="h")
-with col2:
-    cat = df.groupby("Category").agg(non_compliant_installs=("non_compliant_installs", "sum")).reset_index().sort_values("non_compliant_installs", ascending=False)
-    plot_bar(cat, "Category", "non_compliant_installs", "Compliance exposure by software category")
+sw = read_engineered("software_lifecycle_analysis.csv")
+summary = read_report("software_compliance_risk_summary.csv")
+if sw.empty:
+    st.warning("Software lifecycle analysis table not found.")
+    st.stop()
 
-show_standard_tabs(content, df, content["file"], "Software compliance risk summary")
+unsupported = int((sw["Software_EOL_Status"] == "Unsupported").sum())
+high = int((sw["Software_Compliance_Risk"] == "High").sum())
+medium = int((sw["Software_Compliance_Risk"] == "Medium").sum())
+
+metric_row([
+    ("Software installs", number(len(sw))),
+    ("Unsupported installs", number(unsupported)),
+    ("High compliance risk", number(high)),
+    ("Medium compliance risk", number(medium)),
+    ("Software products", number(sw["Software_Name"].nunique())),
+    ("Publishers", number(sw["Publisher"].nunique())),
+    ("Software categories", number(sw["Software_Category"].nunique())),
+    ("Assets affected", number(sw["Asset_ID"].nunique())),
+])
+
+st.markdown(read_doc("compliance_risk.md"))
+
+if not summary.empty:
+    st.subheader("Top unsupported software versions")
+    top = summary.sort_values("Installation_Count", ascending=False).head(12)
+    bar_chart(top.sort_values("Installation_Count", ascending=True), "Installation_Count", "Software_Name", "Unsupported software installations", color="Software_Compliance_Risk", orientation="h")
+    st.dataframe(top, use_container_width=True, hide_index=True)
+
+st.subheader("Compliance risk distribution")
+risk = sw["Software_Compliance_Risk"].value_counts().reset_index()
+risk.columns = ["Software_Compliance_Risk", "Installation_Count"]
+bar_chart(risk, "Software_Compliance_Risk", "Installation_Count", "Installations by compliance risk", color="Software_Compliance_Risk")

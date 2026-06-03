@@ -1,27 +1,45 @@
-from streamlit_app.business_page import *
-content = page_header("lifecycle_exposure", "📊")
-df = _read_report("lifecycle_exposure_by_asset_type.csv")
-bu = _read_report("business_unit_eol_exposure.csv")
-lifecycle = _read_report("executive_lifecycle_summary.csv")
 
-past = int(lifecycle.loc[lifecycle["Lifecycle_Status"].eq("Past EOL"), "assets"].sum())
-exp12 = int(lifecycle.loc[lifecycle["Lifecycle_Status"].isin(["0-6 Months", "6-12 Months"]), "assets"].sum())
-exp24 = int(lifecycle.loc[lifecycle["Lifecycle_Status"].eq("12-24 Months"), "assets"].sum())
-replacement = float(lifecycle.loc[lifecycle["Lifecycle_Status"].isin(["Past EOL", "0-6 Months", "6-12 Months", "12-24 Months"]), "replacement_cost"].sum())
+import streamlit as st
+from common import *
 
-c1,c2,c3,c4 = st.columns(4)
-c1.metric("Past EOL", f"{past:,}", help="Assets already beyond expected lifecycle date.")
-c2.metric("Due <12 Months", f"{exp12:,}", help="Assets due within the next 12 months.")
-c3.metric("Due 12-24 Months", f"{exp24:,}", help="Assets due in the second year of the planning window.")
-c4.metric("Near-Term Refresh Exposure", _money(replacement), help="Replacement exposure for assets past EOL or due within 24 months.")
+apply_page_config("Lifecycle Exposure")
+page_header(
+    "Lifecycle Exposure",
+    "Where unsupported and near-end-of-life technology is concentrated across the organization.",
+    "Lifecycle governance",
+)
 
-st.divider()
-col1, col2 = st.columns(2)
-with col1:
-    mix = lifecycle.sort_values("assets", ascending=False)
-    plot_bar(mix, "Lifecycle_Status", "assets", "Lifecycle status mix")
-with col2:
-    top_bu = bu.sort_values("past_eol", ascending=True).tail(10)
-    plot_bar(top_bu, "past_eol", "Business_Unit", "Top business units by past-EOL assets", orientation="h")
+asset = read_engineered("asset_lifecycle_analysis.csv")
+bu = read_engineered("business_unit_risk.csv")
+asset_type = read_engineered("asset_lifecycle_by_type.csv")
+if asset.empty:
+    st.warning("Asset lifecycle analysis not found.")
+    st.stop()
 
-show_standard_tabs(content, df, content["file"], "Lifecycle exposure by asset type")
+total = len(asset)
+past = int(asset["Past_EOL_Flag"].sum())
+exp12 = int(asset["Expiring_12M_Flag"].sum())
+near = int(asset["Expiring_12M_Flag"].sum() + asset["Expiring_24M_Flag"].sum() + asset["Expiring_36M_Flag"].sum())
+
+metric_row([
+    ("Past EOL assets", number(past), f"{past/total:.1%} of estate"),
+    ("Expiring in 12 months", number(asset["Expiring_12M_Flag"].sum())),
+    ("Expiring in 24 months", number(asset["Expiring_24M_Flag"].sum())),
+    ("Expiring in 36 months", number(asset["Expiring_36M_Flag"].sum())),
+    ("Near-term exposure", number(near), "within 36 months"),
+    ("Highest risk unit", bu.sort_values("Executive_Risk_Index", ascending=False).iloc[0]["Business_Unit_Name"] if not bu.empty else "N/A"),
+    ("Critical risk bands", number((bu["Risk_Band"] == "Critical").sum()) if not bu.empty else "N/A"),
+    ("High risk bands", number((bu["Risk_Band"] == "High").sum()) if not bu.empty else "N/A"),
+])
+
+st.markdown(read_doc("lifecycle_exposure.md"))
+
+if not bu.empty:
+    st.subheader("Business unit exposure")
+    display = bu[["Business_Unit_Name", "Total_Assets", "Past_EOL_Assets", "Expiring_12M_Assets", "Near_Term_Exposure_Pct", "Executive_Risk_Index", "Risk_Band"]].sort_values("Executive_Risk_Index", ascending=False)
+    st.dataframe(display, use_container_width=True, hide_index=True)
+    bar_chart(display.sort_values("Executive_Risk_Index", ascending=True), "Executive_Risk_Index", "Business_Unit_Name", "Executive lifecycle risk index", color="Risk_Band", orientation="h")
+
+st.subheader("Lifecycle by asset type")
+if not asset_type.empty:
+    bar_chart(asset_type, "Asset_Type", "Asset_Count", "Lifecycle exposure by asset type", color="Lifecycle_Status")

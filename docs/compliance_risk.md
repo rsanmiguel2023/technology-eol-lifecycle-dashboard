@@ -1,29 +1,23 @@
 # Compliance Risk
 
-## Management Question
-Which software versions create the highest compliance exposure?
+## Business Question
 
-## Executive Summary
-There are **104,497 non-compliant or past-EOL software installations** requiring lifecycle review. The largest exposure is concentrated in common enterprise productivity, browser, collaboration, operating system, and developer/runtime software.
+Which software versions create the largest compliance exposure?
 
-Top exposure drivers:
-- **Adobe Acrobat Pro 2020:** 11,213 installations
-- **Mozilla Firefox ESR 115 ESR:** 11,213 installations
-- **Microsoft Teams Classic/2.x:** 4,544 installations
-- **Microsoft OneDrive 24.x:** 4,526 installations
-- **Google Chrome Current:** 4,510 installations
+## Key Findings
 
-## Business Interpretation
-Software lifecycle risk is driven by both scale and criticality. Thousands of outdated endpoint installations can create broad audit exposure, while fewer unsupported server, database, or runtime installations can create concentrated production risk. This page helps separate high-volume remediation from high-criticality remediation.
+Software lifecycle analysis identifies **91,618 unsupported installations** and **91,618 high-risk software compliance records**. The largest unsupported software drivers are:
 
-## Methodology
-Software installations are grouped by software name, version, category, and lifecycle status. Non-compliant and past-EOL installations are counted and ranked to identify the largest exposure areas.
+- **Adobe Acrobat Pro 2020 20**: 12,670 installations across 9,860 assets
+- **Google Chrome 124**: 12,607 installations across 9,815 assets
+- **Microsoft Teams Classic 1.6**: 12,565 installations across 9,792 assets
+- **Windows 10 Enterprise 22H2**: 12,533 installations across 9,694 assets
+- **OneDrive 24.x**: 12,515 installations across 9,740 assets
 
-## Recommended Actions
-Prioritize unsupported software with high installation counts and software running in production or privileged environments. Establish application-owner remediation plans for outdated browsers, collaboration tools, operating systems, database platforms, Java/.NET/Python runtimes, and developer tools.
+## Interpretation
 
-## Tooltip Definition
-Software compliance risk means the software installation is either not compliant with the lifecycle standard or is already past its software EOL date.
+Software lifecycle risk is broader than operating systems alone. Productivity tools, browsers, collaboration platforms, and endpoint software create compliance exposure when unsupported versions remain widely deployed.
 
-## Dashboard Notes
-Use the top-version table to prepare application-owner follow-up. The dashboard should avoid overly technical tooltips and focus on business risk, remediation ownership, and audit exposure.
+## Recommended Action
+
+Build a software remediation workstream focused on high-volume unsupported versions. Target the largest installed base first to reduce compliance exposure quickly.
