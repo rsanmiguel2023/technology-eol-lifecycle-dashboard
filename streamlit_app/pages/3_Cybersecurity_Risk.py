@@ -1,49 +1,36 @@
-
+from pathlib import Path
+import sys
+import pandas as pd
 import streamlit as st
-from common import *
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from eol_ui import *
+setup_page('Cybersecurity Risk')
+hero('Cybersecurity Risk','View of unsupported and near-EOL assets with critical or high vulnerability exposure.')
+cyber = read_csv_any(ROOT, ['cybersecurity_unsupported_critical_summary.csv','cyber_risk_analysis.csv'])
+asset_detail = read_csv_any(ROOT, 'cyber_risk_analysis.csv')
+if 'Asset_Count' in cyber.columns:
+    exposed = cyber['Asset_Count'].sum(); crit = cyber.get('Critical_Vulnerabilities', pd.Series(dtype=float)).sum(); high = cyber.get('High_Vulnerabilities', pd.Series(dtype=float)).sum()
+else:
+    exposed = len(cyber); crit = cyber.get('Critical_Vulnerability_Count', pd.Series(dtype=float)).sum(); high = cyber.get('High_Vulnerability_Count', pd.Series(dtype=float)).sum()
+cost = asset_detail['Replacement_Cost'].sum() if not asset_detail.empty and 'Replacement_Cost' in asset_detail.columns else None
+cols=st.columns(4)
+for col,args in zip(cols,[('EXPOSED ASSETS',fmt_int(exposed),'Unsupported assets with cyber exposure','red','△'),('CRITICAL FINDINGS',fmt_int(crit),'Critical vulnerability count','red','!'),('HIGH FINDINGS',fmt_int(high),'High severity vulnerability count','orange','▲'),('REPLACEMENT EXPOSURE',fmt_money(cost),'Cost tied to exposed assets','green','$')]):
+    with col: kpi_card(*args)
+insight_box('Executive Interpretation','Cybersecurity exposure is most urgent when unsupported assets also carry critical or high vulnerabilities. These systems have a smaller remediation window, weaker vendor support options, and higher operational risk if compensating controls are not in place.')
 
-apply_page_config("Cybersecurity Risk")
-page_header(
-    "Cybersecurity Risk",
-    "Unsupported and near-EOL assets with critical or high vulnerability exposure.",
-    "Cyber exposure",
-)
+st.markdown('### Unsupported Vulnerable Assets by Asset Type')
+chart_note('Shows which technology platforms combine lifecycle risk with vulnerability exposure. This helps teams focus patching, compensating controls, and accelerated replacement work.')
+if not cyber.empty:
+    if {'Asset_Type','Asset_Count'}.issubset(cyber.columns):
+        d=cyber.groupby('Asset_Type', as_index=False)['Asset_Count'].sum().sort_values('Asset_Count', ascending=True)
+        plot_bar(d,'Asset_Count','Asset_Type',labels={'Asset_Count':'Exposed assets','Asset_Type':'Asset type'})
+    elif {'Asset_Type','Asset_ID'}.issubset(cyber.columns):
+        d=cyber.groupby('Asset_Type', as_index=False)['Asset_ID'].count().rename(columns={'Asset_ID':'Asset_Count'}).sort_values('Asset_Count')
+        plot_bar(d,'Asset_Count','Asset_Type',labels={'Asset_Count':'Exposed assets','Asset_Type':'Asset type'})
 
-cyber = read_engineered("cyber_risk_analysis.csv")
-summary = read_report("cybersecurity_unsupported_critical_summary.csv")
-if cyber.empty:
-    st.warning("Cyber risk analysis table not found.")
-    st.stop()
-
-critical = int(cyber["Critical_Vulnerability_Count"].sum()) if "Critical_Vulnerability_Count" in cyber.columns else 0
-high = int(cyber["High_Vulnerability_Count"].sum()) if "High_Vulnerability_Count" in cyber.columns else 0
-past = int((cyber["Lifecycle_Status"] == "Past EOL").sum()) if "Lifecycle_Status" in cyber.columns else 0
-immediate = int((cyber["Remediation_Priority"] == "Immediate").sum()) if "Remediation_Priority" in cyber.columns else 0
-
-metric_row([
-    ("Assets in cyber-risk scope", number(len(cyber))),
-    ("Critical vulnerabilities", number(critical)),
-    ("High vulnerabilities", number(high)),
-    ("Past-EOL cyber assets", number(past)),
-    ("Immediate remediation", number(immediate)),
-    ("Asset types affected", number(cyber["Asset_Type"].nunique())),
-    ("Business units affected", number(cyber["Business_Unit_ID"].nunique())),
-    ("Top asset type", cyber["Asset_Type"].value_counts().idxmax()),
-])
-
-insight(
-    f"<strong>Immediate action required:</strong> {number(len(cyber))} unsupported or near-EOL assets have critical/high vulnerability exposure. Prioritize immediate remediation for past-EOL assets and accelerated refresh for assets expiring within 12 months.",
-    kind="alert",
-)
-
-st.markdown(read_doc("cybersecurity_risk.md"))
-
-if not summary.empty:
-    st.subheader("Cyber exposure by asset type")
-    bar_chart(summary.sort_values("Asset_Count", ascending=True), "Asset_Count", "Asset_Type", "Unsupported or near-EOL vulnerable assets", color="Cyber_Risk_Category", orientation="h")
-    st.dataframe(summary, use_container_width=True, hide_index=True)
-
-st.subheader("Remediation priority")
-priority = cyber["Remediation_Priority"].value_counts().reset_index()
-priority.columns = ["Remediation_Priority", "Asset_Count"]
-bar_chart(priority, "Remediation_Priority", "Asset_Count", "Assets by remediation priority", color="Remediation_Priority")
+if not asset_detail.empty and 'Business_Unit_ID' in asset_detail.columns:
+    st.markdown('### Cyber Exposure by Business Unit ID')
+    chart_note('Groups exposed assets by business unit identifier when the business unit name is not present in the vulnerability export.')
+    d=asset_detail.groupby('Business_Unit_ID', as_index=False).agg(Asset_Count=('Asset_ID','count'), Critical=('Critical_Vulnerability_Count','sum')).sort_values('Asset_Count', ascending=True)
+    plot_bar(d,'Asset_Count','Business_Unit_ID',labels={'Asset_Count':'Exposed assets','Business_Unit_ID':'Business unit ID'}, height=360)

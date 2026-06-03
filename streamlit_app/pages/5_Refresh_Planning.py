@@ -1,40 +1,26 @@
-
+from pathlib import Path
+import sys
+import pandas as pd
 import streamlit as st
-from common import *
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from eol_ui import *
+setup_page('Refresh Planning')
+hero('Refresh Planning','Funding roadmap for past-support and near-end-of-life technology refresh demand.')
+ref = read_csv_any(ROOT, ['refresh_budget_planning_summary.csv','refresh_forecast.csv'])
+assets = ref['Assets'].sum() if not ref.empty and 'Assets' in ref.columns else None
+cost = ref['Estimated_Refresh_Cost'].sum() if not ref.empty and 'Estimated_Refresh_Cost' in ref.columns else None
+peak_year = ref.sort_values('Estimated_Refresh_Cost', ascending=False).iloc[0]['Refresh_Year'] if not ref.empty and {'Refresh_Year','Estimated_Refresh_Cost'}.issubset(ref.columns) else '—'
+peak_cost = ref['Estimated_Refresh_Cost'].max() if not ref.empty and 'Estimated_Refresh_Cost' in ref.columns else None
+cols=st.columns(4)
+for col,args in zip(cols,[('REFRESH ASSETS',fmt_int(assets),'Assets in planning horizon','blue','↻'),('TOTAL INVESTMENT',fmt_money(cost),'Estimated refresh funding need','green','$'),('PEAK YEAR',str(peak_year),'Largest annual refresh demand','orange','◎'),('PEAK-YEAR COST',fmt_money(peak_cost),'Largest annual funding requirement','purple','$')]):
+    with col: kpi_card(*args)
+insight_box('Executive Interpretation','Refresh planning converts lifecycle exposure into a funding roadmap. This helps leaders move from reactive replacement to sequenced investment based on asset support timelines, risk concentration, and operational dependency.')
 
-apply_page_config("Refresh Planning")
-page_header(
-    "Refresh Planning",
-    "Multi-year investment roadmap for reducing lifecycle risk and technology debt.",
-    "Investment planning",
-)
-
-refresh = read_engineered("refresh_forecast.csv")
-asset = read_engineered("asset_lifecycle_analysis.csv")
-bu = read_engineered("business_unit_risk.csv")
-
-if refresh.empty:
-    st.warning("Refresh forecast table not found.")
-    st.stop()
-
-total_cost = refresh["Estimated_Refresh_Cost"].sum()
-peak = refresh.sort_values("Estimated_Refresh_Cost", ascending=False).iloc[0]
-metric_row([
-    ("Forecast refresh cost", money(total_cost), "FY2026–FY2029"),
-    ("Peak funding year", f"FY{int(peak['Refresh_Year'])}", money(peak["Estimated_Refresh_Cost"])),
-    ("Assets in roadmap", number(refresh["Assets"].sum())),
-    ("Past-EOL refresh wave", number(refresh.loc[refresh["Refresh_Year"] == 2026, "Assets"].sum())),
-    ("Average cost/asset", money(total_cost / max(refresh["Assets"].sum(), 1))),
-    ("Business units", number(bu["Business_Unit_Name"].nunique()) if not bu.empty else "N/A"),
-    ("Highest-cost BU", bu.sort_values("Total_Replacement_Cost", ascending=False).iloc[0]["Business_Unit_Name"] if not bu.empty else "N/A"),
-    ("Highest BU cost", money(bu.sort_values("Total_Replacement_Cost", ascending=False).iloc[0]["Total_Replacement_Cost"]) if not bu.empty else "N/A"),
-])
-
-st.markdown(read_doc("refresh_planning.md"))
-
-line_chart(refresh, "Refresh_Year", "Estimated_Refresh_Cost", "Refresh investment roadmap")
-
-if not bu.empty:
-    st.subheader("Replacement cost by business unit")
-    display = bu.sort_values("Total_Replacement_Cost", ascending=True)
-    bar_chart(display, "Total_Replacement_Cost", "Business_Unit_Name", "Estimated replacement cost by business unit", color="Risk_Band", orientation="h")
+st.markdown('### Refresh Investment Roadmap')
+chart_note('Shows estimated annual investment required to remediate past-support and near-end-of-life technology. This supports budget planning and funding approval discussions.')
+if not ref.empty and {'Refresh_Year','Estimated_Refresh_Cost'}.issubset(ref.columns):
+    d=ref.sort_values('Refresh_Year')
+    fig = px.bar(d, x='Refresh_Year', y='Estimated_Refresh_Cost', text=d['Estimated_Refresh_Cost'].apply(fmt_money), labels={'Refresh_Year':'Refresh year','Estimated_Refresh_Cost':'Estimated cost'})
+    fig=clean_fig(fig, height=430); fig.update_traces(textposition='outside')
+    st.plotly_chart(fig, use_container_width=True, config={'displayModeBar':False})

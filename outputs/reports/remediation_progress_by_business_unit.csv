@@ -1,0 +1,41 @@
+Business_Unit_ID,Business_Unit_Name,Remediation_Progress_Group,Asset_Count,Remediation_Cost
+BU001,Retail Banking,Completed,2822,8840471.88
+BU001,Retail Banking,Deferred / Exception,421,1337618.3699999999
+BU001,Retail Banking,In Progress,3390,11852110.7
+BU001,Retail Banking,Not Started,1588,4770611.63
+BU002,Technology,Completed,1276,4554191.72
+BU002,Technology,Deferred / Exception,204,710615.49
+BU002,Technology,In Progress,1665,5738806.29
+BU002,Technology,Not Started,812,2791976.75
+BU003,Commercial Banking,Completed,937,3336375.57
+BU003,Commercial Banking,Deferred / Exception,125,622406.99
+BU003,Commercial Banking,In Progress,1065,4195164.57
+BU003,Commercial Banking,Not Started,519,1757324.3
+BU004,Wealth Management,Completed,592,1822585.7
+BU004,Wealth Management,Deferred / Exception,82,229127.44
+BU004,Wealth Management,In Progress,710,2516292.9
+BU004,Wealth Management,Not Started,354,957577.36
+BU005,Capital Markets,Completed,373,1127549.26
+BU005,Capital Markets,Deferred / Exception,48,120695.7
+BU005,Capital Markets,In Progress,419,1420039.03
+BU005,Capital Markets,Not Started,203,696566.0700000001
+BU006,Risk Management,Completed,321,1093575.17
+BU006,Risk Management,Deferred / Exception,44,137656.32
+BU006,Risk Management,In Progress,359,1234422.1099999999
+BU006,Risk Management,Not Started,173,521720.44
+BU007,Finance,Completed,320,1099199.95
+BU007,Finance,Deferred / Exception,37,84334.72
+BU007,Finance,In Progress,381,1306820.44
+BU007,Finance,Not Started,174,551116.31
+BU008,Human Resources,Completed,208,734337.47
+BU008,Human Resources,Deferred / Exception,36,71868.06999999999
+BU008,Human Resources,In Progress,288,1034513.01
+BU008,Human Resources,Not Started,144,517845.32
+BU009,Operations,Completed,361,1025383.36
+BU009,Operations,Deferred / Exception,43,236090.24
+BU009,Operations,In Progress,471,1740291.01
+BU009,Operations,Not Started,210,617412.33
+BU010,Legal and Compliance,Completed,232,827721.58
+BU010,Legal and Compliance,Deferred / Exception,24,71892.93
+BU010,Legal and Compliance,In Progress,252,821382.26
+BU010,Legal and Compliance,Not Started,111,519265.26

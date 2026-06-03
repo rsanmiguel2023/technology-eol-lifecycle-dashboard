@@ -1,45 +1,32 @@
-
+from pathlib import Path
+import sys
+import pandas as pd
 import streamlit as st
-from common import *
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from eol_ui import *
+setup_page('Lifecycle Exposure')
+hero('Lifecycle Exposure','Executive view of unsupported and near-end-of-life technology across business units and asset categories.')
+bu = read_csv_any(ROOT, ['business_unit_eol_exposure.csv','business_unit_risk.csv'])
+by_type = read_csv_any(ROOT, ['asset_lifecycle_by_type.csv','lifecycle_exposure_by_asset_type.csv'])
 
-apply_page_config("Lifecycle Exposure")
-page_header(
-    "Lifecycle Exposure",
-    "Where unsupported and near-end-of-life technology is concentrated across the organization.",
-    "Lifecycle governance",
-)
+past = bu['Past_EOL_Assets'].sum() if not bu.empty and 'Past_EOL_Assets' in bu.columns else None
+exp12 = bu['Expiring_12M_Assets'].sum() if not bu.empty and 'Expiring_12M_Assets' in bu.columns else None
+cost = bu['Total_Replacement_Cost'].sum() if not bu.empty and 'Total_Replacement_Cost' in bu.columns else None
+largest = bu.sort_values('Past_EOL_Assets', ascending=False).iloc[0]['Business_Unit_Name'] if not bu.empty and {'Past_EOL_Assets','Business_Unit_Name'}.issubset(bu.columns) else '—'
+cols=st.columns(4)
+for col,args in zip(cols,[('PAST VENDOR SUPPORT',fmt_int(past),'Assets already unsupported','red','⚠'),('12-MONTH EXPOSURE',fmt_int(exp12),'Assets entering near-term refresh','orange','↻'),('LIFECYCLE COST',fmt_money(cost),'Replacement cost in exposed estate','green','$'),('LARGEST EXPOSURE',largest,'Business unit with highest unsupported volume','purple','◎')]):
+    with col: kpi_card(*args)
+insight_box('Executive Interpretation','Lifecycle exposure should be managed as a portfolio risk. Unsupported assets create vendor support gaps, audit exposure, operational instability, and increased remediation complexity. The priority is to sequence refresh activity by business criticality and risk concentration rather than by device age alone.')
 
-asset = read_engineered("asset_lifecycle_analysis.csv")
-bu = read_engineered("business_unit_risk.csv")
-asset_type = read_engineered("asset_lifecycle_by_type.csv")
-if asset.empty:
-    st.warning("Asset lifecycle analysis not found.")
-    st.stop()
+st.markdown('### Unsupported Assets by Business Unit')
+chart_note('Ranks business units by assets already past vendor support. This helps leaders decide where refresh funding and remediation work should start.')
+if not bu.empty and {'Business_Unit_Name','Past_EOL_Assets'}.issubset(bu.columns):
+    d=bu.sort_values('Past_EOL_Assets', ascending=True)
+    plot_bar(d,'Past_EOL_Assets','Business_Unit_Name', color='Risk_Band', labels={'Past_EOL_Assets':'Past vendor support assets','Business_Unit_Name':'Business unit'})
 
-total = len(asset)
-past = int(asset["Past_EOL_Flag"].sum())
-exp12 = int(asset["Expiring_12M_Flag"].sum())
-near = int(asset["Expiring_12M_Flag"].sum() + asset["Expiring_24M_Flag"].sum() + asset["Expiring_36M_Flag"].sum())
-
-metric_row([
-    ("Past EOL assets", number(past), f"{past/total:.1%} of estate"),
-    ("Expiring in 12 months", number(asset["Expiring_12M_Flag"].sum())),
-    ("Expiring in 24 months", number(asset["Expiring_24M_Flag"].sum())),
-    ("Expiring in 36 months", number(asset["Expiring_36M_Flag"].sum())),
-    ("Near-term exposure", number(near), "within 36 months"),
-    ("Highest risk unit", bu.sort_values("Executive_Risk_Index", ascending=False).iloc[0]["Business_Unit_Name"] if not bu.empty else "N/A"),
-    ("Critical risk bands", number((bu["Risk_Band"] == "Critical").sum()) if not bu.empty else "N/A"),
-    ("High risk bands", number((bu["Risk_Band"] == "High").sum()) if not bu.empty else "N/A"),
-])
-
-st.markdown(read_doc("lifecycle_exposure.md"))
-
-if not bu.empty:
-    st.subheader("Business unit exposure")
-    display = bu[["Business_Unit_Name", "Total_Assets", "Past_EOL_Assets", "Expiring_12M_Assets", "Near_Term_Exposure_Pct", "Executive_Risk_Index", "Risk_Band"]].sort_values("Executive_Risk_Index", ascending=False)
-    st.dataframe(display, use_container_width=True, hide_index=True)
-    bar_chart(display.sort_values("Executive_Risk_Index", ascending=True), "Executive_Risk_Index", "Business_Unit_Name", "Executive lifecycle risk index", color="Risk_Band", orientation="h")
-
-st.subheader("Lifecycle by asset type")
-if not asset_type.empty:
-    bar_chart(asset_type, "Asset_Type", "Asset_Count", "Lifecycle exposure by asset type", color="Lifecycle_Status")
+st.markdown('### Lifecycle Exposure by Asset Type')
+chart_note('Shows which technology categories carry the largest unsupported or near-EOL footprint.')
+if not by_type.empty and {'Asset_Type','Lifecycle_Status','Asset_Count'}.issubset(by_type.columns):
+    d = by_type[by_type['Lifecycle_Status'].astype(str).str.contains('Past|12', case=False, na=False)].groupby('Asset_Type', as_index=False)['Asset_Count'].sum().sort_values('Asset_Count', ascending=True)
+    plot_bar(d,'Asset_Count','Asset_Type',labels={'Asset_Count':'Exposed assets','Asset_Type':'Asset type'}, height=380)

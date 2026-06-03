@@ -1,0 +1,5 @@
+Remediation_Progress_Group,Asset_Count,Remediation_Cost,Progress_Pct
+Completed,7442,24461391.66,34.1
+In Progress,9000,31859842.32,41.3
+Not Started,4288,13701415.77,19.7
+Deferred / Exception,1064,3622306.27,4.9

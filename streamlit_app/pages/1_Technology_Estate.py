@@ -1,46 +1,35 @@
-
+from pathlib import Path
+import sys
+import pandas as pd
 import streamlit as st
-import plotly.express as px
-from common import *
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from eol_ui import *
+setup_page('Technology Estate')
+hero('Technology Estate', "Baseline view of the bank's managed technology footprint across device types, environments, and business areas.")
+assets = read_csv_any(ROOT, 'asset_lifecycle_analysis.csv')
+by_type = read_csv_any(ROOT, ['asset_lifecycle_by_type.csv','lifecycle_exposure_by_asset_type.csv'])
 
-apply_page_config("Technology Estate")
-page_header(
-    "Technology Estate",
-    "Portfolio-level view of managed assets, software footprint, business units, and platform composition.",
-    "Estate overview",
-)
+managed = len(assets) if not assets.empty else None
+prod = assets[assets.get('Environment','').astype(str).str.contains('Production', case=False, na=False)].shape[0] if not assets.empty and 'Environment' in assets.columns else None
+critical = assets[assets.get('Business_Unit_ID','').notna()].shape[0] if not assets.empty and 'Business_Unit_ID' in assets.columns else None
+replace = assets['Replacement_Cost'].sum() if not assets.empty and 'Replacement_Cost' in assets.columns else None
+cols=st.columns(4)
+for col,args in zip(cols,[('MANAGED ASSETS',fmt_int(managed),'All hardware and infrastructure assets','blue','▣'),('PRODUCTION ASSETS',fmt_int(prod),'Assets supporting live environments','green','●'),('CRITICAL ASSETS',fmt_int(critical),'Assets mapped to business services','red','⚠'),('REPLACEMENT BASELINE',fmt_money(replace),'Estimated current replacement value','purple','$')]):
+    with col: kpi_card(*args)
+insight_box('Executive Interpretation','The estate baseline establishes the size and business dependency of the managed technology footprint before lifecycle, cyber, compliance, and refresh risk are calculated. This view helps leaders understand whether exposure is concentrated in end-user computing, infrastructure, or specific business areas.')
 
-asset = read_engineered("asset_lifecycle_analysis.csv")
-software = read_engineered("software_lifecycle_analysis.csv")
-
-if asset.empty:
-    st.warning("Engineered asset lifecycle table not found.")
-    st.stop()
-
-metric_row([
-    ("Managed assets", number(len(asset))),
-    ("Software installations", number(len(software)) if not software.empty else "N/A"),
-    ("Asset types", number(asset["Asset_Type"].nunique())),
-    ("Manufacturers", number(asset["Manufacturer"].nunique())),
-    ("Business units", number(asset["Business_Unit_ID"].nunique())),
-    ("Inventory sources", number(asset["Inventory_Source"].nunique())),
-    ("Production assets", number((asset["Environment"] == "Production").sum())),
-    ("Warranty expired", number((asset["Warranty_Status"] == "Warranty Expired").sum())),
-])
-
-st.markdown(read_doc("technology_estate.md"))
-
-c1, c2 = st.columns(2)
-with c1:
-    asset_type = asset["Asset_Type"].value_counts().reset_index()
-    asset_type.columns = ["Asset_Type", "Asset_Count"]
-    bar_chart(asset_type.sort_values("Asset_Count", ascending=True), "Asset_Count", "Asset_Type", "Managed assets by asset type", orientation="h")
-with c2:
-    env = asset["Environment"].value_counts().reset_index()
-    env.columns = ["Environment", "Asset_Count"]
-    bar_chart(env, "Environment", "Asset_Count", "Assets by environment", color="Environment")
-
-st.subheader("Manufacturer footprint")
-mfg = asset["Manufacturer"].value_counts().reset_index()
-mfg.columns = ["Manufacturer", "Asset_Count"]
-bar_chart(mfg.sort_values("Asset_Count", ascending=True), "Asset_Count", "Manufacturer", "Asset count by manufacturer", orientation="h")
+st.markdown('### Technology Estate by Asset Type')
+chart_note('Shows how the managed estate is distributed across device and infrastructure types. This helps leaders see whether exposure is concentrated in end-user devices, servers, network infrastructure, or storage platforms.')
+if not by_type.empty:
+    if {'Asset_Type','Asset_Count'}.issubset(by_type.columns):
+        d = by_type.groupby('Asset_Type', as_index=False)['Asset_Count'].sum().sort_values('Asset_Count', ascending=True)
+        plot_bar(d, 'Asset_Count', 'Asset_Type', labels={'Asset_Count':'Assets','Asset_Type':'Asset type'})
+    elif not assets.empty and 'Asset_Type' in assets.columns:
+        d = assets['Asset_Type'].value_counts().rename_axis('Asset_Type').reset_index(name='Asset_Count').sort_values('Asset_Count')
+        plot_bar(d, 'Asset_Count', 'Asset_Type', labels={'Asset_Count':'Assets','Asset_Type':'Asset type'})
+else:
+    if not assets.empty and 'Asset_Type' in assets.columns:
+        d = assets['Asset_Type'].value_counts().rename_axis('Asset_Type').reset_index(name='Asset_Count').sort_values('Asset_Count')
+        plot_bar(d, 'Asset_Count', 'Asset_Type', labels={'Asset_Count':'Assets','Asset_Type':'Asset type'})
+    else: st.info('Asset type data is not available.')

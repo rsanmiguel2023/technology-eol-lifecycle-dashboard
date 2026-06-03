@@ -1,7 +1,11 @@
-business_question,executive_answer,metric_value,unit,source_file
-Which assets are already past EOL?,"4,634 assets are already past EOL.",4634.0,assets,executive_lifecycle_summary.csv
-Which business units have the highest EOL exposure?,Retail Banking has the highest combined EOL risk score.,1.0,rank,business_unit_eol_exposure.csv
-Which unsupported assets also have critical vulnerabilities?,"3,661 past-EOL assets have at least one critical vulnerability.",3661.0,assets,past_eol_critical_vulnerability_assets.csv
-How much budget is needed for refresh planning?,Estimated refresh need is CAD $56.8M for assets past EOL or due within 24 months.,56839100.0,CAD,refresh_budget_gap_summary.csv
-Which software versions create the largest compliance risk?,"104,497 non-compliant or past-EOL software installations require review.",104497.0,installations,compliance_software_versions_summary.csv
-How does EOL status relate to incidents and downtime?,"Past-EOL assets account for 79,128 downtime hours in the model.",79127.73,hours,operational_impact_by_lifecycle_status.csv
+Executive_Question,Executive_Answer
+Total managed technology assets,23770
+Assets already past vendor support,4682
+Assets expiring within 12 months,8337
+Assets expiring within 24 months,11704
+Assets expiring within 36 months,17106
+Unsupported assets with critical/high vulnerabilities,1391
+Unsupported software installations,91618
+Estimated refresh cost for past/near-EOL assets,70816400.0
+Downtime hours linked to past-EOL assets,129119.04
+Highest lifecycle risk business unit,Retail Banking

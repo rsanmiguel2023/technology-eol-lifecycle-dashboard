@@ -2,18 +2,18 @@
 
 ## Business Question
 
-Which unsupported or near-EOL assets represent the greatest cybersecurity exposure?
+Which unsupported assets represent the greatest cybersecurity exposure?
 
 ## Key Findings
 
-The cyber-risk layer identifies **1,391 assets** with critical or high vulnerability exposure in unsupported or near-EOL technology populations. The exposure includes multiple asset types, including laptops, desktops, VDI endpoints, servers, switches, routers, firewalls, and storage.
-
-The largest asset-type exposure is **Laptop**, with **748 assets**, **659 critical vulnerabilities**, and **329 high vulnerabilities**.
+- **1,391 unsupported or near-EOL assets** have critical or high vulnerability exposure.
+- Laptop assets have the largest count, but infrastructure exposure also exists across servers, routers, switches, firewalls, VDI, and storage.
+- Server and network infrastructure assets require special attention because their failure or compromise may affect multiple users, services, or locations.
 
 ## Interpretation
 
-Cybersecurity risk is amplified when vulnerability exposure overlaps with unsupported or near-EOL technology. Unsupported assets reduce remediation flexibility because vendor patches, compatibility fixes, and standard support paths may no longer be available.
+Unsupported assets with high-severity findings should be treated as the immediate remediation population. These assets combine two forms of exposure: reduced vendor support and elevated vulnerability risk.
 
-## Recommended Action
+## Business Impact
 
-Prioritize unsupported assets with critical vulnerabilities for immediate remediation. For assets that cannot be replaced immediately, implement compensating controls, exception tracking, and executive-level risk acceptance.
+This is not only an endpoint hygiene issue. The exposure spans infrastructure and business-critical technology, which means remediation should be coordinated between Cybersecurity, Infrastructure, End User Computing, and Technology Governance.

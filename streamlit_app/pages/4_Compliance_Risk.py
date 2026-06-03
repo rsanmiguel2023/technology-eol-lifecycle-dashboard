@@ -1,44 +1,29 @@
-
+from pathlib import Path
+import sys
+import pandas as pd
 import streamlit as st
-from common import *
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from eol_ui import *
+setup_page('Compliance Risk')
+hero('Compliance Risk','Software lifecycle compliance view for unsupported and high-risk software versions.')
+soft = read_csv_any(ROOT, ['software_compliance_risk_summary.csv','software_lifecycle_analysis.csv'])
+unsupported = None; high = None
+if not soft.empty:
+    if 'Installation_Count' in soft.columns: unsupported = soft['Installation_Count'].sum()
+    else: unsupported = len(soft[soft.get('Software_EOL_Status','').astype(str).str.contains('Unsupported', case=False, na=False)]) if 'Software_EOL_Status' in soft.columns else len(soft)
+    high = soft[soft.get('Software_Compliance_Risk','').astype(str).str.contains('High', case=False, na=False)].shape[0] if 'Software_Compliance_Risk' in soft.columns else None
+cols=st.columns(4)
+for col,args in zip(cols,[('UNSUPPORTED INSTALLS',fmt_int(unsupported),'Software installs requiring review','orange','▣'),('HIGH-RISK VERSIONS',fmt_int(high),'Version-level compliance exposure','red','!'),('PRIMARY DRIVER','Adobe Acrobat Pro 2020','Largest unsupported deployment group','blue','◎'),('ACTION TYPE','Version Retirement','Standardize supported software versions','green','✓')]):
+    with col: kpi_card(*args)
+insight_box('Executive Interpretation','Software compliance risk is driven by version-level support timelines. The same product can have supported and unsupported versions, so remediation should focus on high-volume unsupported versions and applications with business-critical usage.')
 
-apply_page_config("Compliance Risk")
-page_header(
-    "Compliance Risk",
-    "Unsupported software versions and compliance exposure across the endpoint and infrastructure estate.",
-    "Software lifecycle",
-)
-
-sw = read_engineered("software_lifecycle_analysis.csv")
-summary = read_report("software_compliance_risk_summary.csv")
-if sw.empty:
-    st.warning("Software lifecycle analysis table not found.")
-    st.stop()
-
-unsupported = int((sw["Software_EOL_Status"] == "Unsupported").sum())
-high = int((sw["Software_Compliance_Risk"] == "High").sum())
-medium = int((sw["Software_Compliance_Risk"] == "Medium").sum())
-
-metric_row([
-    ("Software installs", number(len(sw))),
-    ("Unsupported installs", number(unsupported)),
-    ("High compliance risk", number(high)),
-    ("Medium compliance risk", number(medium)),
-    ("Software products", number(sw["Software_Name"].nunique())),
-    ("Publishers", number(sw["Publisher"].nunique())),
-    ("Software categories", number(sw["Software_Category"].nunique())),
-    ("Assets affected", number(sw["Asset_ID"].nunique())),
-])
-
-st.markdown(read_doc("compliance_risk.md"))
-
-if not summary.empty:
-    st.subheader("Top unsupported software versions")
-    top = summary.sort_values("Installation_Count", ascending=False).head(12)
-    bar_chart(top.sort_values("Installation_Count", ascending=True), "Installation_Count", "Software_Name", "Unsupported software installations", color="Software_Compliance_Risk", orientation="h")
-    st.dataframe(top, use_container_width=True, hide_index=True)
-
-st.subheader("Compliance risk distribution")
-risk = sw["Software_Compliance_Risk"].value_counts().reset_index()
-risk.columns = ["Software_Compliance_Risk", "Installation_Count"]
-bar_chart(risk, "Software_Compliance_Risk", "Installation_Count", "Installations by compliance risk", color="Software_Compliance_Risk")
+st.markdown('### Unsupported Software Versions')
+chart_note('Breaks down compliance exposure at the version level. This matters because different versions of the same product can have very different support timelines and remediation plans.')
+if not soft.empty:
+    if {'Software_Name','Software_Version','Installation_Count'}.issubset(soft.columns):
+        d=soft.copy(); d['Software Version']=d['Software_Name'].astype(str)+' '+d['Software_Version'].astype(str); d=d.groupby('Software Version', as_index=False)['Installation_Count'].sum().sort_values('Installation_Count', ascending=True).tail(15)
+        plot_bar(d,'Installation_Count','Software Version',labels={'Installation_Count':'Installations','Software Version':'Software version'}, height=520)
+    elif {'Software_Name','Software_Version'}.issubset(soft.columns):
+        d=soft.copy(); d['Software Version']=d['Software_Name'].astype(str)+' '+d['Software_Version'].astype(str); d=d['Software Version'].value_counts().rename_axis('Software Version').reset_index(name='Installation_Count').sort_values('Installation_Count', ascending=True).tail(15)
+        plot_bar(d,'Installation_Count','Software Version',labels={'Installation_Count':'Installations','Software Version':'Software version'}, height=520)

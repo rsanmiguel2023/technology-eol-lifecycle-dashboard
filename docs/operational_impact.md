@@ -6,12 +6,14 @@ How does lifecycle status relate to incidents and downtime?
 
 ## Key Findings
 
-Past-EOL assets account for **19,751 incidents** and **129,119 hours of downtime**. The operational disruption index is highest for **Past EOL** assets at **94.2**.
+- Past-EOL assets are linked to **129,119 downtime hours**.
+- Past-EOL assets have an operational disruption index of **94.2**, the highest among lifecycle groups.
+- Supported assets have a lower operational disruption index of **59.2**.
 
 ## Interpretation
 
-Average incident rates are similar across categories, but lifecycle impact weighting shows that older unsupported assets carry greater operational consequence because issues are harder to remediate, support options are reduced, and refresh urgency is higher.
+Lifecycle status is linked to operational exposure. While incident volumes are influenced by asset count, the weighted operational disruption index shows that past-EOL assets carry greater business impact.
 
-## Recommended Action
+## Business Impact
 
-Use operational disruption index as a management prioritization metric alongside cybersecurity and replacement cost. Past-EOL assets should receive elevated review even when raw incident counts appear similar to supported assets.
+Refresh decisions should consider downtime and service disruption, not only age or replacement cost. Assets that are unsupported and operationally disruptive should be prioritized for remediation.
