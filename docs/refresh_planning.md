@@ -1,22 +1,24 @@
 # Refresh Planning
 
-## Management Question
+## Business Question
+
 How much investment is required to reduce lifecycle risk?
 
-## Executive Summary
-The model identifies **CAD $56.8M** in estimated replacement need for assets already past EOL or due within the 24-month planning window. Earmarked lifecycle refresh allocation is modeled at **CAD $18.8M**, leaving an estimated funding gap of **CAD $38.0M**.
+## Key Findings
 
-## Business Interpretation
-Lifecycle risk becomes actionable when it is converted into a funded roadmap. The current view separates immediate technical debt from planned lifecycle renewal so leadership can decide what must be funded now, what can be sequenced, and what requires temporary risk acceptance.
+The refresh forecast estimates **$70.8M** in required lifecycle investment across FY2026 to FY2029.
 
-## Methodology
-Assets in Past EOL, 0-6 months, 6-12 months, and 12-24 months are included in the refresh scope. Replacement cost is aggregated by refresh window, asset type, region, and fiscal year. Budget allocation represents the portion of planned technology spend earmarked for EOL refresh, not the entire technology budget.
+- **FY2026**: 4,682 assets, estimated cost **$21.3M**
+- **FY2027**: 8,337 assets, estimated cost **$25.6M**
+- **FY2028**: 3,367 assets, estimated cost **$9.1M**
+- **FY2029**: 5,402 assets, estimated cost **$14.8M**
 
-## Recommended Actions
-Approve a phased refresh plan that starts with unsupported assets carrying critical vulnerabilities, then moves to assets expiring within 12 months. Track the **CAD $38.0M** gap through the annual technology planning cycle.
+The peak funding requirement is **FY2027**, with approximately **$25.6M** required.
 
-## Tooltip Definition
-Refresh budget need is the estimated replacement cost for assets already unsupported or expected to become unsupported within the planning horizon.
+## Interpretation
 
-## Dashboard Notes
-The page should support capital planning. Avoid presenting raw budget totals that include unrelated technology spend; use lifecycle refresh allocation and funding gap instead.
+Lifecycle risk cannot be resolved in a single refresh cycle. The bank needs a multi-year investment roadmap that balances operational criticality, cyber exposure, warranty status, and business unit dependency.
+
+## Recommended Action
+
+Fund the refresh roadmap over multiple fiscal years and sequence work using executive risk index, cyber exposure, and business criticality.

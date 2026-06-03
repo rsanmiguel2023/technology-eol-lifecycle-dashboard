@@ -1,22 +1,19 @@
 # Technology Estate
 
-## Management Question
-What is the size, composition, and business footprint of the bank's technology estate?
+## Business Question
 
-## Executive Summary
-The technology estate includes **23,940 managed assets**, including **10,545 production assets** and **3,587 assets tagged as critical**. The total modeled replacement exposure is **CAD $68.4M**. End-user computing is the largest footprint, but the lifecycle risk story also includes servers, network devices, wireless infrastructure, firewalls, and storage.
+What is the current size and composition of the managed technology estate?
 
-## Business Interpretation
-The estate should be managed as a portfolio because lifecycle risk is spread across business units and technology towers. The largest asset groups drive operational scale, while smaller infrastructure groups can still carry high risk because they support connectivity, production systems, and customer-facing banking services.
+## Key Findings
 
-## Methodology
-The estate view is built from the processed asset risk model. Hardware records are enriched with location, region, environment, business unit, criticality, lifecycle status, vulnerability counts, incident counts, downtime, refresh project information, and estimated replacement cost.
+The managed estate contains **23,770 assets** and **125,353 software installation records**. The source model separates raw inventory extracts from cleaned and engineered analytical tables, which makes the dashboard more credible as an enterprise analytics workflow.
 
-## Recommended Actions
-Use this page as the inventory baseline before making remediation or funding decisions. Confirm ownership, environment, and criticality for high-risk assets before moving to the lifecycle, cybersecurity, compliance, and refresh planning pages.
+The estate is dominated by end-user computing assets, but also includes servers, firewalls, routers, storage, wireless devices, access switches, distribution switches, and core network infrastructure. This structure supports bank-level lifecycle governance because it does not limit the analysis to workstations alone.
 
-## Tooltip Definition
-Technology estate means the full asset population included in the lifecycle governance model, covering endpoints, servers, network infrastructure, storage, and related technology assets.
+## Interpretation
 
-## Dashboard Notes
-This page answers scope. It should not be used alone for remediation decisions; use it to understand the population behind the risk views.
+The estate is large enough to require formal lifecycle governance. With **4,682 past-EOL assets** and **17,106 assets requiring action within 36 months**, refresh planning must be managed as a multi-year portfolio rather than as isolated replacement requests.
+
+## Management Implication
+
+Technology Governance, Infrastructure, Cybersecurity, and Business Technology teams should use one consolidated asset lifecycle view to prioritize funding, remediation, and exception handling.

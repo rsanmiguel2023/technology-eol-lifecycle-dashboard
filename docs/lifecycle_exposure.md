@@ -1,22 +1,19 @@
 # Lifecycle Exposure
 
-## Management Question
-Where is unsupported technology concentrated across the organization?
+## Business Question
 
-## Executive Summary
-There are **4,634 assets already past EOL**, equal to **19.4%** of the technology estate. A further **7,354 assets** are due within 12 months and **6,546 assets** are due within 12 to 24 months. The largest business exposure is in **Retail Banking** with **932 past-EOL assets**, followed by **Technology** with **844 past-EOL assets**.
+Where is unsupported and near-end-of-life technology concentrated across the organization?
 
-## Business Interpretation
-Lifecycle exposure is not evenly distributed. The highest-risk business units combine scale, business dependency, vulnerability exposure, and downtime. For leadership, the key issue is not just how many assets are old, but where unsupported technology intersects with production services and high-risk business operations.
+## Key Findings
 
-## Methodology
-Lifecycle status is calculated from each asset's expected EOL date relative to the project as-of date. Assets are grouped into Past EOL, 0-6 months, 6-12 months, 12-24 months, and Supported greater than 24 months. Business unit risk ranking combines past-EOL count, near-term expiry, critical vulnerabilities, and downtime.
+The lifecycle model identifies **4,682 past-EOL assets**, representing **19.7%** of the managed estate. An additional **8,337 assets are expiring within 12 months**, creating immediate refresh demand.
 
-## Recommended Actions
-Prioritize past-EOL assets in **Retail Banking**, **Technology**, **Commercial Banking**, and **Wealth Management**. Assets due within 12 months should be placed into funded refresh waves before they become unsupported.
+The highest lifecycle exposure sits in **Retail Banking**, which has **1,802 past-EOL assets**, **3,112 assets expiring within 12 months**, and **$30.1M** in estimated replacement cost.
 
-## Tooltip Definition
-Past EOL means the asset has already exceeded its expected lifecycle or support date. Upcoming EOL windows show assets that require refresh planning before they become unsupported.
+## Interpretation
 
-## Dashboard Notes
-The first executive visual should show business unit exposure. Asset-type views are supporting drill-downs for infrastructure and platform teams.
+The risk is not evenly distributed. Retail Banking and Technology account for the largest operational footprint and therefore carry the greatest lifecycle management burden. These areas should be prioritized for refresh sequencing, cyber remediation, and exception review.
+
+## Recommended Action
+
+Use business unit exposure and executive risk index together to prioritize refresh waves. Start with Critical and High risk bands before moving to medium-risk business areas.

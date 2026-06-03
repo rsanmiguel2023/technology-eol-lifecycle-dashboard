@@ -1,21 +1,46 @@
-from streamlit_app.business_page import *
-content = page_header("technology_estate", "🏢")
-df = _read_report("technology_estate_summary.csv")
-assets = load_assets()
 
-c1,c2,c3,c4 = st.columns(4)
-c1.metric("Assets in Scope", _num(df["assets"].sum()), help=content["tooltip"])
-c2.metric("Production Assets", _num(df["production_assets"].sum()), help="Assets marked as production in the model.")
-c3.metric("Critical Assets", _num(df["critical_assets"].sum()), help="Assets tagged as critical to business or technology operations.")
-c4.metric("Replacement Exposure", _money(df["replacement_cost"].sum()), help="Estimated replacement value of the estate in scope.")
+import streamlit as st
+import plotly.express as px
+from common import *
 
-st.divider()
-col1, col2 = st.columns(2)
-with col1:
-    estate = df.groupby("Asset_Type").agg(assets=("assets", "sum")).reset_index().sort_values("assets", ascending=True)
-    plot_bar(estate, "assets", "Asset_Type", "Technology estate composition", orientation="h")
-with col2:
-    env = assets.groupby("Environment").size().reset_index(name="assets").sort_values("assets", ascending=False)
-    plot_bar(env, "Environment", "assets", "Assets by environment")
+apply_page_config("Technology Estate")
+page_header(
+    "Technology Estate",
+    "Portfolio-level view of managed assets, software footprint, business units, and platform composition.",
+    "Estate overview",
+)
 
-show_standard_tabs(content, df, content["file"], "Technology estate summary")
+asset = read_engineered("asset_lifecycle_analysis.csv")
+software = read_engineered("software_lifecycle_analysis.csv")
+
+if asset.empty:
+    st.warning("Engineered asset lifecycle table not found.")
+    st.stop()
+
+metric_row([
+    ("Managed assets", number(len(asset))),
+    ("Software installations", number(len(software)) if not software.empty else "N/A"),
+    ("Asset types", number(asset["Asset_Type"].nunique())),
+    ("Manufacturers", number(asset["Manufacturer"].nunique())),
+    ("Business units", number(asset["Business_Unit_ID"].nunique())),
+    ("Inventory sources", number(asset["Inventory_Source"].nunique())),
+    ("Production assets", number((asset["Environment"] == "Production").sum())),
+    ("Warranty expired", number((asset["Warranty_Status"] == "Warranty Expired").sum())),
+])
+
+st.markdown(read_doc("technology_estate.md"))
+
+c1, c2 = st.columns(2)
+with c1:
+    asset_type = asset["Asset_Type"].value_counts().reset_index()
+    asset_type.columns = ["Asset_Type", "Asset_Count"]
+    bar_chart(asset_type.sort_values("Asset_Count", ascending=True), "Asset_Count", "Asset_Type", "Managed assets by asset type", orientation="h")
+with c2:
+    env = asset["Environment"].value_counts().reset_index()
+    env.columns = ["Environment", "Asset_Count"]
+    bar_chart(env, "Environment", "Asset_Count", "Assets by environment", color="Environment")
+
+st.subheader("Manufacturer footprint")
+mfg = asset["Manufacturer"].value_counts().reset_index()
+mfg.columns = ["Manufacturer", "Asset_Count"]
+bar_chart(mfg.sort_values("Asset_Count", ascending=True), "Asset_Count", "Manufacturer", "Asset count by manufacturer", orientation="h")

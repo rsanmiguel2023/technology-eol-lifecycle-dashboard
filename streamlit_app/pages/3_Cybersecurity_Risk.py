@@ -1,26 +1,49 @@
-from streamlit_app.business_page import *
-content = page_header("cybersecurity_risk", "🛡️")
-df = _read_report("cybersecurity_unsupported_critical_summary.csv")
-detail = _read_report("past_eol_critical_vulnerability_assets.csv")
 
-assets_count = len(detail)
-critical_vulns = int(detail["Critical_Vuln_Count"].sum()) if "Critical_Vuln_Count" in detail.columns else 0
-high_vulns = int(detail["High_Vuln_Count"].sum()) if "High_Vuln_Count" in detail.columns else 0
-replacement = float(detail["Replacement_Cost_CAD"].sum()) if "Replacement_Cost_CAD" in detail.columns else 0
+import streamlit as st
+from common import *
 
-c1,c2,c3,c4 = st.columns(4)
-c1.metric("Unsupported + Critical Vuln Assets", f"{assets_count:,}", help=content["tooltip"])
-c2.metric("Critical Vulnerabilities", f"{critical_vulns:,}", help="Critical vulnerabilities on past-EOL assets.")
-c3.metric("High Vulnerabilities", f"{high_vulns:,}", help="High vulnerabilities on past-EOL assets.")
-c4.metric("Replacement Exposure", _money(replacement), help="Estimated replacement cost for affected unsupported assets.")
+apply_page_config("Cybersecurity Risk")
+page_header(
+    "Cybersecurity Risk",
+    "Unsupported and near-EOL assets with critical or high vulnerability exposure.",
+    "Cyber exposure",
+)
 
-st.divider()
-col1, col2 = st.columns(2)
-with col1:
-    by_bu = detail.groupby("Business_Unit").agg(assets=("Asset_ID", "count"), critical_vulns=("Critical_Vuln_Count", "sum")).reset_index().sort_values("critical_vulns", ascending=True).tail(10)
-    plot_bar(by_bu, "critical_vulns", "Business_Unit", "Critical vulnerabilities on unsupported assets", orientation="h")
-with col2:
-    by_type = detail.groupby("Asset_Type").size().reset_index(name="assets").sort_values("assets", ascending=True)
-    plot_bar(by_type, "assets", "Asset_Type", "Unsupported vulnerable assets by type", orientation="h")
+cyber = read_engineered("cyber_risk_analysis.csv")
+summary = read_report("cybersecurity_unsupported_critical_summary.csv")
+if cyber.empty:
+    st.warning("Cyber risk analysis table not found.")
+    st.stop()
 
-show_standard_tabs(content, df, content["file"], "Unsupported assets with critical vulnerability summary")
+critical = int(cyber["Critical_Vulnerability_Count"].sum()) if "Critical_Vulnerability_Count" in cyber.columns else 0
+high = int(cyber["High_Vulnerability_Count"].sum()) if "High_Vulnerability_Count" in cyber.columns else 0
+past = int((cyber["Lifecycle_Status"] == "Past EOL").sum()) if "Lifecycle_Status" in cyber.columns else 0
+immediate = int((cyber["Remediation_Priority"] == "Immediate").sum()) if "Remediation_Priority" in cyber.columns else 0
+
+metric_row([
+    ("Assets in cyber-risk scope", number(len(cyber))),
+    ("Critical vulnerabilities", number(critical)),
+    ("High vulnerabilities", number(high)),
+    ("Past-EOL cyber assets", number(past)),
+    ("Immediate remediation", number(immediate)),
+    ("Asset types affected", number(cyber["Asset_Type"].nunique())),
+    ("Business units affected", number(cyber["Business_Unit_ID"].nunique())),
+    ("Top asset type", cyber["Asset_Type"].value_counts().idxmax()),
+])
+
+insight(
+    f"<strong>Immediate action required:</strong> {number(len(cyber))} unsupported or near-EOL assets have critical/high vulnerability exposure. Prioritize immediate remediation for past-EOL assets and accelerated refresh for assets expiring within 12 months.",
+    kind="alert",
+)
+
+st.markdown(read_doc("cybersecurity_risk.md"))
+
+if not summary.empty:
+    st.subheader("Cyber exposure by asset type")
+    bar_chart(summary.sort_values("Asset_Count", ascending=True), "Asset_Count", "Asset_Type", "Unsupported or near-EOL vulnerable assets", color="Cyber_Risk_Category", orientation="h")
+    st.dataframe(summary, use_container_width=True, hide_index=True)
+
+st.subheader("Remediation priority")
+priority = cyber["Remediation_Priority"].value_counts().reset_index()
+priority.columns = ["Remediation_Priority", "Asset_Count"]
+bar_chart(priority, "Remediation_Priority", "Asset_Count", "Assets by remediation priority", color="Remediation_Priority")
