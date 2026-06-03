@@ -1,88 +1,39 @@
-Software_Name,Version,Category,Software_Lifecycle_Status,non_compliant_installs,distinct_assets
-Adobe Acrobat Pro,2020,Productivity,Past EOL,11213,11213
-Mozilla Firefox ESR,115 ESR,Browser,Past EOL,11213,11213
-Microsoft Teams,Classic/2.x,Collaboration,0-6 Months,4544,4544
-Microsoft OneDrive,24.x,Collaboration,Supported >24 Months,4526,4526
-Google Chrome,Current,Browser,Supported >24 Months,4510,4510
-Adobe Acrobat Pro,Continuous,Productivity,Supported >24 Months,4506,4506
-Microsoft 365 Apps for Enterprise,Current Channel,Productivity,Supported >24 Months,4468,4468
-Microsoft Edge,Current,Browser,Supported >24 Months,4447,4447
-Windows 10 Enterprise 22H2,22H2,Operating System,Past EOL,4210,4210
-Windows 11 Enterprise 23H2,23H2,Operating System,0-6 Months,2975,2975
-Splunk Enterprise Security,7.x,Security,Supported >24 Months,2452,2452
-CyberArk Privileged Access Manager,14.x,Security,Supported >24 Months,2397,2397
-Qualys VMDR,Cloud,Security,Supported >24 Months,2395,2395
-Zscaler Internet Access,Cloud,Security,Supported >24 Months,2354,2354
-Microsoft Defender for Endpoint,Plan 2,Security,Supported >24 Months,2346,2346
-Tenable Nessus,10.x,Security,Supported >24 Months,2341,2341
-CrowdStrike Falcon,Current,Security,Supported >24 Months,2299,2299
-Windows 11 Enterprise 24H2,24H2,Operating System,12-24 Months,2103,2103
-Kubernetes 1.28,1.28,Container,Past EOL,1195,1195
-Apache Airflow 2.7,2.7,Data Engineering,Past EOL,1188,1188
-GitHub Enterprise Server 3.12,3.12,Source Control,Past EOL,1076,1076
-GitLab Enterprise Edition 16.x,16.x,Source Control,Past EOL,1052,1052
-.NET 6,6,Runtime,Past EOL,1049,1049
-Node.js 16,16,Runtime,Past EOL,1043,1043
-Python 3.8,3.8,Runtime,Past EOL,1033,1033
-Node.js 18,18,Runtime,Past EOL,1030,1030
-Python 3.9,3.9,Runtime,Past EOL,1024,1024
-Jenkins 2.401 LTS,2.401 LTS,CI/CD,Past EOL,1012,1012
-macOS Ventura 13,13,Operating System,Past EOL,996,996
-Node.js 20,20,Runtime,Past EOL,996,996
-Red Hat OpenShift 4.14,4.14,Container,0-6 Months,530,530
-Apache Kafka 3.5,3.5,Data Engineering,0-6 Months,499,499
-Informatica PowerCenter 10.5,10.5,Data Engineering,12-24 Months,474,474
-Azure Data Factory,Cloud,Data Engineering,Supported >24 Months,468,468
-Docker Desktop 4.x,4.x,Container,Supported >24 Months,461,461
-Git 2.x,2.x,Version Control,Supported >24 Months,460,460
-Databricks Runtime 13.3 LTS,13.3 LTS,Data Engineering,0-6 Months,458,458
-IBM SPSS Statistics 29,29,Analytics,Supported >24 Months,449,449
-SQL Server Management Studio 20.x,20.x,Database Tool,Supported >24 Months,442,442
-Visual Studio 2022 17.x,17.x,IDE,Supported >24 Months,441,441
-DBeaver 24.x,24.x,Database Tool,Supported >24 Months,441,441
-PyCharm Professional 2024.x,2024.x,IDE,12-24 Months,439,439
-DataGrip 2024.x,2024.x,IDE,12-24 Months,436,436
-Visual Studio 2019 16.x,16.x,IDE,Supported >24 Months,436,436
-Anaconda Distribution 2023.x,2023.x,Data Science,6-12 Months,432,432
-Java SE 21,21,Runtime,Supported >24 Months,429,429
-Tableau Desktop 2024.x,2024.x,Analytics,12-24 Months,426,426
-SAS Viya 4,4,Analytics,Supported >24 Months,425,425
-Java SE 17,17,Runtime,Supported >24 Months,423,423
-Power BI Desktop,Current,Analytics,Supported >24 Months,422,422
-macOS Sonoma 14,14,Operating System,0-6 Months,419,419
-Azure DevOps Server 2022,2022,CI/CD,Supported >24 Months,416,416
-PowerShell 7.4 LTS,7.4 LTS,Runtime,0-6 Months,415,415
-IntelliJ IDEA 2024.x,2024.x,IDE,12-24 Months,415,415
-.NET 8,8,Runtime,0-6 Months,412,412
-Java SE 11,11,Runtime,0-6 Months,412,412
-Python 3.10,3.10,Runtime,0-6 Months,411,411
-Bitbucket Data Center 8.x,8.x,Source Control,12-24 Months,405,405
-Java SE 8,8,Runtime,Supported >24 Months,404,404
-JupyterLab 4.x,4.x,Data Science,Supported >24 Months,404,404
-Visual Studio Code,Current,IDE,Supported >24 Months,393,393
-Python 3.11,3.11,Runtime,12-24 Months,389,389
-macOS Sequoia 15,15,Operating System,12-24 Months,382,382
-.NET Framework 4.8,4.8,Runtime,Supported >24 Months,360,360
-Oracle Database 21c,21c,Database,Past EOL,192,192
-MySQL Community Server 8.0,8.0,Database,Past EOL,182,182
-Windows Server 2022,2022,Server OS,Supported >24 Months,100,100
-Windows Server 2016,2016,Server OS,6-12 Months,93,93
-Ubuntu Server 22.04 LTS,22.04 LTS,Server OS,Supported >24 Months,92,92
-Windows Server 2019,2019,Server OS,Supported >24 Months,86,86
-Red Hat Enterprise Linux 9,9,Server OS,Supported >24 Months,83,83
-IBM MQ,9.3,Middleware,Supported >24 Months,79,79
-Apache HTTP Server,2.4,Web Server,Supported >24 Months,78,78
-Microsoft SQL Server 2019,2019,Database,Supported >24 Months,75,75
-Ubuntu Server 20.04 LTS,20.04 LTS,Server OS,Supported >24 Months,72,72
-PostgreSQL 15,15,Database,12-24 Months,71,71
-Microsoft SQL Server 2022,2022,Database,Supported >24 Months,71,71
-IBM WebSphere Application Server,9.0.5,Middleware,Supported >24 Months,66,66
-Oracle Database 19c,19c,Database,6-12 Months,66,66
-Red Hat Enterprise Linux 8,8,Server OS,Supported >24 Months,66,66
-PostgreSQL 14,14,Database,0-6 Months,65,65
-NGINX,1.24,Web Server,12-24 Months,63,63
-MongoDB Enterprise Advanced 6.0,6.0,Database,0-6 Months,61,61
-Microsoft SQL Server 2016,2016,Database,0-6 Months,55,55
-Apache Tomcat,10.1,Middleware,Supported >24 Months,55,55
-Apache Tomcat,9.0,Middleware,6-12 Months,54,54
-Oracle WebLogic Server,12c,Middleware,12-24 Months,51,51
+Software_Name,Software_Version,Publisher,Software_Category,Software_EOL_Status,Software_Compliance_Risk,Installation_Count,Asset_Count
+Adobe Acrobat Pro 2020,20,Adobe,Productivity,Unsupported,High,12670,9860
+Google Chrome,124,Google,Browser,Unsupported,High,12607,9815
+Microsoft Teams Classic,1.6,Microsoft,Collaboration,Unsupported,High,12565,9792
+Windows 10 Enterprise,22H2,Microsoft,Operating System,Unsupported,High,12533,9694
+OneDrive,24.x,Microsoft,Productivity,Unsupported,High,12515,9740
+Firefox ESR,115,Mozilla,Browser,Unsupported,High,12412,9701
+Node.js,16,OpenJS Foundation,Development,Unsupported,High,1156,1074
+Python,3.8,Python Software Foundation,Development,Unsupported,High,1123,1031
+Jenkins,2.401 LTS,Jenkins,DevOps,Unsupported,High,1115,1037
+Docker Desktop,4.28,Docker,Development,Unsupported,High,1109,1026
+Visual Studio Code,1.90,Microsoft,Development,Unsupported,High,1105,1023
+Git,2.43,Git,Development,Unsupported,High,1095,998
+IntelliJ IDEA,2023.3,JetBrains,Development,Unsupported,High,1091,1006
+Node.js,18,OpenJS Foundation,Development,Unsupported,High,1085,996
+Power BI Desktop,2024,Microsoft,Analytics,Unsupported,High,1083,999
+Bitbucket Data Center,8,Atlassian,DevOps,Unsupported,High,1080,985
+DBeaver,23,DBeaver Corp,Development,Unsupported,High,1079,992
+Tableau Desktop,2023.3,Tableau,Analytics,Unsupported,High,1050,966
+.NET,6,Microsoft,Development,Unsupported,High,1048,960
+Anaconda Distribution,2023.09,Anaconda,Analytics,Unsupported,High,1048,968
+Kubernetes,1.27,Kubernetes,Container Platform,Unsupported,High,539,468
+IBM MQ,9.2,IBM,Middleware,Unsupported,High,510,448
+Microsoft 365 Apps for Enterprise,Current Channel,Microsoft,Productivity,Support Ending in 12 Months,Medium,12354,9654
+Windows 11 Enterprise,23H2,Microsoft,Operating System,Support Ending in 12 Months,Medium,12344,9669
+.NET,8,Microsoft,Development,Support Ending in 12 Months,Medium,1132,1051
+Python,3.10,Python Software Foundation,Development,Support Ending in 12 Months,Medium,1108,1001
+IBM SPSS Statistics,29,IBM,Analytics,Support Ending in 24 Months,Medium,1095,992
+Windows Server 2016,1607,Microsoft,Server OS,Support Ending in 12 Months,Medium,547,465
+SQL Server,2016,Microsoft,Database,Support Ending in 12 Months,Medium,534,464
+PostgreSQL,14,PostgreSQL Global Development Group,Database,Support Ending in 12 Months,Medium,532,453
+Oracle Database,19c,Oracle,Database,Support Ending in 12 Months,Medium,506,439
+Apache Tomcat,9,Apache,Middleware,Support Ending in 12 Months,Medium,485,426
+SQL Server,2019,Microsoft,Database,Supported,Low,548,467
+Ubuntu Server,20.04 LTS,Canonical,Server OS,Supported,Low,528,442
+Windows Server 2019,1809,Microsoft,Server OS,Supported,Low,515,452
+Windows Server 2022,21H2,Microsoft,Server OS,Supported,Low,508,439
+Red Hat Enterprise Linux,9,Red Hat,Server OS,Supported,Low,504,433
+Red Hat Enterprise Linux,8,Red Hat,Server OS,Supported,Low,495,441

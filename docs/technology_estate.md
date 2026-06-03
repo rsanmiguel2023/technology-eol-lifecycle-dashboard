@@ -2,18 +2,21 @@
 
 ## Business Question
 
-What is the current size and composition of the managed technology estate?
+What is the size and composition of the managed technology estate?
 
 ## Key Findings
 
-The managed estate contains **23,770 assets** and **125,353 software installation records**. The source model separates raw inventory extracts from cleaned and engineered analytical tables, which makes the dashboard more credible as an enterprise analytics workflow.
-
-The estate is dominated by end-user computing assets, but also includes servers, firewalls, routers, storage, wireless devices, access switches, distribution switches, and core network infrastructure. This structure supports bank-level lifecycle governance because it does not limit the analysis to workstations alone.
+- Total managed assets: **23,770**.
+- Total software installations: **125,353**.
+- Total vulnerability findings: **60,000**.
+- Total incidents analyzed: **100,000**.
+- Unique business units: **10**.
+- Unique locations: **179**.
 
 ## Interpretation
 
-The estate is large enough to require formal lifecycle governance. With **4,682 past-EOL assets** and **17,106 assets requiring action within 36 months**, refresh planning must be managed as a multi-year portfolio rather than as isolated replacement requests.
+The technology estate is large enough to require formal lifecycle governance. A manual refresh approach would not be sufficient because assets, software, vulnerabilities, incidents, and budget planning all need to be linked together to identify risk concentration and funding requirements.
 
-## Management Implication
+## Executive Impact
 
-Technology Governance, Infrastructure, Cybersecurity, and Business Technology teams should use one consolidated asset lifecycle view to prioritize funding, remediation, and exception handling.
+This estate should be governed as a portfolio, not as isolated hardware and software lists. The dashboard provides the consolidated view needed to manage technology debt, cyber exposure, operational impact, and refresh investment.

@@ -1,47 +1,39 @@
 # Recommendations
 
-## Recommended Management Actions
+## Recommended Action Plan
 
-### 1. Remediate unsupported assets with critical and high vulnerabilities
+The lifecycle governance program should be executed as a sequenced remediation roadmap.
 
-**Priority:** Immediate  
+### Immediate: Remediate unsupported assets with critical and high vulnerabilities
+
 **Owner:** Cybersecurity  
-**Timeframe:** 0-6 Months
+**Timeframe:** 0-6 Months  
+**Rationale:** Prioritize assets outside vendor support with open high-severity findings.
 
-Prioritize assets outside vendor support with open high-severity findings.
+### Immediate: Prioritize highest-risk business units
 
-### 2. Prioritize highest-risk business units
-
-**Priority:** Immediate  
 **Owner:** Technology Governance  
-**Timeframe:** 0-12 Months
+**Timeframe:** 0-12 Months  
+**Rationale:** Sequence action using business unit risk heatmap and operational criticality.
 
-Sequence action using business unit risk heatmap and operational criticality.
+### Near Term: Fund lifecycle refresh roadmap
 
-### 3. Fund lifecycle refresh roadmap
-
-**Priority:** Near Term  
 **Owner:** Infrastructure  
-**Timeframe:** FY2026-FY2028
+**Timeframe:** FY2026-FY2028  
+**Rationale:** Align funding to forecasted replacement demand for past and near-EOL assets.
 
-Align funding to forecasted replacement demand for past and near-EOL assets.
+### Near Term: Reduce unsupported software footprint
 
-### 4. Reduce unsupported software footprint
-
-**Priority:** Near Term  
 **Owner:** Enterprise Architecture  
-**Timeframe:** 0-12 Months
+**Timeframe:** 0-12 Months  
+**Rationale:** Target unsupported operating systems, productivity tools, databases, runtimes, and development tooling.
 
-Target unsupported operating systems, productivity tools, databases, runtimes, and development tooling.
+### Strategic: Implement lifecycle governance controls
 
-### 5. Implement lifecycle governance controls
-
-**Priority:** Strategic  
 **Owner:** Technology Risk  
-**Timeframe:** Ongoing
+**Timeframe:** Ongoing  
+**Rationale:** Maintain annual lifecycle forecasting, exception governance, and executive risk reporting.
 
-Maintain annual lifecycle forecasting, exception governance, and executive risk reporting.
+## Governance Recommendation
 
-## Governance Message
-
-The lifecycle program should operate as a recurring technology governance process with quarterly reporting, exception tracking, cyber-risk integration, and annual refresh funding alignment.
+Lifecycle risk should be reviewed quarterly with Cybersecurity, Infrastructure, Enterprise Architecture, Technology Finance, and business-unit technology owners. Exceptions should be time-bound, funded, and tracked through executive reporting.
