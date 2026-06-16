@@ -46,7 +46,6 @@ streamlit run streamlit_app/Home.py
 
 ## Key design decisions
 
-<<<<<<< HEAD
 1. Run the Python ETL scripts first.
 2. Open Power BI Desktop.
 3. Import CSVs from `data/processed` and `outputs/powerbi_exports`.
@@ -68,4 +67,4 @@ streamlit run streamlit_app/Home.py
 - Business-unit risk bands use an executive risk index based on scale, lifecycle exposure, cyber exposure, replacement cost, downtime, and business criticality.
 - The lifecycle distribution was adjusted through the reference lifecycle catalog, not by directly editing raw inventory records.
 - Cyber-risk reporting now includes infrastructure, network, server, endpoint, and storage assets instead of only laptops.
->>>>>>> dev
+
